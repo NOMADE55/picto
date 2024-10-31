@@ -1,0 +1,16 @@
+{
+  "imports": {
+    "@hono/zod-openapi": "npm:@hono/zod-openapi@^0.16.4",
+    "hono": "jsr:@hono/hono@^4.6.8"
+  },
+  "tasks": {
+    "start": "deno run --allow-net main.ts"
+  },
+  "compilerOptions": {
+    "jsx": "precompile",
+    "jsxImportSource": "hono/jsx"
+  },
+  "fmt": {
+    "singleQuote": true
+  }
+}
