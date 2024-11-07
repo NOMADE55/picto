@@ -2,7 +2,8 @@
   "version": "4",
   "specifiers": {
     "jsr:@hono/hono@^4.6.8": "4.6.8",
-    "npm:@hono/zod-openapi@~0.16.4": "0.16.4_hono@4.6.8_zod@3.23.8"
+    "npm:@hono/zod-openapi@~0.16.4": "0.16.4_hono@4.6.8_zod@3.23.8",
+    "npm:classnames@^2.5.1": "2.5.1"
   },
   "jsr": {
     "@hono/hono@4.6.8": {
@@ -33,6 +34,9 @@
         "zod"
       ]
     },
+    "classnames@2.5.1": {
+      "integrity": "sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow=="
+    },
     "hono@4.6.8": {
       "integrity": "sha512-f+2Ec9JAzabT61pglDiLJcF/DjiSefZkjCn9bzm1cYLGkD5ExJ3Jnv93ax9h0bn7UPLHF81KktoyjdQfWI2n1Q=="
     },
@@ -52,7 +56,8 @@
   "workspace": {
     "dependencies": [
       "jsr:@hono/hono@^4.6.8",
-      "npm:@hono/zod-openapi@~0.16.4"
+      "npm:@hono/zod-openapi@~0.16.4",
+      "npm:classnames@^2.5.1"
     ]
   }
 }
