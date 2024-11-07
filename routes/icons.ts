@@ -5,7 +5,7 @@ const DEFAULT_THEME = 'default';
 
 const QueryParamsSchema = z.object({
   cols: z.number().optional().default(DEFAULT_COLS),
-  icons: z.string().optional(),
+  i: z.string().optional(),
   bg: z.enum(['true', 'false']).optional().default('true'),
   theme: z.enum(['light', 'dark', 'default']).optional().default(
     DEFAULT_THEME,
