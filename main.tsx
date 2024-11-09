@@ -2,9 +2,9 @@ import { OpenAPIHono } from '@hono/zod-openapi';
 import { walk } from '@std/fs';
 import { dirname, fromFileUrl, join } from '@std/path';
 
-import { index as iconsIndex } from './routes/icons.ts';
 import Base from './components/Base.tsx';
 import { parseIconParameters } from './utils/icons.ts';
+import { index as iconsIndex } from './routes/icons.ts';
 
 const currentDir = dirname(fromFileUrl(import.meta.url));
 const targetDir = join(currentDir, './icons');
@@ -23,24 +23,15 @@ app.use('/icons', async (c, next) => {
 });
 
 app.openapi(iconsIndex, async (c) => {
-  const { req } = c;
-  const { theme, cols, i } = req.valid('query');
-  const icons = parseIconParameters(i);
+  const { theme, cols, i } = c.req.valid('query');
   const files = await Array.fromAsync(walk(targetDir, {
     maxDepth: 1,
     includeDirs: false,
   }));
 
-  const fileIcons = files.filter(({ name }) => {
-    const nameArray = name.split('.');
-    const extension = nameArray.pop() || '';
-    const filename = nameArray.pop() || '';
-    return extension === 'svg' && icons.includes(filename);
-  }).map(({ path }) => {
-    return path;
-  });
-
-  return c.render('JSX');
+  return c.render(
+    <Base icons={parseIconParameters(files, i)} config={{ theme, cols }} />,
+  );
 });
 
 app.doc('/doc', {
