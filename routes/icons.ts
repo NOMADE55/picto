@@ -1,4 +1,5 @@
 import { createRoute, z } from '@hono/zod-openapi';
+import { cache } from 'hono/cache';
 
 const DEFAULT_COLS = 8;
 const DEFAULT_THEME = 'default';
@@ -18,6 +19,13 @@ export const index = createRoute({
   request: {
     query: QueryParamsSchema,
   },
+  middleware: [
+    cache({
+      cacheName: 'icon-cache',
+      cacheControl: 'max-age=3600',
+      wait: true,
+    }),
+  ] as const,
   responses: {
     200: {
       description:
