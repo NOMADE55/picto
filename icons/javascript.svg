@@ -4,19 +4,6 @@
 		.js {
 			fill: #000;
 		}
-
-		@media (prefers-color-scheme: dark) {
-			.theme-auto .js {
-				fill: #fff;
-			}
-		}
-
-
-		@media (prefers-color-scheme: light) {
-			.theme-auto .js {
-				fill: #000;
-			}
-		}
 	</style>
 	<rect width="200" height="200" style="fill: var(--bg, #F7DF1E); rx: var(--rx, 24);" />
 	<path class="js" d="M52.6,167.1l15.3-9.3c3,5.2,5.6,9.7,12.1,9.7c6.2,0,10.1-2.4,10.1-11.8V91.8h18.8V156c0,19.5-11.4,28.3-28.1,28.3
