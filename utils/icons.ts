@@ -1,17 +1,27 @@
-import { WalkEntry } from '@std/fs/walk';
+import { walk } from '@std/fs';
+import { dirname, fromFileUrl, join } from '@std/path';
 
-export const parseIconParameters = (
-  files: WalkEntry[],
-  iconParam?: string,
-): string[] => {
-  const icons = (iconParam || '').split(',');
+export const getIconsRegexPattern = (icons: string[]): string =>
+  `(${icons.join('|')})\.svg$`;
+
+export const parseIconParameters = async (
+  icons: string[],
+): Promise<string[]> => {
   if (icons.length === 0) return [];
 
+  const currentDir = dirname(fromFileUrl(import.meta.url));
+  const targetDir = join(currentDir, '../icons');
+
+  const files = await Array.fromAsync(walk(targetDir, {
+    maxDepth: 1,
+    includeDirs: false,
+    match: [new RegExp(getIconsRegexPattern(icons))],
+  }));
+
   return files.reduce((acc, { name, path }) => {
-    const nameArray = name.split('.');
-    const extension = nameArray.pop() || '';
-    const filename = nameArray.pop() || '';
-    if (extension === 'svg' && icons.includes(filename)) {
+    const nameArray = name.split('.').reverse() || [];
+    const filename = nameArray?.[1] || '';
+    if (icons.includes(filename)) {
       acc.push(path);
     }
 
