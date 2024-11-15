@@ -1,0 +1,17 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.vue--segment-0 {
+			fill: #41B883;
+		}
+
+		.vue--segment-1 {
+			fill: #34495E;
+		}
+	</style>
+	<g>
+		<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+		<polygon class="vue--segment-0" points="117.3,35 100,65 82.7,35 25,35 100,165 175,35 	" />
+		<polygon class="vue--segment-1" points="117.3,35 100,65 82.7,35 55,35 100,113 145,35 	" />
+	</g>
+</svg>

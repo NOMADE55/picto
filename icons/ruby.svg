@@ -123,7 +123,6 @@
 			<stop stop-color="#BF190B" offset="0.99" />
 			<stop stop-color="#BF190B" offset="1" />
 		</linearGradient>
-
 		<linearGradient id="gradientSegment8" gradientUnits="userSpaceOnUse" x1="-140.0089" y1="340.6747" x2="-139.9152"
 			y2="338.9928" gradientTransform="matrix(25 0 0 -25 3600 8600)">
 			<stop stop-color="#FFFFFF" offset="0" />
