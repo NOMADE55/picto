@@ -1,0 +1,23 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.pandas--segment-0 {
+			fill: #FFCA00;
+		}
+
+		.pandas--segment-1 {
+			fill: #E70488;
+		}
+
+		.pandas--segment-2 {
+			fill: #FFFFFF;
+		}
+	</style>
+	<rect width="200" height="200" style="fill: var(--bg, #130654); rx: var(--rx, 24);" />
+	<g>
+		<rect class="pandas--segment-0" x="79.2" y="77.8" width="16.4" height="16.1" />
+		<rect class="pandas--segment-1" x="105" y="105.9" width="16.4" height="16.1" />
+		<path class="pandas--segment-2" d="M79.2,33.9h16.4v34H79.2V33.9z M79.2,103.8h16.4v34H79.2V103.8z M52.9,61.9h16.4V175H52.9V61.9z M105,131.9
+		h16.4v34H105V131.9z M105,61.9h16.4v34H105V61.9z M130.8,25h16.4v113.1h-16.4V25z" />
+	</g>
+</svg>
