@@ -11,6 +11,18 @@ const QueryParamsSchema = z.object({
   theme: z.enum(['light', 'dark', 'default']).optional().default(
     DEFAULT_THEME,
   ),
+  round: z.enum([
+    'none',
+    '0',
+    '6',
+    '12',
+    '18',
+    '24',
+    '36',
+    '48',
+    '60',
+    'rounded',
+  ]).optional(),
 });
 
 export const index = createRoute({
@@ -21,8 +33,8 @@ export const index = createRoute({
   },
   middleware: [
     cache({
-      cacheName: 'icon-cache',
-      cacheControl: 'max-age=3600',
+      cacheName: 'icon-cachev0.0.1',
+      cacheControl: 'max-age=0',
       wait: true,
     }),
   ] as const,

@@ -1,4 +1,4 @@
-import { memo } from 'hono/jsx';
+import { CSSProperties, memo } from 'hono/jsx';
 import cn from 'classnames';
 
 import {
@@ -14,7 +14,7 @@ interface Props {
 }
 
 const Base = memo(({ icons, config }: Props) => {
-  const { cols, theme } = config;
+  const { cols, theme, round } = config;
   const amount = icons.length;
   const width = Math.min(cols * ICON_CELL_WIDTH, amount * ICON_CELL_WIDTH) -
     ICON_CELL_OFFSET;
@@ -32,8 +32,13 @@ const Base = memo(({ icons, config }: Props) => {
       xmlns='http://www.w3.org/2000/svg'
       xmlns:xlink='http://www.w3.org/1999/xlink'
       version='1.1'
+      style={{ '--rx': round } as CSSProperties}
     >
-      <g className={cn([`theme-${theme}`])}>
+      <g
+        className={cn([`theme-${theme}`], {
+          'rounded': round === '200',
+        })}
+      >
         {icons.map(async (icon, index) => (
           <g
             transform={getTransformValue({ index, cols })}
