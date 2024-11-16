@@ -1,19 +1,19 @@
 <svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
 	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
 	<style>
-		.css--first-half {
+		.css--fragment-0 {
 			fill: #EBEBEB;
 		}
 
-		.css--second-half {
+		.css--fragment-1 {
 			fill: #FFFFFF;
 		}
 	</style>
 	<rect width="200" height="200" style="fill: var(--bg, #0277bd); rx: var(--rx, 24);" />
 	<g>
-		<path class="css--first-half" d="M38.4,78.6l2.4,26.5h59.3V78.6H38.4z M100.1,25L100.1,25H33.7l2.4,26.5h64V25z M100.1,175v-27.6l-0.1,0
+		<path class="css--fragment-0" d="M38.4,78.6l2.4,26.5h59.3V78.6H38.4z M100.1,25L100.1,25H33.7l2.4,26.5h64V25z M100.1,175v-27.6l-0.1,0
 		l-29.5-8l-1.9-21.1H54.2H42l3.7,41.6L100,175L100.1,175z" />
-		<path class="css--second-half" d="M132.6,105.1l-3.1,34.4l-29.5,8V175l54.3-15l0.4-4.5l6.2-69.7l0.6-7.1l4.8-53.6H100v26.5h37.3l-2.4,27.1H100
+		<path class="css--fragment-1" d="M132.6,105.1l-3.1,34.4l-29.5,8V175l54.3-15l0.4-4.5l6.2-69.7l0.6-7.1l4.8-53.6H100v26.5h37.3l-2.4,27.1H100
 		v26.5H132.6z" />
 	</g>
 </svg>
