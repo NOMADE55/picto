@@ -3,6 +3,17 @@ import { cache } from 'hono/cache';
 
 const DEFAULT_COLS = 8;
 const DEFAULT_THEME = 'default';
+const VALID_ROUNDS: Round[] = [
+  '0',
+  '6',
+  '12',
+  '18',
+  '24',
+  '36',
+  '48',
+  '60',
+  '200',
+];
 
 const QueryParamsSchema = z.object({
   cols: z.string().regex(/^\d+$/).transform(Number).optional().default(
@@ -15,16 +26,14 @@ const QueryParamsSchema = z.object({
   ),
   round: z.enum([
     'none',
-    '0',
-    '6',
-    '12',
-    '18',
-    '24',
-    '36',
-    '48',
-    '60',
     'rounded',
-  ]).optional(),
+    ...VALID_ROUNDS,
+  ]).transform((v: string | undefined) => {
+    if (!v) return undefined;
+    if (VALID_ROUNDS.includes(v as Round)) return v as Round;
+    if (v === 'rounded') return '200';
+    return '0';
+  }).optional(),
 });
 
 export const index = createRoute({
