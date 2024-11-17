@@ -21,5 +21,6 @@ export const getCSSVariables = (config: BaseSVGConfig): CSSProperties => {
   const result: CSSProperties = {};
 
   if (round) result['--rx'] = round;
+  if (!bg) result['--bg'] = 'transparent';
   return result;
 };

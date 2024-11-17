@@ -20,7 +20,8 @@ const QueryParamsSchema = z.object({
     `${DEFAULT_COLS}`,
   ),
   i: z.string().optional(),
-  bg: z.enum(['true', 'false']).optional().default('true'),
+  bg: z.enum(['none']).transform((v?: string) => v !== 'none')
+    .optional(),
   theme: z.enum(['light', 'dark', 'default']).optional().default(
     DEFAULT_THEME,
   ),
@@ -28,7 +29,7 @@ const QueryParamsSchema = z.object({
     'none',
     'rounded',
     ...VALID_ROUNDS,
-  ]).transform((v: string | undefined) => {
+  ]).transform((v?: string) => {
     if (!v) return undefined;
     if (VALID_ROUNDS.includes(v as Round)) return v as Round;
     if (v === 'rounded') return '200';
