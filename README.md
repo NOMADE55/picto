@@ -2,6 +2,8 @@
 
 ---
 
-Showcase of your skills with flare 🔥
+<center>
+    <img src="public/picto.svg">
+</center>
 
-<img src="http://localhost:8000/icons?i=html,javascript">
+## Showcase of your skills with flare 🔥
