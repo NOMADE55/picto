@@ -1,7 +1,8 @@
-import { CSSProperties, memo } from 'hono/jsx';
+import { memo } from 'hono/jsx';
 import cn from 'classnames';
 
 import {
+  getCSSVariables,
   getTransformValue,
   ICON_CELL_OFFSET,
   ICON_CELL_WIDTH,
@@ -32,7 +33,7 @@ const Base = memo(({ icons, config }: Props) => {
       xmlns='http://www.w3.org/2000/svg'
       xmlns:xlink='http://www.w3.org/1999/xlink'
       version='1.1'
-      style={{ '--rx': round } as CSSProperties}
+      style={getCSSVariables(config)}
     >
       <g
         className={cn([`theme-${theme}`], {

@@ -1,3 +1,5 @@
+import { CSSProperties } from 'hono/jsx';
+
 export const DEFAULT_SIZE = 100;
 export const ICON_CELL_WIDTH = 225;
 export const ICON_CELL_OFFSET = 25;
@@ -13,3 +15,11 @@ export const getTransformValue = (
   `translate(${(index % cols) * cellWidth}, ${
     Math.floor(index / cols) * cellWidth
   })`;
+
+export const getCSSVariables = (config: BaseSVGConfig): CSSProperties => {
+  const { round, bg } = config;
+  const result: CSSProperties = {};
+
+  if (round) result['--rx'] = round;
+  return result;
+};
