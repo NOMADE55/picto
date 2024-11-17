@@ -1,10 +1,13 @@
 import { OpenAPIHono } from '@hono/zod-openapi';
+import { serveStatic } from 'hono/deno';
 
 import Base from './components/Base.tsx';
 import { parseIconParameters } from './utils/icons.ts';
 import { index as iconsIndex } from './routes/icons.ts';
 
 const app = new OpenAPIHono();
+
+app.use('/favicon.ico', serveStatic({ path: './public/picto-iso.svg' }));
 
 app.use('/icons', async (c, next) => {
   c.setRenderer(async (svg) =>
