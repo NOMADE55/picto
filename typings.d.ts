@@ -14,4 +14,5 @@ interface BaseSVGConfig {
   cols: number;
   theme?: Theme;
   round?: Round;
+  bg?: boolean;
 }
