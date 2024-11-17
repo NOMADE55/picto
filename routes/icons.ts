@@ -20,8 +20,8 @@ const QueryParamsSchema = z.object({
     `${DEFAULT_COLS}`,
   ),
   i: z.string().optional(),
-  bg: z.enum(['none']).transform((v?: string) => v !== 'none')
-    .optional(),
+  bg: z.enum(['none', '']).transform((v?: string) => v !== 'none')
+    .optional().default(''),
   theme: z.enum(['light', 'dark', 'default']).optional().default(
     DEFAULT_THEME,
   ),
