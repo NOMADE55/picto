@@ -5,17 +5,8 @@ const DEFAULT_COLS = 8;
 const DEFAULT_THEME = 'default';
 const VALID_MIN_SIZE = 8;
 const VALID_MAX_SIZE = 800;
-const VALID_ROUNDS: Round[] = [
-  '0',
-  '6',
-  '12',
-  '18',
-  '24',
-  '36',
-  '48',
-  '60',
-  '200',
-];
+const VALID_MIN_ROUNDED = 0;
+const VALID_MAX_ROUNDED = 200;
 
 const QueryParamsSchema = z.object({
   cols: z.string().regex(/^\d+$/).transform(Number).optional().default(
@@ -25,20 +16,20 @@ const QueryParamsSchema = z.object({
     z.number().int().min(VALID_MIN_SIZE).max(VALID_MAX_SIZE),
   ).optional(),
   i: z.string().optional(),
-  bg: z.enum(['none', '']).transform((v?: string) => v !== 'none')
-    .optional().default(''),
+  bg: z.enum(['none']).transform((v?: string) => v !== 'none').optional(),
   theme: z.enum(['light', 'dark', 'default']).optional().default(
     DEFAULT_THEME,
   ),
-  round: z.enum([
-    'none',
-    'rounded',
-    ...VALID_ROUNDS,
-  ]).transform((v?: string) => {
+  rounded: z.union([
+    z.enum(['none', 'round']),
+    z.string().regex(/^\d+$/).transform(Number).pipe(
+      z.number().min(VALID_MIN_ROUNDED).max(VALID_MAX_ROUNDED),
+    ),
+  ]).transform((v?: string | number) => {
     if (!v) return undefined;
-    if (VALID_ROUNDS.includes(v as Round)) return v as Round;
-    if (v === 'rounded') return '200';
-    return '0';
+    if (typeof v === 'number') return v;
+    if (v === 'round') return 200;
+    return 0;
   }).optional(),
 });
 

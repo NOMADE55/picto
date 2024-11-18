@@ -21,12 +21,12 @@ app.use('/icons', async (c, next) => {
 });
 
 app.openapi(iconsIndex, async (c) => {
-  const { theme, cols, i, round, bg, size } = c.req.valid('query');
+  const { theme, cols, i, rounded, bg = true, size } = c.req.valid('query');
   const icons = i?.split(',') || [];
   return c.render(
     <Base
       icons={await parseIconParameters(icons)}
-      config={{ theme, cols, round, bg, size }}
+      config={{ theme, cols, rounded, bg, size }}
     />,
   );
 });

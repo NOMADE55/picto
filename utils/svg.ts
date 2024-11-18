@@ -16,10 +16,10 @@ export const getTransformValue = (
   })`;
 
 export const getCSSVariables = (config: BaseSVGConfig): CSSProperties => {
-  const { round, bg } = config;
+  const { rounded, bg } = config;
   const result: CSSProperties = {};
 
-  if (round) result['--rx'] = round;
+  if (rounded) result['--rx'] = rounded;
   if (!bg) result['--bg'] = 'transparent';
   return result;
 };

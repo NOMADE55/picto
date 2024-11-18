@@ -15,7 +15,7 @@ interface Props {
 }
 
 const Base = memo(({ icons, config }: Props) => {
-  const { cols, theme, round } = config;
+  const { cols, theme, rounded } = config;
   const amount = icons.length;
   const width = Math.min(cols * ICON_CELL_WIDTH, amount * ICON_CELL_WIDTH) -
     ICON_CELL_OFFSET;
@@ -37,7 +37,7 @@ const Base = memo(({ icons, config }: Props) => {
     >
       <g
         className={cn([`theme-${theme}`], {
-          'rounded': round === '200',
+          'rounded': rounded === 200,
         })}
       >
         {icons.map(async (icon, index) => (
