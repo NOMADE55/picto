@@ -3,7 +3,6 @@ import { CSSProperties } from 'hono/jsx';
 export const DEFAULT_SIZE = 100;
 export const ICON_CELL_WIDTH = 225;
 export const ICON_CELL_OFFSET = 25;
-export const SCALE = DEFAULT_SIZE / (ICON_CELL_WIDTH - ICON_CELL_OFFSET);
 
 export const getTransformValue = (
   { index, cols, cellWidth = ICON_CELL_WIDTH }: {
@@ -24,3 +23,6 @@ export const getCSSVariables = (config: BaseSVGConfig): CSSProperties => {
   if (!bg) result['--bg'] = 'transparent';
   return result;
 };
+
+export const calcScale = ({ size }: BaseSVGConfig) =>
+  (size || DEFAULT_SIZE) / (ICON_CELL_WIDTH - ICON_CELL_OFFSET);

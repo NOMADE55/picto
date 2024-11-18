@@ -15,4 +15,5 @@ interface BaseSVGConfig {
   theme?: Theme;
   round?: Round;
   bg?: boolean;
+  size?: number;
 }

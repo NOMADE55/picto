@@ -2,11 +2,11 @@ import { memo } from 'hono/jsx';
 import cn from 'classnames';
 
 import {
+  calcScale,
   getCSSVariables,
   getTransformValue,
   ICON_CELL_OFFSET,
   ICON_CELL_WIDTH,
-  SCALE,
 } from '../utils/svg.ts';
 
 interface Props {
@@ -20,9 +20,9 @@ const Base = memo(({ icons, config }: Props) => {
   const width = Math.min(cols * ICON_CELL_WIDTH, amount * ICON_CELL_WIDTH) -
     ICON_CELL_OFFSET;
   const height = Math.ceil(amount / cols) * ICON_CELL_WIDTH - ICON_CELL_OFFSET;
-
-  const scaledHeight = SCALE * height;
-  const scaledWidth = SCALE * width;
+  const scale = calcScale(config);
+  const scaledHeight = scale * height;
+  const scaledWidth = scale * width;
 
   return (
     <svg
