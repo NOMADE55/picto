@@ -1,33 +1,33 @@
 <svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
-    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
-    <style>
-        .angular-base {
-            fill: url(#firstGradient);
-        }
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.angular--segment-0 {
+			fill: url(#gradientSegment0);
+		}
 
-        .angular-overlay {
-            fill: url(#secondGradient);
-        }
-    </style>
-    <defs>
-        <linearGradient id="firstGradient" gradientUnits="userSpaceOnUse" x1="52.015" y1="24.2533" x2="190.1543"
-            y2="89.9007" gradientTransform="matrix(0.8168 0 0 -0.8168 -0.2551 142.9347)">
-            <stop stop-color="#E40035" offset="0" />
-            <stop stop-color="#F60A48" offset="0.24" />
-            <stop stop-color="#F20755" offset="0.352" />
-            <stop stop-color="#DC087D" offset="0.494" />
-            <stop stop-color="#9717E7" offset="0.745" />
-            <stop stop-color="#6C00F5" offset="1" />
-        </linearGradient>
-        <linearGradient id="secondGradient" gradientUnits="userSpaceOnUse" x1="72.1458" y1="125.8364" x2="162.5467"
-            y2="22.7161" gradientTransform="matrix(0.8168 0 0 -0.8168 -0.2551 142.9347)">
-            <stop stop-color="#FF31D9" offset="0" />
-            <stop stop-color="#FF5BE1" offset="1" stop-opacity="0" />
-        </linearGradient>
-    </defs>
-    <rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
-    <path class="angular-base" d="M170.9,50l-5.1,80.3L116.8,25L170.9,50z M137,153.9L100,175l-37-21.1l7.5-18.2h58.9L137,153.9z M100,65
+		.angular--segment-1 {
+			fill: url(#gradientSegment1);
+		}
+	</style>
+	<defs>
+		<linearGradient id="gradientSegment0" gradientUnits="userSpaceOnUse" x1="52.015" y1="24.2533" x2="190.1543"
+			y2="89.9007" gradientTransform="matrix(0.8168 0 0 -0.8168 -0.2551 142.9347)">
+			<stop stop-color="#E40035" offset="0" />
+			<stop stop-color="#F60A48" offset="0.24" />
+			<stop stop-color="#F20755" offset="0.352" />
+			<stop stop-color="#DC087D" offset="0.494" />
+			<stop stop-color="#9717E7" offset="0.745" />
+			<stop stop-color="#6C00F5" offset="1" />
+		</linearGradient>
+		<linearGradient id="gradientSegment1" gradientUnits="userSpaceOnUse" x1="72.1458" y1="125.8364" x2="162.5467"
+			y2="22.7161" gradientTransform="matrix(0.8168 0 0 -0.8168 -0.2551 142.9347)">
+			<stop stop-color="#FF31D9" offset="0" />
+			<stop stop-color="#FF5BE1" offset="1" stop-opacity="0" />
+		</linearGradient>
+	</defs>
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+	<path class="angular--segment-0" d="M170.9,50l-5.1,80.3L116.8,25L170.9,50z M137,153.9L100,175l-37-21.1l7.5-18.2h58.9L137,153.9z M100,65
 	l19.4,47.1H80.6L100,65z M34.2,130.4L29.1,50l54-25L34.2,130.4z" />
-    <path class="angular-overlay" d="M170.9,50l-5.1,80.3L116.8,25L170.9,50z M137,153.9L100,175l-37-21.1l7.5-18.2h58.9L137,153.9z M100,65
+	<path class="angular--segment-1" d="M170.9,50l-5.1,80.3L116.8,25L170.9,50z M137,153.9L100,175l-37-21.1l7.5-18.2h58.9L137,153.9z M100,65
 	l19.4,47.1H80.6L100,65z M34.2,130.4L29.1,50l54-25L34.2,130.4z" />
 </svg>
