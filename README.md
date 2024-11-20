@@ -46,14 +46,15 @@ https://mypicto.xyz/icons?i=html,css,javascript,python&round=none&cols=2
 <img src="https://mypicto.xyz/icons?i=angular,css,python,vue&bg=none&size=22">
 
 ```
-https://mypicto.xyz/icons?i=html,css,javascript,python,vue&bg=none&cols=2
+https://mypicto.xyz/icons?i=html,css,javascript,python,vue&bg=none&cols=4
 ```
 
 ## 📍 Roadmap
 
+- WIP: Add theming, light, dark & auto
 - Add more icons, of course (Open an Issue to add _your_ missing icon).
 - Add kits/groups (MERN, MEAN, LAMP, etc)
-- Improve documentation
+- Improve... erm, add documentation
 - Confidence / Skill Level
 
 ## Contributing
@@ -69,7 +70,7 @@ open an issue and I'll try to solve it.
 
 ## Acknowledgements
 
-- This project is heavily inspired by the amazing work created by
+- This project is heavily inspired by the amazing tool created by
   **[tandpfun](https://github.com/tandpfun)**:
   **[skill-icons](https://github.com/tandpfun/skill-icons)**.
 - A lot of icons were created using the insanely helpful stuff in
