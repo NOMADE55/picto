@@ -1,0 +1,11 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.terraform {
+			fill: #7B42BC;
+		}
+	</style>
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+	<path class="terraform" d="M79.6,51.4l40.8,23.7v47.4L79.6,98.8V51.4z M124.9,75.1v47.4l40.8-23.7V51.4L124.9,75.1z M34.4,25v47.3L75.1,96
+	V48.7L34.4,25z M79.6,151.3l40.8,23.7v-47.4L79.6,104V151.3L79.6,151.3z" />
+</svg>
