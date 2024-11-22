@@ -15,7 +15,7 @@ const files = await Array.fromAsync(walk(targetDir, {
 }));
 
 const iconNames = files.filter(({ name }) => name.split('.').pop() === 'svg')
-  .map(({ name }) => name.split('.').shift());
+  .map(({ name }) => name.split('.').shift()).sort();
 
 // Update Index File
 writeFile(
