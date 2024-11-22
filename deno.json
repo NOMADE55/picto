@@ -7,7 +7,8 @@
     "hono": "npm:hono@^4.6.8"
   },
   "tasks": {
-    "start": "deno serve --watch --allow-net main.tsx"
+    "start": "deno serve --watch --allow-all main.tsx",
+    "icons:doc": "deno --allow-read --allow-write --allow-run bin/icons.ts"
   },
   "compilerOptions": {
     "jsx": "precompile",
