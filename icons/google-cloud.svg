@@ -1,0 +1,32 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.google-cloud--fragment-0 {
+			fill: #EA4335;
+		}
+
+		.google-cloud--fragment-1 {
+			fill: #4285F4;
+		}
+
+		.google-cloud--fragment-2 {
+			fill: #34A853;
+		}
+
+		.google-cloud--fragment-3 {
+			fill: #FBBC05;
+		}
+	</style>
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+	<g>
+		<path class="google-cloud--fragment-0" d="M124.8,73l13-13l0.9-5.5c-23.8-21.6-61.5-19.2-82.9,5.1C49.8,66.3,45.4,74.7,43,83.4l4.7-0.7l26.1-4.3l2-2.1
+		c11.6-12.7,31.2-14.5,44.6-3.6L124.8,73z" />
+		<path class="google-cloud--fragment-1"
+			d="M156.4,83c-3-11-9.1-21-17.7-28.5l-18.3,18.3c7.7,6.3,12.1,15.8,11.9,25.8v3.2c9,0,16.3,7.3,16.3,16.3
+		c0,9-7.3,16.1-16.3,16.1H99.7l-3.2,3.5v19.5l3.2,3.1h32.6c23.4,0.2,42.5-18.5,42.7-41.9C175.1,104.3,168.1,91,156.4,83" />
+		<path class="google-cloud--fragment-2" d="M67.1,160.3h32.6v-26.1H67.1c-2.3,0-4.6-0.5-6.7-1.5l-4.6,1.4l-13.1,13l-1.1,4.4
+		C48.9,157.2,57.9,160.3,67.1,160.3" />
+		<path class="google-cloud--fragment-3" d="M67.1,75.7C43.7,75.8,24.9,94.9,25,118.3c0.1,13.1,6.2,25.4,16.5,33.3l18.9-18.9c-8.2-3.7-11.8-13.4-8.1-21.5
+		c3.7-8.2,13.4-11.8,21.5-8.1c3.6,1.6,6.5,4.5,8.1,8.1l18.9-18.9C92.8,81.8,80.3,75.7,67.1,75.7" />
+	</g>
+</svg>
