@@ -1,25 +1,21 @@
-import { walk } from 'jsr:@std/fs';
 import { dirname, fromFileUrl, join } from 'jsr:@std/path';
-import { replaceBetween, writeFile } from './utils.ts';
+import { getFiles, replaceBetween, writeFile } from './utils.ts';
 
 const SUPPORTED_ICONS_FLAG_START = '<!-- SUPPORTED:ICONS:START -->';
 const SUPPORTED_ICONS_FLAG_END = '<!-- SUPPORTED:ICONS:END -->';
 
 const currentDir = dirname(fromFileUrl(import.meta.url));
-const targetDir = join(currentDir, '../icons');
+const iconsDir = join(currentDir, '../icons');
 
 // Get icon Files
-const files = await Array.fromAsync(walk(targetDir, {
-  maxDepth: 1,
-  includeDirs: false,
-}));
+const files = await getFiles(iconsDir);
 
 const iconNames = files.filter(({ name }) => name.split('.').pop() === 'svg')
   .map(({ name }) => name.split('.').shift()).sort();
 
 // Update Index File
 writeFile(
-  join(targetDir, './index.ts'),
+  join(iconsDir, './index.ts'),
   [
     '// This file is generated automatically.',
     `export const iconNames = ${JSON.stringify(iconNames)} as const;`,
@@ -28,7 +24,7 @@ writeFile(
 
 console.log('%cIndex file updated!', 'color: green');
 
-const readmeContent = await Deno.readTextFile(join(targetDir, './README.md'));
+const readmeContent = await Deno.readTextFile(join(iconsDir, './README.md'));
 const readmeIconsTable = [
   '| Icon name | Icon |',
   '| :------: | :------: |',
@@ -42,7 +38,7 @@ const readmeIconsTable = [
 
 // Update Readme file
 writeFile(
-  join(targetDir, './README.md'),
+  join(iconsDir, './README.md'),
   replaceBetween(readmeContent, readmeIconsTable, {
     start: SUPPORTED_ICONS_FLAG_START,
     end: SUPPORTED_ICONS_FLAG_END,

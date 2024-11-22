@@ -1,3 +1,5 @@
+import { walk, WalkOptions } from 'jsr:@std/fs';
+
 export const replaceBetween = (
   content: string,
   newContent: string,
@@ -16,10 +18,9 @@ export const writeFile = (
     write: true,
     truncate: true,
   },
-) => {
-  const encoder = new TextEncoder();
-  return Deno.open(path, openOptions).then((file) => {
-    file.write(encoder.encode(content)).then(() =>
+) =>
+  Deno.open(path, openOptions).then((file) => {
+    file.write((new TextEncoder()).encode(content)).then(() =>
       new Deno.Command(Deno.execPath(), {
         args: ['fmt', path],
         stdin: 'piped',
@@ -28,4 +29,8 @@ export const writeFile = (
     );
     file.close();
   });
-};
+
+export const getFiles = async (path: string, walkOptions: WalkOptions = {
+  maxDepth: 1,
+  includeDirs: false,
+}) => await Array.fromAsync(walk(path, walkOptions));
