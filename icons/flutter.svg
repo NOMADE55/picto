@@ -1,0 +1,32 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.flutter--fragment-0 {
+			fill: #40D0FD;
+		}
+
+		.flutter--fragment-1 {
+			fill: #41D0FD;
+		}
+
+		.flutter--fragment-2 {
+			fill: #1FBCFD;
+		}
+
+		.flutter--fragment-3 {
+			fill: #095A9D;
+		}
+
+		.flutter--fragment-4 {
+			fill: #0E5199;
+		}
+	</style>
+	<g>
+		<polyline class="flutter--fragment-0" points="96.6,112.3 115,94.5 160.5,94.5 120.1,134.8 96.6,112.3 96.6,112.3 96.6,112.3 96.6,112.3
+		96.6,112.3" />
+		<polygon class="flutter--fragment-1" points="39.5,100.4 62.4,123.8 160.5,25 115,25" />
+		<polygon class="flutter--fragment-2" points="73.7,135 96.9,157.9 120.1,134.8 96.6,112.3" />
+		<polygon class="flutter--fragment-3" points="96.9,157.9 120.1,134.8 159.9,175 114.1,175" />
+		<polygon class="flutter--fragment-4" points="96.9,157.9 118.6,150.7 111.3,143.6" />
+	</g>
+</svg>

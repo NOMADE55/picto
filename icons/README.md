@@ -12,6 +12,7 @@
 |    `angular`    |       <img src="./angular.svg" alt="angular" width="42" />       |
 |     `astro`     |         <img src="./astro.svg" alt="astro" width="42" />         |
 |     `bash`      |          <img src="./bash.svg" alt="bash" width="42" />          |
+|    `blender`    |       <img src="./blender.svg" alt="blender" width="42" />       |
 |      `bun`      |           <img src="./bun.svg" alt="bun" width="42" />           |
 |    `claude`     |        <img src="./claude.svg" alt="claude" width="42" />        |
 |      `css`      |           <img src="./css.svg" alt="css" width="42" />           |
@@ -23,11 +24,15 @@
 |     `figma`     |         <img src="./figma.svg" alt="figma" width="42" />         |
 |   `firebase`    |      <img src="./firebase.svg" alt="firebase" width="42" />      |
 |     `flask`     |         <img src="./flask.svg" alt="flask" width="42" />         |
+|    `flutter`    |       <img src="./flutter.svg" alt="flutter" width="42" />       |
+|   `gamemaker`   |     <img src="./gamemaker.svg" alt="gamemaker" width="42" />     |
 |    `gatsby`     |        <img src="./gatsby.svg" alt="gatsby" width="42" />        |
 |      `git`      |           <img src="./git.svg" alt="git" width="42" />           |
 |    `github`     |        <img src="./github.svg" alt="github" width="42" />        |
+|     `godot`     |         <img src="./godot.svg" alt="godot" width="42" />         |
 |    `golang`     |        <img src="./golang.svg" alt="golang" width="42" />        |
 | `google-cloud`  |  <img src="./google-cloud.svg" alt="google-cloud" width="42" />  |
+|    `graphql`    |       <img src="./graphql.svg" alt="graphql" width="42" />       |
 |     `html`      |          <img src="./html.svg" alt="html" width="42" />          |
 |  `illustrator`  |   <img src="./illustrator.svg" alt="illustrator" width="42" />   |
 |     `java`      |          <img src="./java.svg" alt="java" width="42" />          |
@@ -42,6 +47,7 @@
 |   `markdown`    |      <img src="./markdown.svg" alt="markdown" width="42" />      |
 |     `mongo`     |         <img src="./mongo.svg" alt="mongo" width="42" />         |
 |     `mysql`     |         <img src="./mysql.svg" alt="mysql" width="42" />         |
+|    `nestjs`     |        <img src="./nestjs.svg" alt="nestjs" width="42" />        |
 |     `node`      |          <img src="./node.svg" alt="node" width="42" />          |
 |     `nuxt`      |          <img src="./nuxt.svg" alt="nuxt" width="42" />          |
 |    `open-ai`    |       <img src="./open-ai.svg" alt="open-ai" width="42" />       |
@@ -49,11 +55,13 @@
 |   `photoshop`   |     <img src="./photoshop.svg" alt="photoshop" width="42" />     |
 |      `php`      |           <img src="./php.svg" alt="php" width="42" />           |
 |  `postgresql`   |    <img src="./postgresql.svg" alt="postgresql" width="42" />    |
+|    `postman`    |       <img src="./postman.svg" alt="postman" width="42" />       |
 |   `premiere`    |      <img src="./premiere.svg" alt="premiere" width="42" />      |
 |    `python`     |        <img src="./python.svg" alt="python" width="42" />        |
 |     `rails`     |         <img src="./rails.svg" alt="rails" width="42" />         |
 |     `react`     |         <img src="./react.svg" alt="react" width="42" />         |
 |     `ruby`      |          <img src="./ruby.svg" alt="ruby" width="42" />          |
+|     `sass`      |          <img src="./sass.svg" alt="sass" width="42" />          |
 |    `strapi`     |        <img src="./strapi.svg" alt="strapi" width="42" />        |
 |    `svelte`     |        <img src="./svelte.svg" alt="svelte" width="42" />        |
 |    `symfony`    |       <img src="./symfony.svg" alt="symfony" width="42" />       |
@@ -65,5 +73,5 @@
 ---
 
 <br>
-Current icon count: <strong>55</strong>
+Current icon count: <strong>63</strong>
 <!-- SUPPORTED:ICONS:END -->
