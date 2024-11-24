@@ -7,8 +7,14 @@
     "hono": "npm:hono@^4.6.8"
   },
   "tasks": {
-    "start": "deno serve --watch --allow-all main.tsx",
-    "icons:doc": "deno --allow-read --allow-write --allow-run bin/icons.ts"
+    "start": {
+      "command": "deno serve --watch --allow-all main.tsx",
+      "description": "Start the server"
+    },
+    "icons:doc": {
+      "command": "deno --allow-read --allow-write --allow-run bin/icons.ts",
+      "description": "This command parses the icons folder to document them in their files"
+    }
   },
   "compilerOptions": {
     "jsx": "precompile",
