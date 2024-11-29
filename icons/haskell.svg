@@ -1,0 +1,24 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.haskell--fragment-0 {
+			fill: #453A62;
+		}
+
+		.haskell--fragment-1 {
+			fill: #5E5086;
+		}
+
+		.haskell--fragment-2 {
+			fill: #8F4E8B;
+		}
+	</style>
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+	<g>
+		<polygon class="haskell--fragment-0" points="25,152.9 60.3,100 25,47.1 51.5,47.1 86.8,100 51.5,152.9 	" />
+		<polygon class="haskell--fragment-1"
+			points="60.3,152.9 95.6,100 60.3,47.1 86.8,47.1 157.4,152.9 130.9,152.9 108.8,119.9 86.8,152.9 	" />
+		<path class="haskell--fragment-2"
+			d="M145.6,122.1l-11.8-17.6l41.2,0v17.7H145.6z M127.9,95.6l-11.8-17.6l58.8,0v17.7H127.9z" />
+	</g>
+</svg>

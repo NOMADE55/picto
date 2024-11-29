@@ -1,0 +1,11 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.zig {
+			fill: #F7A41D;
+		}
+	</style>
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+	<path class="zig" d="M45,120V80h15V60H25v80h19l18-20H45z M156,60l-18,20h17v40h-15v20h35V60H156z M158.3,50.2L124.2,60H65v20h39.5
+	l-62.8,69.8l34.2-9.8H135v-20H95.4L158.3,50.2z" />
+</svg>

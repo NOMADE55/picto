@@ -15,10 +15,12 @@
 |    `blender`    |       <img src="./blender.svg" alt="blender" width="42" />       |
 |      `bun`      |           <img src="./bun.svg" alt="bun" width="42" />           |
 |    `claude`     |        <img src="./claude.svg" alt="claude" width="42" />        |
+|    `clojure`    |       <img src="./clojure.svg" alt="clojure" width="42" />       |
 |      `css`      |           <img src="./css.svg" alt="css" width="42" />           |
 |    `cypress`    |       <img src="./cypress.svg" alt="cypress" width="42" />       |
 |    `datadog`    |       <img src="./datadog.svg" alt="datadog" width="42" />       |
 |     `deno`      |          <img src="./deno.svg" alt="deno" width="42" />          |
+|    `discord`    |       <img src="./discord.svg" alt="discord" width="42" />       |
 |    `django`     |        <img src="./django.svg" alt="django" width="42" />        |
 |    `docker`     |        <img src="./docker.svg" alt="docker" width="42" />        |
 |     `figma`     |         <img src="./figma.svg" alt="figma" width="42" />         |
@@ -32,7 +34,10 @@
 |     `godot`     |         <img src="./godot.svg" alt="godot" width="42" />         |
 |    `golang`     |        <img src="./golang.svg" alt="golang" width="42" />        |
 | `google-cloud`  |  <img src="./google-cloud.svg" alt="google-cloud" width="42" />  |
+|    `grafana`    |       <img src="./grafana.svg" alt="grafana" width="42" />       |
 |    `graphql`    |       <img src="./graphql.svg" alt="graphql" width="42" />       |
+|     `gulp`      |          <img src="./gulp.svg" alt="gulp" width="42" />          |
+|    `haskell`    |       <img src="./haskell.svg" alt="haskell" width="42" />       |
 |     `html`      |          <img src="./html.svg" alt="html" width="42" />          |
 |  `illustrator`  |   <img src="./illustrator.svg" alt="illustrator" width="42" />   |
 |     `java`      |          <img src="./java.svg" alt="java" width="42" />          |
@@ -48,6 +53,7 @@
 |     `mongo`     |         <img src="./mongo.svg" alt="mongo" width="42" />         |
 |     `mysql`     |         <img src="./mysql.svg" alt="mysql" width="42" />         |
 |    `nestjs`     |        <img src="./nestjs.svg" alt="nestjs" width="42" />        |
+|      `nim`      |           <img src="./nim.svg" alt="nim" width="42" />           |
 |     `node`      |          <img src="./node.svg" alt="node" width="42" />          |
 |     `nuxt`      |          <img src="./nuxt.svg" alt="nuxt" width="42" />          |
 |    `open-ai`    |       <img src="./open-ai.svg" alt="open-ai" width="42" />       |
@@ -58,20 +64,25 @@
 |    `postman`    |       <img src="./postman.svg" alt="postman" width="42" />       |
 |   `premiere`    |      <img src="./premiere.svg" alt="premiere" width="42" />      |
 |    `python`     |        <img src="./python.svg" alt="python" width="42" />        |
+|   `rabbitmq`    |      <img src="./rabbitmq.svg" alt="rabbitmq" width="42" />      |
 |     `rails`     |         <img src="./rails.svg" alt="rails" width="42" />         |
+| `raspberry-pi`  |  <img src="./raspberry-pi.svg" alt="raspberry-pi" width="42" />  |
 |     `react`     |         <img src="./react.svg" alt="react" width="42" />         |
 |     `ruby`      |          <img src="./ruby.svg" alt="ruby" width="42" />          |
 |     `sass`      |          <img src="./sass.svg" alt="sass" width="42" />          |
 |    `strapi`     |        <img src="./strapi.svg" alt="strapi" width="42" />        |
 |    `svelte`     |        <img src="./svelte.svg" alt="svelte" width="42" />        |
+|     `swift`     |         <img src="./swift.svg" alt="swift" width="42" />         |
 |    `symfony`    |       <img src="./symfony.svg" alt="symfony" width="42" />       |
 |   `terraform`   |     <img src="./terraform.svg" alt="terraform" width="42" />     |
 |  `typescript`   |    <img src="./typescript.svg" alt="typescript" width="42" />    |
 |      `vue`      |           <img src="./vue.svg" alt="vue" width="42" />           |
 |   `wordpress`   |     <img src="./wordpress.svg" alt="wordpress" width="42" />     |
+|     `yarn`      |          <img src="./yarn.svg" alt="yarn" width="42" />          |
+|      `zig`      |           <img src="./zig.svg" alt="zig" width="42" />           |
 
 ---
 
 <br>
-Current icon count: <strong>63</strong>
+Current icon count: <strong>74</strong>
 <!-- SUPPORTED:ICONS:END -->
