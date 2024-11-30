@@ -10,6 +10,7 @@
 |   `airtable`    |      <img src="./airtable.svg" alt="airtable" width="42" />      |
 |    `alpine`     |        <img src="./alpine.svg" alt="alpine" width="42" />        |
 |    `angular`    |       <img src="./angular.svg" alt="angular" width="42" />       |
+|  `arch-linux`   |    <img src="./arch-linux.svg" alt="arch-linux" width="42" />    |
 |     `astro`     |         <img src="./astro.svg" alt="astro" width="42" />         |
 |   `backbone`    |      <img src="./backbone.svg" alt="backbone" width="42" />      |
 |     `bash`      |          <img src="./bash.svg" alt="bash" width="42" />          |
@@ -23,16 +24,19 @@
 |      `css`      |           <img src="./css.svg" alt="css" width="42" />           |
 |    `cypress`    |       <img src="./cypress.svg" alt="cypress" width="42" />       |
 |    `datadog`    |       <img src="./datadog.svg" alt="datadog" width="42" />       |
+|    `debian`     |        <img src="./debian.svg" alt="debian" width="42" />        |
 |     `deno`      |          <img src="./deno.svg" alt="deno" width="42" />          |
 |    `discord`    |       <img src="./discord.svg" alt="discord" width="42" />       |
 |    `django`     |        <img src="./django.svg" alt="django" width="42" />        |
 |    `docker`     |        <img src="./docker.svg" alt="docker" width="42" />        |
 |     `ember`     |         <img src="./ember.svg" alt="ember" width="42" />         |
 |      `eta`      |           <img src="./eta.svg" alt="eta" width="42" />           |
+|    `fedora`     |        <img src="./fedora.svg" alt="fedora" width="42" />        |
 |     `figma`     |         <img src="./figma.svg" alt="figma" width="42" />         |
 |   `firebase`    |      <img src="./firebase.svg" alt="firebase" width="42" />      |
 |     `flask`     |         <img src="./flask.svg" alt="flask" width="42" />         |
 |    `flutter`    |       <img src="./flutter.svg" alt="flutter" width="42" />       |
+|    `freebsd`    |       <img src="./freebsd.svg" alt="freebsd" width="42" />       |
 |   `gamemaker`   |     <img src="./gamemaker.svg" alt="gamemaker" width="42" />     |
 |    `gatsby`     |        <img src="./gatsby.svg" alt="gatsby" width="42" />        |
 |      `git`      |           <img src="./git.svg" alt="git" width="42" />           |
@@ -57,6 +61,7 @@
 |    `kotlin`     |        <img src="./kotlin.svg" alt="kotlin" width="42" />        |
 |    `laravel`    |       <img src="./laravel.svg" alt="laravel" width="42" />       |
 |   `lightroom`   |     <img src="./lightroom.svg" alt="lightroom" width="42" />     |
+|  `linux-mint`   |    <img src="./linux-mint.svg" alt="linux-mint" width="42" />    |
 |      `lua`      |           <img src="./lua.svg" alt="lua" width="42" />           |
 |    `mariadb`    |       <img src="./mariadb.svg" alt="mariadb" width="42" />       |
 |   `markdown`    |      <img src="./markdown.svg" alt="markdown" width="42" />      |
@@ -80,6 +85,7 @@
 |     `rails`     |         <img src="./rails.svg" alt="rails" width="42" />         |
 | `raspberry-pi`  |  <img src="./raspberry-pi.svg" alt="raspberry-pi" width="42" />  |
 |     `react`     |         <img src="./react.svg" alt="react" width="42" />         |
+|    `redhat`     |        <img src="./redhat.svg" alt="redhat" width="42" />        |
 |     `ruby`      |          <img src="./ruby.svg" alt="ruby" width="42" />          |
 |     `sass`      |          <img src="./sass.svg" alt="sass" width="42" />          |
 |     `scala`     |         <img src="./scala.svg" alt="scala" width="42" />         |
@@ -89,6 +95,7 @@
 |    `symfony`    |       <img src="./symfony.svg" alt="symfony" width="42" />       |
 |   `terraform`   |     <img src="./terraform.svg" alt="terraform" width="42" />     |
 |  `typescript`   |    <img src="./typescript.svg" alt="typescript" width="42" />    |
+|    `ubuntu`     |        <img src="./ubuntu.svg" alt="ubuntu" width="42" />        |
 |     `unity`     |         <img src="./unity.svg" alt="unity" width="42" />         |
 | `unreal-engine` | <img src="./unreal-engine.svg" alt="unreal-engine" width="42" /> |
 |      `vue`      |           <img src="./vue.svg" alt="vue" width="42" />           |
@@ -99,5 +106,5 @@
 ---
 
 <br>
-Current icon count: <strong>89</strong>
+Current icon count: <strong>96</strong>
 <!-- SUPPORTED:ICONS:END -->
