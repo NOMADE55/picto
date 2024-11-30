@@ -1,0 +1,18 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.kotlin {
+			fill: url(#gradientFragment0);
+		}
+	</style>
+	<defs>
+		<radialGradient id="gradientFragment0" cx="7.5334" cy="199.7628" r="7.5"
+			gradientTransform="matrix(22.9097 0 0 -22.9097 -2.5747 4607.6719)" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#EF4857" offset="3.000000e-03" />
+			<stop stop-color="#D211EC" offset="0.469" />
+			<stop stop-color="#7F52FF" offset="1" />
+		</radialGradient>
+	</defs>
+	<rect width="200" height="200" style="fill: var(--bg, #19191c); rx: var(--rx, 24);" />
+	<path class="kotlin" d="M175,175H25V25h150L98.4,98.9L175,175z" />
+</svg>

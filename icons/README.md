@@ -15,6 +15,8 @@
 |     `bash`      |          <img src="./bash.svg" alt="bash" width="42" />          |
 |    `blender`    |       <img src="./blender.svg" alt="blender" width="42" />       |
 |      `bun`      |           <img src="./bun.svg" alt="bun" width="42" />           |
+|  `c-plus-plus`  |   <img src="./c-plus-plus.svg" alt="c-plus-plus" width="42" />   |
+|    `c-sharp`    |       <img src="./c-sharp.svg" alt="c-sharp" width="42" />       |
 |    `claude`     |        <img src="./claude.svg" alt="claude" width="42" />        |
 |    `clojure`    |       <img src="./clojure.svg" alt="clojure" width="42" />       |
 |    `cordova`    |       <img src="./cordova.svg" alt="cordova" width="42" />       |
@@ -26,6 +28,7 @@
 |    `django`     |        <img src="./django.svg" alt="django" width="42" />        |
 |    `docker`     |        <img src="./docker.svg" alt="docker" width="42" />        |
 |     `ember`     |         <img src="./ember.svg" alt="ember" width="42" />         |
+|      `eta`      |           <img src="./eta.svg" alt="eta" width="42" />           |
 |     `figma`     |         <img src="./figma.svg" alt="figma" width="42" />         |
 |   `firebase`    |      <img src="./firebase.svg" alt="firebase" width="42" />      |
 |     `flask`     |         <img src="./flask.svg" alt="flask" width="42" />         |
@@ -51,6 +54,7 @@
 |    `joomla`     |        <img src="./joomla.svg" alt="joomla" width="42" />        |
 |    `jquery`     |        <img src="./jquery.svg" alt="jquery" width="42" />        |
 |     `julia`     |         <img src="./julia.svg" alt="julia" width="42" />         |
+|    `kotlin`     |        <img src="./kotlin.svg" alt="kotlin" width="42" />        |
 |    `laravel`    |       <img src="./laravel.svg" alt="laravel" width="42" />       |
 |   `lightroom`   |     <img src="./lightroom.svg" alt="lightroom" width="42" />     |
 |      `lua`      |           <img src="./lua.svg" alt="lua" width="42" />           |
@@ -95,5 +99,5 @@
 ---
 
 <br>
-Current icon count: <strong>85</strong>
+Current icon count: <strong>89</strong>
 <!-- SUPPORTED:ICONS:END -->
