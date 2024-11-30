@@ -11,11 +11,13 @@
 |    `alpine`     |        <img src="./alpine.svg" alt="alpine" width="42" />        |
 |    `angular`    |       <img src="./angular.svg" alt="angular" width="42" />       |
 |     `astro`     |         <img src="./astro.svg" alt="astro" width="42" />         |
+|   `backbone`    |      <img src="./backbone.svg" alt="backbone" width="42" />      |
 |     `bash`      |          <img src="./bash.svg" alt="bash" width="42" />          |
 |    `blender`    |       <img src="./blender.svg" alt="blender" width="42" />       |
 |      `bun`      |           <img src="./bun.svg" alt="bun" width="42" />           |
 |    `claude`     |        <img src="./claude.svg" alt="claude" width="42" />        |
 |    `clojure`    |       <img src="./clojure.svg" alt="clojure" width="42" />       |
+|    `cordova`    |       <img src="./cordova.svg" alt="cordova" width="42" />       |
 |      `css`      |           <img src="./css.svg" alt="css" width="42" />           |
 |    `cypress`    |       <img src="./cypress.svg" alt="cypress" width="42" />       |
 |    `datadog`    |       <img src="./datadog.svg" alt="datadog" width="42" />       |
@@ -23,6 +25,7 @@
 |    `discord`    |       <img src="./discord.svg" alt="discord" width="42" />       |
 |    `django`     |        <img src="./django.svg" alt="django" width="42" />        |
 |    `docker`     |        <img src="./docker.svg" alt="docker" width="42" />        |
+|     `ember`     |         <img src="./ember.svg" alt="ember" width="42" />         |
 |     `figma`     |         <img src="./figma.svg" alt="figma" width="42" />         |
 |   `firebase`    |      <img src="./firebase.svg" alt="firebase" width="42" />      |
 |     `flask`     |         <img src="./flask.svg" alt="flask" width="42" />         |
@@ -40,6 +43,7 @@
 |    `haskell`    |       <img src="./haskell.svg" alt="haskell" width="42" />       |
 |     `html`      |          <img src="./html.svg" alt="html" width="42" />          |
 |  `illustrator`  |   <img src="./illustrator.svg" alt="illustrator" width="42" />   |
+|     `ionic`     |         <img src="./ionic.svg" alt="ionic" width="42" />         |
 |     `java`      |          <img src="./java.svg" alt="java" width="42" />          |
 |  `javascript`   |    <img src="./javascript.svg" alt="javascript" width="42" />    |
 |    `jekyll`     |        <img src="./jekyll.svg" alt="jekyll" width="42" />        |
@@ -52,6 +56,7 @@
 |      `lua`      |           <img src="./lua.svg" alt="lua" width="42" />           |
 |    `mariadb`    |       <img src="./mariadb.svg" alt="mariadb" width="42" />       |
 |   `markdown`    |      <img src="./markdown.svg" alt="markdown" width="42" />      |
+|    `meteor`     |        <img src="./meteor.svg" alt="meteor" width="42" />        |
 |     `mongo`     |         <img src="./mongo.svg" alt="mongo" width="42" />         |
 |     `mysql`     |         <img src="./mysql.svg" alt="mysql" width="42" />         |
 |    `nestjs`     |        <img src="./nestjs.svg" alt="nestjs" width="42" />        |
@@ -90,5 +95,5 @@
 ---
 
 <br>
-Current icon count: <strong>80</strong>
+Current icon count: <strong>85</strong>
 <!-- SUPPORTED:ICONS:END -->

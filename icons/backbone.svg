@@ -1,0 +1,22 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.backbone--fragment-0 {
+			fill: #002A41;
+		}
+
+		.backbone--fragment-1 {
+			fill: #0071B5;
+		}
+	</style>
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+	<g>
+		<path class="backbone--fragment-0" d="M39.6,25v81.1l60.4,34.4v-23.4l-40.4-23V58L100,81V59.4L39.6,25L39.6,25z" />
+		<path class="backbone--fragment-1"
+			d="M160.4,25v81.1L100,140.5v-23.4l40.4-23V58L100,81V59.4L160.4,25L160.4,25z" />
+		<path class="backbone--fragment-1"
+			d="M39.6,175V93.9L100,59.5v23.4l-40.4,23v34.3l40.4-23v23.4L39.6,175L39.6,175z" />
+		<path class="backbone--fragment-0"
+			d="M160.4,175V93.9L100,59.5v23.4l40.4,23v34.3l-40.4-23v23.4L160.4,175L160.4,175z" />
+	</g>
+</svg>
