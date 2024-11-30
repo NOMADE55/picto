@@ -70,6 +70,8 @@ export const iconNames = [
   'symfony',
   'terraform',
   'typescript',
+  'unity',
+  'unreal-engine',
   'vue',
   'wordpress',
   'yarn',

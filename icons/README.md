@@ -76,6 +76,8 @@
 |    `symfony`    |       <img src="./symfony.svg" alt="symfony" width="42" />       |
 |   `terraform`   |     <img src="./terraform.svg" alt="terraform" width="42" />     |
 |  `typescript`   |    <img src="./typescript.svg" alt="typescript" width="42" />    |
+|     `unity`     |         <img src="./unity.svg" alt="unity" width="42" />         |
+| `unreal-engine` | <img src="./unreal-engine.svg" alt="unreal-engine" width="42" /> |
 |      `vue`      |           <img src="./vue.svg" alt="vue" width="42" />           |
 |   `wordpress`   |     <img src="./wordpress.svg" alt="wordpress" width="42" />     |
 |     `yarn`      |          <img src="./yarn.svg" alt="yarn" width="42" />          |
@@ -84,5 +86,5 @@
 ---
 
 <br>
-Current icon count: <strong>74</strong>
+Current icon count: <strong>76</strong>
 <!-- SUPPORTED:ICONS:END -->
