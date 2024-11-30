@@ -46,8 +46,10 @@
 |     `jest`      |          <img src="./jest.svg" alt="jest" width="42" />          |
 |    `joomla`     |        <img src="./joomla.svg" alt="joomla" width="42" />        |
 |    `jquery`     |        <img src="./jquery.svg" alt="jquery" width="42" />        |
+|     `julia`     |         <img src="./julia.svg" alt="julia" width="42" />         |
 |    `laravel`    |       <img src="./laravel.svg" alt="laravel" width="42" />       |
 |   `lightroom`   |     <img src="./lightroom.svg" alt="lightroom" width="42" />     |
+|      `lua`      |           <img src="./lua.svg" alt="lua" width="42" />           |
 |    `mariadb`    |       <img src="./mariadb.svg" alt="mariadb" width="42" />       |
 |   `markdown`    |      <img src="./markdown.svg" alt="markdown" width="42" />      |
 |     `mongo`     |         <img src="./mongo.svg" alt="mongo" width="42" />         |
@@ -56,6 +58,7 @@
 |      `nim`      |           <img src="./nim.svg" alt="nim" width="42" />           |
 |     `node`      |          <img src="./node.svg" alt="node" width="42" />          |
 |     `nuxt`      |          <img src="./nuxt.svg" alt="nuxt" width="42" />          |
+|     `ocaml`     |         <img src="./ocaml.svg" alt="ocaml" width="42" />         |
 |    `open-ai`    |       <img src="./open-ai.svg" alt="open-ai" width="42" />       |
 |    `pandas`     |        <img src="./pandas.svg" alt="pandas" width="42" />        |
 |   `photoshop`   |     <img src="./photoshop.svg" alt="photoshop" width="42" />     |
@@ -70,6 +73,7 @@
 |     `react`     |         <img src="./react.svg" alt="react" width="42" />         |
 |     `ruby`      |          <img src="./ruby.svg" alt="ruby" width="42" />          |
 |     `sass`      |          <img src="./sass.svg" alt="sass" width="42" />          |
+|     `scala`     |         <img src="./scala.svg" alt="scala" width="42" />         |
 |    `strapi`     |        <img src="./strapi.svg" alt="strapi" width="42" />        |
 |    `svelte`     |        <img src="./svelte.svg" alt="svelte" width="42" />        |
 |     `swift`     |         <img src="./swift.svg" alt="swift" width="42" />         |
@@ -86,5 +90,5 @@
 ---
 
 <br>
-Current icon count: <strong>76</strong>
+Current icon count: <strong>80</strong>
 <!-- SUPPORTED:ICONS:END -->

@@ -1,0 +1,30 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.scala--fragment-0 {
+			fill: #7F0C1D;
+		}
+
+		.scala--fragment-1 {
+			fill: url(#gradientFragment0);
+		}
+	</style>
+	<defs>
+		<linearGradient id="gradientFragment0" gradientUnits="userSpaceOnUse" x1="57.3441" y1="100" x2="147.9893"
+			y2="100">
+			<stop stop-color="#E62D2A" offset="0" />
+			<stop stop-color="#DF3F3D" offset="0.6" />
+			<stop stop-color="#DF3F3D" offset="0.8" />
+			<stop stop-color="#E62D2A" offset="1" />
+		</linearGradient>
+	</defs>
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+	<g>
+		<path class="scala--fragment-0" d="M53.8,117.3v11.5c0,1.9,42,5.2,69.3,11.5c13.2-3.1,23-6.8,23-11.5v-11.5c0-4.7-9.8-8.5-23-11.5
+		C95.8,112.1,53.8,115.4,53.8,117.3 M53.8,71.2v11.5c0,1.9,42,5.2,69.3,11.5c13.2-3.1,23-6.8,23-11.5V71.2c0-4.7-9.8-8.5-23-11.5
+		C95.8,65.9,53.8,69.2,53.8,71.2" />
+		<path class="scala--fragment-1" d="M53.8,94.2v34.6c0-2.9,92.3-8.7,92.3-23.1V71.2C146.2,85.6,53.8,91.3,53.8,94.2 M53.8,48.1v34.6
+		c0-2.9,92.3-8.7,92.3-23.1V25C146.2,39.4,53.8,45.2,53.8,48.1 M53.8,140.4V175c0-2.9,92.3-8.7,92.3-23.1v-34.6
+		C146.2,131.7,53.8,137.5,53.8,140.4" />
+	</g>
+</svg>
