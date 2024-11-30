@@ -1,75 +1,75 @@
 <svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
 	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
 	<style>
-		.ruby--segment-0 {
+		.ruby--fragment-0 {
 			fill: url(#gradientSegment1);
 		}
 
-		.ruby--segment-1 {
+		.ruby--fragment-1 {
 			fill: url(#gradientSegment2);
 		}
 
-		.ruby--segment-2 {
+		.ruby--fragment-2 {
 			fill: url(#gradientSegment3);
 		}
 
-		.ruby--segment-3 {
+		.ruby--fragment-3 {
 			fill: url(#gradientSegment4);
 		}
 
-		.ruby--segment-4 {
+		.ruby--fragment-4 {
 			fill: url(#gradientSegment5);
 		}
 
-		.ruby--segment-5 {
+		.ruby--fragment-5 {
 			fill: url(#gradientSegment6);
 		}
 
-		.ruby--segment-6 {
+		.ruby--fragment-6 {
 			fill: url(#gradientSegment7);
 		}
 
-		.ruby--segment-7 {
+		.ruby--fragment-7 {
 			fill: #FFFFFF;
 		}
 
-		.ruby--segment-8 {
+		.ruby--fragment-8 {
 			fill: url(#gradientSegment8);
 		}
 
-		.ruby--segment-9 {
+		.ruby--fragment-9 {
 			fill: url(#gradientSegment9);
 		}
 
-		.ruby--segment-10 {
+		.ruby--fragment-10 {
 			fill: url(#gradientSegment10);
 		}
 
-		.ruby--segment-11 {
+		.ruby--fragment-11 {
 			fill: url(#gradientSegment11);
 		}
 
-		.ruby--segment-12 {
+		.ruby--fragment-12 {
 			fill: url(#gradientSegment12);
 		}
 
-		.ruby--segment-13 {
+		.ruby--fragment-13 {
 			fill: #9E1209;
 		}
 
-		.ruby--segment-14 {
+		.ruby--fragment-14 {
 			fill: url(#gradientSegment13);
 		}
 
-		.ruby--segment-15 {
+		.ruby--fragment-15 {
 			fill: url(#gradientSegment14);
 		}
 
-		.ruby--segment-16 {
+		.ruby--fragment-16 {
 			fill: url(#gradientSegment15);
 		}
 
-		.ruby--segment-17 {
+		.ruby--fragment-17 {
 			fill: url(#gradientSegment16);
 		}
 	</style>
@@ -191,28 +191,28 @@
 	</defs>
 	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
 	<g>
-		<path class="ruby--segment-0" d="M141.2,124l-85.6,51l110.9-7.5L175,55.3L141.2,124z" />
-		<path class="ruby--segment-1" d="M166.6,167.4l-9.5-66l-26,34.4L166.6,167.4z" />
-		<path class="ruby--segment-2" d="M166.8,167.4l-69.8-5.5l-41,13L166.8,167.4z" />
-		<path class="ruby--segment-3" d="M56,174.9l17.4-57.3l-38.4,8.2L56,174.9z" />
-		<path class="ruby--segment-4" d="M171.4,73.8l-43.4-35.6l-12.1,39.2L171.4,73.8z" />
-		<path class="ruby--segment-5" d="M151.1,25.6l-25.5,14.2l-16.1-14.3L151.1,25.6z" />
-		<path class="ruby--segment-6" d="M25,145l10.7-19.6L27,102.1L25,145z" />
-		<path class="ruby--segment-7" d="M26.5,101.4l8.7,24.8l37.8-8.5l43.2-40.3l12.2-38.8L109.2,25L76.6,37.2c-10.3,9.6-30.2,28.6-30.9,28.9
+		<path class="ruby--fragment-0" d="M141.2,124l-85.6,51l110.9-7.5L175,55.3L141.2,124z" />
+		<path class="ruby--fragment-1" d="M166.6,167.4l-9.5-66l-26,34.4L166.6,167.4z" />
+		<path class="ruby--fragment-2" d="M166.8,167.4l-69.8-5.5l-41,13L166.8,167.4z" />
+		<path class="ruby--fragment-3" d="M56,174.9l17.4-57.3l-38.4,8.2L56,174.9z" />
+		<path class="ruby--fragment-4" d="M171.4,73.8l-43.4-35.6l-12.1,39.2L171.4,73.8z" />
+		<path class="ruby--fragment-5" d="M151.1,25.6l-25.5,14.2l-16.1-14.3L151.1,25.6z" />
+		<path class="ruby--fragment-6" d="M25,145l10.7-19.6L27,102.1L25,145z" />
+		<path class="ruby--fragment-7" d="M26.5,101.4l8.7,24.8l37.8-8.5l43.2-40.3l12.2-38.8L109.2,25L76.6,37.2c-10.3,9.6-30.2,28.6-30.9,28.9
 			C44.9,66.5,32.4,90.1,26.5,101.4z" />
-		<path class="ruby--segment-8" d="M73.3,117.4l42.9-40l0-0.1l14.9,58.6L73.3,117.4z" />
-		<path class="ruby--segment-9" d="M57,56.9c22.3-22.2,51-35.2,62-24.1c11,11.2-0.7,38.3-22.9,60.4c-22.3,22.1-50.6,36-61.7,24.8
+		<path class="ruby--fragment-8" d="M73.3,117.4l42.9-40l0-0.1l14.9,58.6L73.3,117.4z" />
+		<path class="ruby--fragment-9" d="M57,56.9c22.3-22.2,51-35.2,62-24.1c11,11.2-0.7,38.3-22.9,60.4c-22.3,22.1-50.6,36-61.7,24.8
 			C23.4,106.9,34.8,79.1,57,56.9z" />
-		<path class="ruby--segment-10" d="M56,174.8l17.3-57.5l57.5,18.5C110,155.4,86.9,171.9,56,174.8z" />
-		<path class="ruby--segment-11" d="M116.3,77.3l14.8,58.6c17.4-18.3,32.9-38,40.6-62.3L116.3,77.3z" />
-		<path class="ruby--segment-12" d="M171.4,73.9c5.9-17.9,7.3-43.5-20.6-48.3L128,38.3L171.4,73.9z" />
-		<path class="ruby--segment-13" d="M25,144.8c0.8,29.5,22,29.9,31.1,30.2l-20.9-48.9L25,144.8z" />
-		<path class="ruby--segment-14"
+		<path class="ruby--fragment-10" d="M56,174.8l17.3-57.5l57.5,18.5C110,155.4,86.9,171.9,56,174.8z" />
+		<path class="ruby--fragment-11" d="M116.3,77.3l14.8,58.6c17.4-18.3,32.9-38,40.6-62.3L116.3,77.3z" />
+		<path class="ruby--fragment-12" d="M171.4,73.9c5.9-17.9,7.3-43.5-20.6-48.3L128,38.3L171.4,73.9z" />
+		<path class="ruby--fragment-13" d="M25,144.8c0.8,29.5,22,29.9,31.1,30.2l-20.9-48.9L25,144.8z" />
+		<path class="ruby--fragment-14"
 			d="M116.4,77.4c13.3,8.2,40.2,24.7,40.8,25c0.8,0.5,11.6-18.2,14-28.7L116.4,77.4z" />
-		<path class="ruby--segment-15" d="M73.3,117.4l23.1,44.8c13.7-7.4,24.4-16.5,34.2-26.2L73.3,117.4z" />
-		<path class="ruby--segment-16"
+		<path class="ruby--fragment-15" d="M73.3,117.4l23.1,44.8c13.7-7.4,24.4-16.5,34.2-26.2L73.3,117.4z" />
+		<path class="ruby--fragment-16"
 			d="M35.1,126.1l-3.3,39.1c6.2,8.5,14.7,9.2,23.6,8.5C49,157.7,36.1,125.5,35.1,126.1z" />
-		<path class="ruby--segment-17" d="M127.9,38.4l46,6.5c-2.5-10.4-10-17.1-22.8-19.3L127.9,38.4z" />
+		<path class="ruby--fragment-17" d="M127.9,38.4l46,6.5c-2.5-10.4-10-17.1-22.8-19.3L127.9,38.4z" />
 	</g>
 
 </svg>

@@ -1,19 +1,19 @@
 <svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
 	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
 	<style>
-		.jekyll--segment-0 {
+		.jekyll--fragment-0 {
 			fill: url(#gradientSegment0);
 		}
 
-		.jekyll--segment-1 {
+		.jekyll--fragment-1 {
 			fill: url(#gradientSegment1);
 		}
 
-		.jekyll--segment-2 {
+		.jekyll--fragment-2 {
 			fill: #333333;
 		}
 
-		.jekyll--segment-3 {
+		.jekyll--fragment-3 {
 			opacity: 0.5;
 			fill: #FFFFFF;
 		}
@@ -32,17 +32,17 @@
 	</defs>
 	<rect width="200" height="200" style="fill: var(--bg, #2b2b2b); rx: var(--rx, 24);" />
 	<g>
-		<path class="jekyll--segment-0" d="M102.4,24.9c-0.1,0.3-0.1,0.6,0,0.9c0,0,0.9,6.1-0.1,8.9L57.7,150.5l0,0c-3.2,8.5,1.1,18,9.6,21.3
+		<path class="jekyll--fragment-0" d="M102.4,24.9c-0.1,0.3-0.1,0.6,0,0.9c0,0,0.9,6.1-0.1,8.9L57.7,150.5l0,0c-3.2,8.5,1.1,18,9.6,21.3
 		c8.5,3.3,18-0.9,21.4-9.4l0,0l44.6-115.9c0.9-2.3,5.8-6.7,5.8-6.7c0.2-0.2,0.4-0.4,0.6-0.7l0,0c0,0,0.1-0.1,0.1-0.1
 		c1.1-3-6.3-8.6-16.6-12.6c-10.3-4-19.6-4.7-20.7-1.8C102.5,24.8,102.4,24.8,102.4,24.9L102.4,24.9z" />
-		<path class="jekyll--segment-1" d="M116.2,77.3L84,160.9l0,0c-2.4,6-9.3,9.1-15.4,6.8c-6.1-2.4-9.4-9.4-7.2-15.4L82,98.8c0,0,2.6-4.1,7.6-7.1
+		<path class="jekyll--fragment-1" d="M116.2,77.3L84,160.9l0,0c-2.4,6-9.3,9.1-15.4,6.8c-6.1-2.4-9.4-9.4-7.2-15.4L82,98.8c0,0,2.6-4.1,7.6-7.1
 		c5-2.9,9.2-2.3,14.8-4.8C110,84.5,116.2,77.3,116.2,77.3L116.2,77.3z" />
-		<ellipse transform="matrix(0.359 -0.9333 0.9333 0.359 47.3585 133.3452)" class="jekyll--segment-2" cx="120.8"
+		<ellipse transform="matrix(0.359 -0.9333 0.9333 0.359 47.3585 133.3452)" class="jekyll--fragment-2" cx="120.8"
 			cy="32.2" rx="3.3" ry="12.4" />
-		<circle class="jekyll--segment-3" cx="87.8" cy="100.5" r="1.3" />
-		<circle class="jekyll--segment-3" cx="96.3" cy="109.9" r="1.9" />
-		<circle class="jekyll--segment-3" cx="83.4" cy="121" r="3.7" />
-		<circle class="jekyll--segment-3" cx="77.5" cy="127.8" r="1.9" />
-		<circle class="jekyll--segment-3" cx="85.2" cy="142.2" r="1.3" />
+		<circle class="jekyll--fragment-3" cx="87.8" cy="100.5" r="1.3" />
+		<circle class="jekyll--fragment-3" cx="96.3" cy="109.9" r="1.9" />
+		<circle class="jekyll--fragment-3" cx="83.4" cy="121" r="3.7" />
+		<circle class="jekyll--fragment-3" cx="77.5" cy="127.8" r="1.9" />
+		<circle class="jekyll--fragment-3" cx="85.2" cy="142.2" r="1.3" />
 	</g>
 </svg>

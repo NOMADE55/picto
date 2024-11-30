@@ -18,7 +18,7 @@ features of Picto, it's important to closely follow the guidelines.
 - Background has to be a `<rect>`.
 - Classes should only be used for non-background elements.
 - Classes should be named following the pattern:
-  **`{icon_name}`--segment-`{n}`**.
+  **`{icon_name}`--fragment-`{n}`**.
 - Gradients should always go inside a `<defs>`.
 - If the icon has more than one `<path>`, they should be grouped in a `<g>`.
 - Naming the file should follow kebab-case, using only the name of the tool or

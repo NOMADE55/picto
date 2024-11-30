@@ -1,34 +1,34 @@
 <svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
 	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
 	<style>
-		.figma--segment-0 {
+		.figma--fragment-0 {
 			fill: #1ABCFE;
 		}
 
-		.figma--segment-1 {
+		.figma--fragment-1 {
 			fill: #0ACF83;
 		}
 
-		.figma--segment-2 {
+		.figma--fragment-2 {
 			fill: #FF7262;
 		}
 
-		.figma--segment-3 {
+		.figma--fragment-3 {
 			fill: #F24E1E;
 		}
 
-		.figma--segment-4 {
+		.figma--fragment-4 {
 			fill: #A259FF;
 		}
 	</style>
 	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
 	<g>
-		<path class="figma--segment-0"
+		<path class="figma--fragment-0"
 			d="M100,100c0-13.8,11.2-25,25-25s25,11.2,25,25s-11.2,25-25,25S100,113.8,100,100z" />
-		<path class="figma--segment-1"
+		<path class="figma--fragment-1"
 			d="M50,150c0-13.8,11.2-25,25-25h25v25c0,13.8-11.2,25-25,25C61.2,175,50,163.8,50,150z" />
-		<path class="figma--segment-2" d="M100,25v50h25c13.8,0,25-11.2,25-25c0-13.8-11.2-25-25-25H100z" />
-		<path class="figma--segment-3" d="M50,50c0,13.8,11.2,25,25,25h25V25H75C61.2,25,50,36.2,50,50z" />
-		<path class="figma--segment-4" d="M50,100c0,13.8,11.2,25,25,25h25V75H75C61.2,75,50,86.2,50,100z" />
+		<path class="figma--fragment-2" d="M100,25v50h25c13.8,0,25-11.2,25-25c0-13.8-11.2-25-25-25H100z" />
+		<path class="figma--fragment-3" d="M50,50c0,13.8,11.2,25,25,25h25V25H75C61.2,25,50,36.2,50,50z" />
+		<path class="figma--fragment-4" d="M50,100c0,13.8,11.2,25,25,25h25V75H75C61.2,75,50,86.2,50,100z" />
 	</g>
 </svg>
