@@ -23,6 +23,7 @@
 |    `cordova`    |       <img src="./cordova.svg" alt="cordova" width="42" />       |
 |      `css`      |           <img src="./css.svg" alt="css" width="42" />           |
 |    `cypress`    |       <img src="./cypress.svg" alt="cypress" width="42" />       |
+|     `dart`      |          <img src="./dart.svg" alt="dart" width="42" />          |
 |    `datadog`    |       <img src="./datadog.svg" alt="datadog" width="42" />       |
 |    `debian`     |        <img src="./debian.svg" alt="debian" width="42" />        |
 |     `deno`      |          <img src="./deno.svg" alt="deno" width="42" />          |
@@ -48,6 +49,7 @@
 |    `graphql`    |       <img src="./graphql.svg" alt="graphql" width="42" />       |
 |     `gulp`      |          <img src="./gulp.svg" alt="gulp" width="42" />          |
 |    `haskell`    |       <img src="./haskell.svg" alt="haskell" width="42" />       |
+|     `hono`      |          <img src="./hono.svg" alt="hono" width="42" />          |
 |     `html`      |          <img src="./html.svg" alt="html" width="42" />          |
 |  `illustrator`  |   <img src="./illustrator.svg" alt="illustrator" width="42" />   |
 |     `ionic`     |         <img src="./ionic.svg" alt="ionic" width="42" />         |
@@ -82,6 +84,7 @@
 |    `postman`    |       <img src="./postman.svg" alt="postman" width="42" />       |
 |    `preact`     |        <img src="./preact.svg" alt="preact" width="42" />        |
 |   `premiere`    |      <img src="./premiere.svg" alt="premiere" width="42" />      |
+|    `prisma`     |        <img src="./prisma.svg" alt="prisma" width="42" />        |
 |    `python`     |        <img src="./python.svg" alt="python" width="42" />        |
 |   `rabbitmq`    |      <img src="./rabbitmq.svg" alt="rabbitmq" width="42" />      |
 |     `rails`     |         <img src="./rails.svg" alt="rails" width="42" />         |
@@ -109,5 +112,5 @@
 ---
 
 <br>
-Current icon count: <strong>99</strong>
+Current icon count: <strong>102</strong>
 <!-- SUPPORTED:ICONS:END -->
