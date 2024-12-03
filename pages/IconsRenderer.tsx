@@ -13,7 +13,7 @@ interface Props {
   config: BaseSVGConfig;
 }
 
-const Base = memo(({ icons, config }: Props) => {
+const IconsRenderer = memo(({ icons, config }: Props) => {
   const { cols, theme, rounded } = config;
   const amount = icons.length;
   const width = Math.min(cols * ICON_CELL_WIDTH, amount * ICON_CELL_WIDTH) -
@@ -34,6 +34,7 @@ const Base = memo(({ icons, config }: Props) => {
       version='1.1'
       style={getCSSVariables(config)}
     >
+      {icons}
       <g
         className={`
           theme-${theme}
@@ -51,4 +52,4 @@ const Base = memo(({ icons, config }: Props) => {
   );
 });
 
-export default Base;
+export default IconsRenderer;

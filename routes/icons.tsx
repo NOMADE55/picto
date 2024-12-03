@@ -1,5 +1,6 @@
-import { createRoute, z } from '@hono/zod-openapi';
-import { cache } from 'hono/cache';
+import { createRoute, OpenAPIHono, z } from '@hono/zod-openapi';
+import Renderer from '../pages/IconsRenderer.tsx';
+import { parseIconParameters } from '../utils/icons.ts';
 
 const DEFAULT_COLS = 8;
 const DEFAULT_THEME = 'default';
@@ -7,6 +8,8 @@ const VALID_MIN_SIZE = 8;
 const VALID_MAX_SIZE = 800;
 const VALID_MIN_ROUNDED = 0;
 const VALID_MAX_ROUNDED = 200;
+
+const app = new OpenAPIHono();
 
 const QueryParamsSchema = z.object({
   cols: z.string().regex(/^\d+$/).transform(Number).optional().default(
@@ -33,19 +36,13 @@ const QueryParamsSchema = z.object({
   }).optional(),
 });
 
-export const index = createRoute({
+const index = createRoute({
   method: 'get',
-  path: '/icons',
+  path: '/',
   request: {
     query: QueryParamsSchema,
   },
-  middleware: [
-    cache({
-      cacheName: 'icon-cachev0.0.1',
-      cacheControl: 'max-age=0',
-      wait: true,
-    }),
-  ] as const,
+  middleware: [] as const,
   responses: {
     200: {
       description:
@@ -53,3 +50,28 @@ export const index = createRoute({
     },
   },
 });
+
+app.use('/', async (c, next) => {
+  c.setRenderer(async (svg) =>
+    c.body(await svg.toString(), {
+      headers: {
+        'Content-Type': 'image/svg+xml',
+      },
+    })
+  );
+
+  await next();
+});
+
+app.openapi(index, async (c) => {
+  const { theme, cols, i, rounded, bg = true, size } = c.req.valid('query');
+  const icons = i?.split(',') || [];
+  return c.render(
+    <Renderer
+      icons={await parseIconParameters(icons)}
+      config={{ theme, cols, rounded, bg, size }}
+    />,
+  );
+});
+
+export default app;
