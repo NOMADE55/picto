@@ -3,7 +3,7 @@
     "@hono/zod-openapi": "npm:@hono/zod-openapi@^0.16.4",
     "@std/fs": "jsr:@std/fs@^1.0.5",
     "@std/path": "jsr:@std/path@^1.0.8",
-    "classnames": "npm:classnames@^2.5.1",
+    "@std/encoding": "jsr:@std/encoding@^1.0.5",
     "hono": "npm:hono@^4.6.8"
   },
   "tasks": {

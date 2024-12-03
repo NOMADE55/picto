@@ -1,5 +1,4 @@
 import { memo } from 'hono/jsx';
-import cn from 'classnames';
 
 import {
   calcScale,
@@ -36,9 +35,10 @@ const Base = memo(({ icons, config }: Props) => {
       style={getCSSVariables(config)}
     >
       <g
-        className={cn([`theme-${theme}`], {
-          'rounded': rounded === 200,
-        })}
+        className={`
+          theme-${theme}
+          ${rounded === 200 ? 'rounded' : ''}
+        `}
       >
         {icons.map(async (icon, index) => (
           <g

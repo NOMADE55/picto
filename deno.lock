@@ -1,16 +1,20 @@
 {
   "version": "4",
   "specifiers": {
+    "jsr:@std/encoding@^1.0.5": "1.0.5",
     "jsr:@std/fs@*": "1.0.5",
     "jsr:@std/fs@^1.0.5": "1.0.5",
     "jsr:@std/path@*": "1.0.8",
+    "jsr:@std/path@^1.0.5": "1.0.8",
     "jsr:@std/path@^1.0.7": "1.0.8",
     "jsr:@std/path@^1.0.8": "1.0.8",
     "npm:@hono/zod-openapi@~0.16.4": "0.16.4_hono@4.6.9_zod@3.23.8",
-    "npm:classnames@^2.5.1": "2.5.1",
     "npm:hono@^4.6.8": "4.6.9"
   },
   "jsr": {
+    "@std/encoding@1.0.5": {
+      "integrity": "ecf363d4fc25bd85bd915ff6733a7e79b67e0e7806334af15f4645c569fefc04"
+    },
     "@std/fs@1.0.5": {
       "integrity": "41806ad6823d0b5f275f9849a2640d87e4ef67c51ee1b8fb02426f55e02fd44e",
       "dependencies": [
@@ -45,9 +49,6 @@
         "zod"
       ]
     },
-    "classnames@2.5.1": {
-      "integrity": "sha512-saHYOzhIQs6wy2sVxTM6bUDsQO4F50V9RQ22qBpEdCW+I+/Wmke2HOl6lS6dTpdxVhb88/I6+Hs+438c3lfUow=="
-    },
     "hono@4.6.9": {
       "integrity": "sha512-p/pN5yZLuZaHzyAOT2nw2/Ud6HhJHYmDNGH6Ck1OWBhPMVeM1r74jbCRwNi0gyFRjjbsGgoHbOyj7mT1PDNbTw=="
     },
@@ -66,10 +67,10 @@
   },
   "workspace": {
     "dependencies": [
+      "jsr:@std/encoding@^1.0.5",
       "jsr:@std/fs@^1.0.5",
       "jsr:@std/path@^1.0.8",
       "npm:@hono/zod-openapi@~0.16.4",
-      "npm:classnames@^2.5.1",
       "npm:hono@^4.6.8"
     ]
   }

@@ -1,7 +1,7 @@
 import { OpenAPIHono } from '@hono/zod-openapi';
 import { serveStatic } from 'hono/deno';
 
-import Base from './components/Base.tsx';
+import Renderer from './pages/IconsRenderer.tsx';
 import { parseIconParameters } from './utils/icons.ts';
 import { index as iconsIndex } from './routes/icons.ts';
 
@@ -24,7 +24,7 @@ app.openapi(iconsIndex, async (c) => {
   const { theme, cols, i, rounded, bg = true, size } = c.req.valid('query');
   const icons = i?.split(',') || [];
   return c.render(
-    <Base
+    <Renderer
       icons={await parseIconParameters(icons)}
       config={{ theme, cols, rounded, bg, size }}
     />,
