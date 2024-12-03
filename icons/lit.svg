@@ -1,0 +1,30 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.lit--fragment-0 {
+			fill: #00E8FF;
+		}
+
+		.lit--fragment-1 {
+			fill: #283198;
+		}
+
+		.lit--fragment-2 {
+			fill: #324FFF;
+		}
+
+		.lit--fragment-3 {
+			fill: #00FFFF;
+		}
+	</style>
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+	<g>
+		<polygon class="lit--fragment-0"
+			points="70,115 82.2,94 100.1,85.1 130.1,115.1 135.1,144 130,175 100,145 82.2,133 	" />
+		<path class="lit--fragment-1"
+			d="M100,145V85l30-30v60L100,145z M40,145l30,30l4.3-28.4L70,115l-17.6,11.1L40,145z" />
+		<path class="lit--fragment-2"
+			d="M70,115V55l30-30v60L70,115z M130,175v-60l30-30v60L130,175z M40,145V85l30,30L40,145z" />
+		<polygon class="lit--fragment-3" points="70,175 70,115 100,145 	" />
+	</g>
+</svg>

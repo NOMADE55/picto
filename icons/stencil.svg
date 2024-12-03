@@ -1,0 +1,11 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.stencil {
+			fill: #000;
+		}
+	</style>
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+	<path class="stencil" d="M80.3,122.9h57.8l-31.2,33.4H49.4L80.3,122.9z M175,83.3H56.2L25,116.7h118.8L175,83.3z M93,43.8h57.6l-31.1,33.4H61.9
+	L93,43.8z" />
+</svg>

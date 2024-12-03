@@ -62,6 +62,7 @@
 |    `laravel`    |       <img src="./laravel.svg" alt="laravel" width="42" />       |
 |   `lightroom`   |     <img src="./lightroom.svg" alt="lightroom" width="42" />     |
 |  `linux-mint`   |    <img src="./linux-mint.svg" alt="linux-mint" width="42" />    |
+|      `lit`      |           <img src="./lit.svg" alt="lit" width="42" />           |
 |      `lua`      |           <img src="./lua.svg" alt="lua" width="42" />           |
 |    `mariadb`    |       <img src="./mariadb.svg" alt="mariadb" width="42" />       |
 |   `markdown`    |      <img src="./markdown.svg" alt="markdown" width="42" />      |
@@ -79,6 +80,7 @@
 |      `php`      |           <img src="./php.svg" alt="php" width="42" />           |
 |  `postgresql`   |    <img src="./postgresql.svg" alt="postgresql" width="42" />    |
 |    `postman`    |       <img src="./postman.svg" alt="postman" width="42" />       |
+|    `preact`     |        <img src="./preact.svg" alt="preact" width="42" />        |
 |   `premiere`    |      <img src="./premiere.svg" alt="premiere" width="42" />      |
 |    `python`     |        <img src="./python.svg" alt="python" width="42" />        |
 |   `rabbitmq`    |      <img src="./rabbitmq.svg" alt="rabbitmq" width="42" />      |
@@ -89,6 +91,7 @@
 |     `ruby`      |          <img src="./ruby.svg" alt="ruby" width="42" />          |
 |     `sass`      |          <img src="./sass.svg" alt="sass" width="42" />          |
 |     `scala`     |         <img src="./scala.svg" alt="scala" width="42" />         |
+|    `stencil`    |       <img src="./stencil.svg" alt="stencil" width="42" />       |
 |    `strapi`     |        <img src="./strapi.svg" alt="strapi" width="42" />        |
 |    `svelte`     |        <img src="./svelte.svg" alt="svelte" width="42" />        |
 |     `swift`     |         <img src="./swift.svg" alt="swift" width="42" />         |
@@ -106,5 +109,5 @@
 ---
 
 <br>
-Current icon count: <strong>96</strong>
+Current icon count: <strong>99</strong>
 <!-- SUPPORTED:ICONS:END -->
