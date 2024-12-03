@@ -1,12 +1,14 @@
 import { OpenAPIHono } from '@hono/zod-openapi';
 import { serveStatic } from 'hono/deno';
 
+import home from './routes/home.tsx';
 import icons from './routes/icons.tsx';
 
 const app = new OpenAPIHono();
 
 app.use('/favicon.ico', serveStatic({ path: './public/picto-iso.svg' }));
 
+app.route('/', home);
 app.route('/icons', icons);
 
 app.doc('/doc', {
