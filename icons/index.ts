@@ -1,5 +1,6 @@
 // This file is generated automatically.
 export const iconNames = [
+  '11ty',
   'after-effects',
   'airtable',
   'alpine',
@@ -24,6 +25,7 @@ export const iconNames = [
   'discord',
   'django',
   'docker',
+  'dotnet',
   'ember',
   'eta',
   'fedora',

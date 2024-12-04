@@ -6,6 +6,7 @@
 
 |    Icon name    |                               Icon                               |
 | :-------------: | :--------------------------------------------------------------: |
+|     `11ty`      |          <img src="./11ty.svg" alt="11ty" width="42" />          |
 | `after-effects` | <img src="./after-effects.svg" alt="after-effects" width="42" /> |
 |   `airtable`    |      <img src="./airtable.svg" alt="airtable" width="42" />      |
 |    `alpine`     |        <img src="./alpine.svg" alt="alpine" width="42" />        |
@@ -30,6 +31,7 @@
 |    `discord`    |       <img src="./discord.svg" alt="discord" width="42" />       |
 |    `django`     |        <img src="./django.svg" alt="django" width="42" />        |
 |    `docker`     |        <img src="./docker.svg" alt="docker" width="42" />        |
+|    `dotnet`     |        <img src="./dotnet.svg" alt="dotnet" width="42" />        |
 |     `ember`     |         <img src="./ember.svg" alt="ember" width="42" />         |
 |      `eta`      |           <img src="./eta.svg" alt="eta" width="42" />           |
 |    `fedora`     |        <img src="./fedora.svg" alt="fedora" width="42" />        |
@@ -112,5 +114,5 @@
 ---
 
 <br>
-Current icon count: <strong>102</strong>
+Current icon count: <strong>104</strong>
 <!-- SUPPORTED:ICONS:END -->
