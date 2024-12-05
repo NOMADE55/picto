@@ -21,6 +21,7 @@
 |    `c-sharp`    |       <img src="./c-sharp.svg" alt="c-sharp" width="42" />       |
 |    `claude`     |        <img src="./claude.svg" alt="claude" width="42" />        |
 |    `clojure`    |       <img src="./clojure.svg" alt="clojure" width="42" />       |
+|  `contentful`   |    <img src="./contentful.svg" alt="contentful" width="42" />    |
 |    `cordova`    |       <img src="./cordova.svg" alt="cordova" width="42" />       |
 |      `css`      |           <img src="./css.svg" alt="css" width="42" />           |
 |    `cypress`    |       <img src="./cypress.svg" alt="cypress" width="42" />       |
@@ -32,6 +33,7 @@
 |    `django`     |        <img src="./django.svg" alt="django" width="42" />        |
 |    `docker`     |        <img src="./docker.svg" alt="docker" width="42" />        |
 |    `dotnet`     |        <img src="./dotnet.svg" alt="dotnet" width="42" />        |
+|    `drupal`     |        <img src="./drupal.svg" alt="drupal" width="42" />        |
 |     `ember`     |         <img src="./ember.svg" alt="ember" width="42" />         |
 |      `eta`      |           <img src="./eta.svg" alt="eta" width="42" />           |
 |    `fedora`     |        <img src="./fedora.svg" alt="fedora" width="42" />        |
@@ -68,6 +70,7 @@
 |  `linux-mint`   |    <img src="./linux-mint.svg" alt="linux-mint" width="42" />    |
 |      `lit`      |           <img src="./lit.svg" alt="lit" width="42" />           |
 |      `lua`      |           <img src="./lua.svg" alt="lua" width="42" />           |
+|    `magento`    |       <img src="./magento.svg" alt="magento" width="42" />       |
 |    `mariadb`    |       <img src="./mariadb.svg" alt="mariadb" width="42" />       |
 |   `markdown`    |      <img src="./markdown.svg" alt="markdown" width="42" />      |
 |    `meteor`     |        <img src="./meteor.svg" alt="meteor" width="42" />        |
@@ -78,6 +81,7 @@
 |     `node`      |          <img src="./node.svg" alt="node" width="42" />          |
 |     `nuxt`      |          <img src="./nuxt.svg" alt="nuxt" width="42" />          |
 |     `ocaml`     |         <img src="./ocaml.svg" alt="ocaml" width="42" />         |
+|    `october`    |       <img src="./october.svg" alt="october" width="42" />       |
 |    `open-ai`    |       <img src="./open-ai.svg" alt="open-ai" width="42" />       |
 |    `pandas`     |        <img src="./pandas.svg" alt="pandas" width="42" />        |
 |   `photoshop`   |     <img src="./photoshop.svg" alt="photoshop" width="42" />     |
@@ -96,6 +100,7 @@
 |     `ruby`      |          <img src="./ruby.svg" alt="ruby" width="42" />          |
 |     `sass`      |          <img src="./sass.svg" alt="sass" width="42" />          |
 |     `scala`     |         <img src="./scala.svg" alt="scala" width="42" />         |
+|    `shopify`    |       <img src="./shopify.svg" alt="shopify" width="42" />       |
 |    `stencil`    |       <img src="./stencil.svg" alt="stencil" width="42" />       |
 |    `strapi`     |        <img src="./strapi.svg" alt="strapi" width="42" />        |
 |    `svelte`     |        <img src="./svelte.svg" alt="svelte" width="42" />        |
@@ -107,6 +112,8 @@
 |     `unity`     |         <img src="./unity.svg" alt="unity" width="42" />         |
 | `unreal-engine` | <img src="./unreal-engine.svg" alt="unreal-engine" width="42" /> |
 |      `vue`      |           <img src="./vue.svg" alt="vue" width="42" />           |
+|    `webflow`    |       <img src="./webflow.svg" alt="webflow" width="42" />       |
+|      `woo`      |           <img src="./woo.svg" alt="woo" width="42" />           |
 |   `wordpress`   |     <img src="./wordpress.svg" alt="wordpress" width="42" />     |
 |     `yarn`      |          <img src="./yarn.svg" alt="yarn" width="42" />          |
 |      `zig`      |           <img src="./zig.svg" alt="zig" width="42" />           |
@@ -114,5 +121,5 @@
 ---
 
 <br>
-Current icon count: <strong>104</strong>
+Current icon count: <strong>111</strong>
 <!-- SUPPORTED:ICONS:END -->

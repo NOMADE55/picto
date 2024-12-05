@@ -1,0 +1,36 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.contentful--fragment-0 {
+			fill: #FAE501;
+		}
+
+		.contentful--fragment-1 {
+			fill: #4FB5E1;
+		}
+
+		.contentful--fragment-2 {
+			fill: #F05751;
+		}
+
+		.contentful--fragment-3 {
+			fill: #0681B6;
+		}
+
+		.contentful--fragment-4 {
+			fill: #CD4739;
+		}
+	</style>
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+	<g>
+		<path class="contentful--fragment-0" d="M79,129.5c-8-7.5-12.7-17.8-12.7-29.5s4.7-22,12.2-29.5c6.6-6.6,6.6-16.9,0-23.4s-16.9-6.6-23.4,0
+		C42,60.6,33.6,79.4,33.6,100s8.4,39.4,22,53c6.6,6.6,16.9,6.6,23.4,0C85.1,146.4,85.1,136.1,79,129.5z" />
+		<path class="contentful--fragment-1" d="M79,70.5c7.5-8,17.8-12.7,29.5-12.7s22,4.7,29.5,12.2c6.6,6.6,16.9,6.6,23.4,0s6.6-16.9,0-23.4
+		c-13.6-13.1-32.3-21.6-53-21.6s-39.4,8.4-53,22c-6.6,6.6-6.6,16.9,0,23.4C62.1,76.6,72.5,76.6,79,70.5z" />
+		<path class="contentful--fragment-2" d="M138.1,129.5c-7.5,8-17.8,12.7-29.5,12.7s-22-4.7-29.5-12.2c-6.6-6.6-16.9-6.6-23.4,0
+		c-6.6,6.6-6.6,16.9,0,23.4c13.6,13.1,32.3,21.6,53,21.6s39.4-8.4,53-22c6.6-6.6,6.6-16.9,0-23.4C155,123.4,144.6,123.4,138.1,129.5
+		z" />
+		<ellipse class="contentful--fragment-3" cx="67.3" cy="58.8" rx="16.4" ry="16.4" />
+		<ellipse class="contentful--fragment-4" cx="67.3" cy="141.3" rx="16.4" ry="16.4" />
+	</g>
+</svg>
