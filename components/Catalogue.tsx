@@ -5,6 +5,7 @@ import { dirname, fromFileUrl, join } from '@std/path';
 import { encodeBase64 } from '@std/encoding';
 import { containerClass } from './styles.ts';
 import { css } from 'hono/css';
+import Counter from './Counter.tsx';
 
 const CURRENT_DIR = dirname(fromFileUrl(import.meta.url));
 const ICON_CATALOGUE = iconNames.reduce((acc, icon) => {
@@ -150,10 +151,16 @@ const catalogueIntroductionClass = css`
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   margin-bottom: 4rem;
+  @media screen and (max-width: 720px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 const catalogueMessageClass = css`
-  p {font-size: 1.3rem; line-height: 1.5;}
+  p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
 `;
 
 const catalogueEntriesGridClass = css`
@@ -161,6 +168,17 @@ const catalogueEntriesGridClass = css`
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
   grid-auto-rows: 80px;
+  @media screen and (max-width: 540px) {
+    grid-template-columns: 1fr;
+  }
+`;
+
+const catalogueCounterClass = css`
+  > p {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.25rem;
+  }
 `;
 
 const Catalogue: FC = () => {
@@ -183,7 +201,11 @@ const Catalogue: FC = () => {
               or open an issue to request it!
             </p>
           </div>
-          <div class='catalogue-introduction--counter'>
+          <div class={catalogueCounterClass}>
+            <Counter />
+            <p>
+              <strong>{iconNames.length}</strong> icons and counting!
+            </p>
           </div>
         </div>
         <div className={catalogueEntriesGridClass}>
