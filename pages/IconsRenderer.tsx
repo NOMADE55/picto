@@ -36,7 +36,7 @@ const IconsRenderer = memo(({ icons, config }: Props) => {
     >
       {icons}
       <g
-        className={`
+        class={`
           theme-${theme}
           ${rounded === 200 ? 'rounded' : ''}
         `}

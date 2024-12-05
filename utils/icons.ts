@@ -28,3 +28,7 @@ export const parseIconParameters = async (
     return acc;
   }, [] as string[]);
 };
+
+export const kebabToName = (kebab: string) =>
+  kebab.split('-').map((w: string) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(' ');
