@@ -1,0 +1,25 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.qwik--fragment-0 {
+			fill: #18B6F6;
+		}
+
+		.qwik--fragment-1 {
+			fill: #AC7EF4;
+		}
+
+		.qwik--fragment-2 {
+			fill: #FFFFFF;
+		}
+	</style>
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+	<g>
+		<path class="qwik--fragment-0" d="M156.7,179.6l-28.6-28.4l-0.4,0.1v-0.3L67,90.9l15-14.5L73.1,26L31.4,77.7c-7.1,7.2-8.4,18.8-3.3,27.4
+		l26.1,43.2c4,6.7,11.2,10.7,19,10.6l12.9-0.1L156.7,179.6z" />
+		<path class="qwik--fragment-1" d="M172.3,76.7l-5.7-10.6l-3-5.4l-1.2-2.1l-0.1,0.1l-15.7-27.2c-3.9-6.9-11.3-11.1-19.3-11l-13.8,0.4l-41.1,0.1
+		c-7.8,0.1-14.9,4.2-18.8,10.8l-25,49.6l44.7-55.5l58.6,64.4l-10.4,10.5l6.2,50.4l0.1-0.1v0.1h-0.1l0.1,0.1l4.9,4.7l23.6,23.1
+		c1,0.9,2.6-0.2,1.9-1.4l-14.6-28.7l25.5-47l0.8-0.9c0.3-0.4,0.6-0.7,0.9-1.1C175.7,93.2,176.4,84.1,172.3,76.7z" />
+		<path class="qwik--fragment-2" d="M132.1,90L73.3,25.9l8.4,50.2l-15,14.5l60.9,60.5l-5.5-50.2L132.1,90z" />
+	</g>
+</svg>

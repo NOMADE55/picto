@@ -1,0 +1,73 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.solid--fragment-0 {
+			fill: #76B3E1;
+		}
+
+		.solid--fragment-1 {
+			opacity: 0.3;
+			fill: url(#svgFragment1);
+			enable-background: new;
+		}
+
+		.solid--fragment-2 {
+			fill: #518AC8;
+		}
+
+		.solid--fragment-3 {
+			opacity: 0.3;
+			fill: url(#svgFragment2);
+			enable-background: new;
+		}
+
+		.solid--fragment-4 {
+			fill: url(#svgFragment3);
+		}
+
+		.solid--fragment-5 {
+			fill: url(#svgFragment4);
+		}
+	</style>
+	<defs>
+		<linearGradient id="svgFragment1" gradientUnits="userSpaceOnUse" x1="47.1774" y1="156.2389" x2="164.6346"
+			y2="213.3135" gradientTransform="matrix(1 0 0 1 0 -126.6)">
+			<stop offset="0.1" style="stop-color:#76B3E1" />
+			<stop offset="0.3" style="stop-color:#DCF2FD" />
+			<stop offset="1" style="stop-color:#76B3E1" />
+		</linearGradient>
+		<linearGradient id="svgFragment2" gradientUnits="userSpaceOnUse" x1="111.5892" y1="184.187" x2="91.0233"
+			y2="252.6804" gradientTransform="matrix(1 0 0 1 0 -126.6)">
+			<stop offset="0" style="stop-color:#76B3E1" />
+			<stop offset="0.5" style="stop-color:#4377BB" />
+			<stop offset="1" style="stop-color:#1F3B77" />
+		</linearGradient>
+		<linearGradient id="svgFragment3" gradientUnits="userSpaceOnUse" x1="38.5485" y1="214.0691" x2="157.321"
+			y2="294.8184" gradientTransform="matrix(1 0 0 1 0 -126.6)">
+			<stop offset="0" style="stop-color:#315AA9" />
+			<stop offset="0.5" style="stop-color:#518AC8" />
+			<stop offset="1" style="stop-color:#315AA9" />
+		</linearGradient>
+		<linearGradient id="svgFragment4" gradientUnits="userSpaceOnUse" x1="92.1821" y1="223.7314" x2="44.2547"
+			y2="399.4787" gradientTransform="matrix(1 0 0 1 0 -126.6)">
+			<stop offset="0" style="stop-color:#4377BB" />
+			<stop offset="0.5" style="stop-color:#1A336B" />
+			<stop offset="1" style="stop-color:#1A336B" />
+		</linearGradient>
+	</defs>
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+	<g>
+		<path class="solid--fragment-0" d="M175,60.1c0,0-49.7-37.5-88.3-28.8l-3.4,0.9c-5.3,1.5-9.9,4.8-13.1,9.2c-0.5,0.8-1,1.5-1.4,2.4L54.5,68.1
+		l24.6,4.8c10.2,7.2,22.9,9.7,35.1,6.9l43.8,8.6L175,60.1z" />
+		<path class="solid--fragment-1" d="M175,60.1c0,0-49.7-37.5-88.3-28.8l-3.4,0.9c-5.3,1.5-9.9,4.8-13.1,9.2c-0.5,0.8-1,1.5-1.4,2.4L54.5,68.1
+		l24.6,4.8c10.2,7.2,22.9,9.7,35.1,6.9l43.8,8.6L175,60.1z" />
+		<path class="solid--fragment-2" d="M69.8,59.7l-3.4,1c-15.7,5.1-21.1,19.8-12.1,32.7c10.7,13.4,28.5,19,44.9,14.1L158,88.3
+		C158,88.3,108.4,50.9,69.8,59.7z" />
+		<path class="solid--fragment-3" d="M69.8,59.7l-3.4,1c-15.7,5.1-21.1,19.8-12.1,32.7c10.7,13.4,28.5,19,44.9,14.1L158,88.3
+		C158,88.3,108.4,50.9,69.8,59.7z" />
+		<path class="solid--fragment-4" d="M147.3,102.1c-10.7-13.5-28.5-19.2-45-14.2l-58.8,19.1L25,139.9l105.3,17.9l18.9-33.6
+		C152.9,117.8,152.5,109.7,147.3,102.1z" />
+		<path class="solid--fragment-5" d="M128.8,135.1c-10.7-13.5-28.4-19.1-44.9-14.2L25,139.9c0,0,49.8,37.5,88.3,28.8l3.4-0.9
+		C132.5,162.7,137.8,148,128.8,135.1z" />
+	</g>
+</svg>

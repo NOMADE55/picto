@@ -95,6 +95,7 @@
 |   `premiere`    |      <img src="./premiere.svg" alt="premiere" width="42" />      |
 |    `prisma`     |        <img src="./prisma.svg" alt="prisma" width="42" />        |
 |    `python`     |        <img src="./python.svg" alt="python" width="42" />        |
+|     `qwik`      |          <img src="./qwik.svg" alt="qwik" width="42" />          |
 |   `rabbitmq`    |      <img src="./rabbitmq.svg" alt="rabbitmq" width="42" />      |
 |     `rails`     |         <img src="./rails.svg" alt="rails" width="42" />         |
 | `raspberry-pi`  |  <img src="./raspberry-pi.svg" alt="raspberry-pi" width="42" />  |
@@ -106,6 +107,7 @@
 |     `sass`      |          <img src="./sass.svg" alt="sass" width="42" />          |
 |     `scala`     |         <img src="./scala.svg" alt="scala" width="42" />         |
 |    `shopify`    |       <img src="./shopify.svg" alt="shopify" width="42" />       |
+|     `solid`     |         <img src="./solid.svg" alt="solid" width="42" />         |
 |    `stencil`    |       <img src="./stencil.svg" alt="stencil" width="42" />       |
 |    `strapi`     |        <img src="./strapi.svg" alt="strapi" width="42" />        |
 |    `svelte`     |        <img src="./svelte.svg" alt="svelte" width="42" />        |
@@ -127,5 +129,5 @@
 ---
 
 <br>
-Current icon count: <strong>117</strong>
+Current icon count: <strong>119</strong>
 <!-- SUPPORTED:ICONS:END -->
