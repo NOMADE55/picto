@@ -64,6 +64,7 @@
 |    `joomla`     |        <img src="./joomla.svg" alt="joomla" width="42" />        |
 |    `jquery`     |        <img src="./jquery.svg" alt="jquery" width="42" />        |
 |     `julia`     |         <img src="./julia.svg" alt="julia" width="42" />         |
+|     `kafka`     |         <img src="./kafka.svg" alt="kafka" width="42" />         |
 |    `kotlin`     |        <img src="./kotlin.svg" alt="kotlin" width="42" />        |
 |    `laravel`    |       <img src="./laravel.svg" alt="laravel" width="42" />       |
 |   `lightroom`   |     <img src="./lightroom.svg" alt="lightroom" width="42" />     |
@@ -77,6 +78,7 @@
 |     `mongo`     |         <img src="./mongo.svg" alt="mongo" width="42" />         |
 |     `mysql`     |         <img src="./mysql.svg" alt="mysql" width="42" />         |
 |    `nestjs`     |        <img src="./nestjs.svg" alt="nestjs" width="42" />        |
+|    `netlify`    |       <img src="./netlify.svg" alt="netlify" width="42" />       |
 |      `nim`      |           <img src="./nim.svg" alt="nim" width="42" />           |
 |     `node`      |          <img src="./node.svg" alt="node" width="42" />          |
 |     `nuxt`      |          <img src="./nuxt.svg" alt="nuxt" width="42" />          |
@@ -86,6 +88,7 @@
 |    `pandas`     |        <img src="./pandas.svg" alt="pandas" width="42" />        |
 |   `photoshop`   |     <img src="./photoshop.svg" alt="photoshop" width="42" />     |
 |      `php`      |           <img src="./php.svg" alt="php" width="42" />           |
+|   `pinecone`    |      <img src="./pinecone.svg" alt="pinecone" width="42" />      |
 |  `postgresql`   |    <img src="./postgresql.svg" alt="postgresql" width="42" />    |
 |    `postman`    |       <img src="./postman.svg" alt="postman" width="42" />       |
 |    `preact`     |        <img src="./preact.svg" alt="preact" width="42" />        |
@@ -97,6 +100,8 @@
 | `raspberry-pi`  |  <img src="./raspberry-pi.svg" alt="raspberry-pi" width="42" />  |
 |     `react`     |         <img src="./react.svg" alt="react" width="42" />         |
 |    `redhat`     |        <img src="./redhat.svg" alt="redhat" width="42" />        |
+|     `redis`     |         <img src="./redis.svg" alt="redis" width="42" />         |
+|     `remix`     |         <img src="./remix.svg" alt="remix" width="42" />         |
 |     `ruby`      |          <img src="./ruby.svg" alt="ruby" width="42" />          |
 |     `sass`      |          <img src="./sass.svg" alt="sass" width="42" />          |
 |     `scala`     |         <img src="./scala.svg" alt="scala" width="42" />         |
@@ -107,6 +112,7 @@
 |     `swift`     |         <img src="./swift.svg" alt="swift" width="42" />         |
 |    `symfony`    |       <img src="./symfony.svg" alt="symfony" width="42" />       |
 |   `terraform`   |     <img src="./terraform.svg" alt="terraform" width="42" />     |
+|     `turso`     |         <img src="./turso.svg" alt="turso" width="42" />         |
 |  `typescript`   |    <img src="./typescript.svg" alt="typescript" width="42" />    |
 |    `ubuntu`     |        <img src="./ubuntu.svg" alt="ubuntu" width="42" />        |
 |     `unity`     |         <img src="./unity.svg" alt="unity" width="42" />         |
@@ -121,5 +127,5 @@
 ---
 
 <br>
-Current icon count: <strong>111</strong>
+Current icon count: <strong>117</strong>
 <!-- SUPPORTED:ICONS:END -->
