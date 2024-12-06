@@ -32,27 +32,27 @@
 	<defs>
 		<linearGradient id="svgFragment1" gradientUnits="userSpaceOnUse" x1="47.1774" y1="156.2389" x2="164.6346"
 			y2="213.3135" gradientTransform="matrix(1 0 0 1 0 -126.6)">
-			<stop offset="0.1" style="stop-color:#76B3E1" />
-			<stop offset="0.3" style="stop-color:#DCF2FD" />
-			<stop offset="1" style="stop-color:#76B3E1" />
+			<stop stop-color="#76B3E1" offset="0.1" />
+			<stop stop-color="#DCF2FD" offset="0.3" />
+			<stop stop-color="#76B3E1" offset="1" />
 		</linearGradient>
 		<linearGradient id="svgFragment2" gradientUnits="userSpaceOnUse" x1="111.5892" y1="184.187" x2="91.0233"
 			y2="252.6804" gradientTransform="matrix(1 0 0 1 0 -126.6)">
-			<stop offset="0" style="stop-color:#76B3E1" />
-			<stop offset="0.5" style="stop-color:#4377BB" />
-			<stop offset="1" style="stop-color:#1F3B77" />
+			<stop stop-color="#76B3E1" offset="0" />
+			<stop stop-color="#4377BB" offset="0.5" />
+			<stop stop-color="#1F3B77" offset="1" />
 		</linearGradient>
 		<linearGradient id="svgFragment3" gradientUnits="userSpaceOnUse" x1="38.5485" y1="214.0691" x2="157.321"
 			y2="294.8184" gradientTransform="matrix(1 0 0 1 0 -126.6)">
-			<stop offset="0" style="stop-color:#315AA9" />
-			<stop offset="0.5" style="stop-color:#518AC8" />
-			<stop offset="1" style="stop-color:#315AA9" />
+			<stop stop-color="#315AA9" offset="0" />
+			<stop stop-color="#518AC8" offset="0.5" />
+			<stop stop-color="#315AA9" offset="1" />
 		</linearGradient>
 		<linearGradient id="svgFragment4" gradientUnits="userSpaceOnUse" x1="92.1821" y1="223.7314" x2="44.2547"
 			y2="399.4787" gradientTransform="matrix(1 0 0 1 0 -126.6)">
-			<stop offset="0" style="stop-color:#4377BB" />
-			<stop offset="0.5" style="stop-color:#1A336B" />
-			<stop offset="1" style="stop-color:#1A336B" />
+			<stop stop-color="#4377BB" offset="0" />
+			<stop stop-color="#1A336B" offset="0.5" />
+			<stop stop-color="#1A336B" offset="1" />
 		</linearGradient>
 	</defs>
 	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
