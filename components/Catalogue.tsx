@@ -1,13 +1,11 @@
 import { FC, PropsWithChildren } from 'hono/jsx';
 import { iconNames } from '../icons/index.ts';
 import { kebabToName } from '../utils/icons.ts';
-import { dirname, fromFileUrl, join } from '@std/path';
-import { encodeBase64 } from '@std/encoding';
 import { containerClass } from './styles.ts';
 import { css } from 'hono/css';
 import Counter from './Counter.tsx';
+import Icon from './Icon.tsx';
 
-const CURRENT_DIR = dirname(fromFileUrl(import.meta.url));
 const ICON_CATALOGUE = iconNames.reduce((acc, icon) => {
   const f = icon[0];
   if (!acc?.[f]) {
@@ -25,10 +23,6 @@ const catalogueSort = (a: string, b: string) => {
   if (Number.isNaN(aNumber)) return -1;
   return aNumber < bNumber ? -1 : 1;
 };
-
-interface IconProps {
-  icon: string;
-}
 
 interface HeaderProps {
   letter: string;
@@ -73,21 +67,6 @@ const catalogueEntryIconImage = css`
     width: 100%; height: 100%; object-fit: cover;
   }
 `;
-
-const Icon = async ({ icon }: PropsWithChildren<IconProps>) => {
-  return (
-    <div class={catalogueEntryIcon}>
-      <div class={catalogueEntryIconImage}>
-        <img
-          src={'data:image/svg+xml;base64,' + encodeBase64(
-            await Deno.readFile(join(CURRENT_DIR, `../icons/${icon}.svg`)),
-          )}
-        />
-      </div>
-      <h4>{kebabToName(icon)}</h4>
-    </div>
-  );
-};
 
 const headerClass = css`
   padding-left: .75rem;
@@ -141,7 +120,14 @@ const cataloguEntryClass = (iconCount: number = 1) =>
 const Entry = ({ letter, icons }: PropsWithChildren<EntryProps>) => (
   <section class={cataloguEntryClass(icons.length)}>
     <Header letter={letter} />
-    {icons.map((i) => <Icon icon={i} />)}
+    {icons.map((i) => (
+      <div class={catalogueEntryIcon}>
+        <div class={catalogueEntryIconImage}>
+          <Icon icon={i} />
+        </div>
+        <h4>{kebabToName(i)}</h4>
+      </div>
+    ))}
   </section>
 );
 
