@@ -7,6 +7,7 @@ import icons from './routes/icons.tsx';
 const app = new OpenAPIHono();
 
 app.use('/favicon.ico', serveStatic({ path: './public/picto-iso.svg' }));
+app.use('/og-picto.jpg', serveStatic({ path: './public/og-picto.jpg' }));
 
 app.route('/', home);
 app.route('/icons', icons);

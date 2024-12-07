@@ -176,15 +176,18 @@ const Catalogue: FC = () => {
             <h2>Current Catalogue</h2>
             <p>
               We're always adding new icons to our collection. However we might
-              be missing that one icon you need. Feel free to submit a PR to
-              {' '}
+              be missing that
+              <strong>
+                <i>{' '}one{' '}</i>
+              </strong>
+              icon you need. Feel free to open a PR or request it in{' '}
               <a
                 class='text-color__yellow'
-                href='https://github.com/NOMADE55/picto'
+                href='https://github.com/NOMADE55/picto/issues'
               >
-                the repository
-              </a>{' '}
-              or open an issue to request it!
+                Github issues
+              </a>
+              !
             </p>
           </div>
           <div class={catalogueCounterClass}>
