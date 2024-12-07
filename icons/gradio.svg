@@ -1,0 +1,43 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.gradio--fragment-0 {
+			fill: url(#svgFragment1);
+		}
+
+		.gradio--fragment-1 {
+			fill: url(#svgFragment2);
+		}
+
+		.gradio--fragment-2 {
+			fill: url(#svgFragment3);
+		}
+	</style>
+	<defs>
+		<linearGradient id="svgFragment1" gradientUnits="userSpaceOnUse" x1="234.0286" y1="-1544.1456" x2="2268.1428"
+			y2="-1544.1456" gradientTransform="matrix(6.695590e-02 0 0 -6.695590e-02 0.475 14.9543)">
+			<stop stop-color="#F9D100" offset="0" />
+			<stop stop-color="#F97700" offset="1" />
+		</linearGradient>
+		<linearGradient id="svgFragment2" gradientUnits="userSpaceOnUse" x1="2730.5667" y1="-996.1871" x2="693.6999"
+			y2="-996.1871" gradientTransform="matrix(6.695590e-02 0 0 -6.695590e-02 0.475 14.9543)">
+			<stop stop-color="#F9D100" offset="0" />
+			<stop stop-color="#F97700" offset="1" />
+		</linearGradient>
+		<linearGradient id="svgFragment3" gradientUnits="userSpaceOnUse" x1="300.3038" y1="-1267.0272" x2="2325.1658"
+			y2="-1255.0148" gradientTransform="matrix(6.695590e-02 0 0 -6.695590e-02 0.475 14.9543)">
+			<stop stop-color="#F9D100" offset="0" />
+			<stop stop-color="#F97700" offset="1" />
+		</linearGradient>
+	</defs>
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+	<g>
+		<path class="gradio--fragment-0" d="M100,165.4c-1.6,0-3.3-0.4-4.8-1.3l-65.4-37.5c-3-1.7-4.8-4.9-4.8-8.3s1.8-6.6,4.8-8.3l65.4-37.5
+		c3-1.7,6.6-1.7,9.5,0l65.4,37.5c3,1.7,4.8,4.9,4.8,8.3s-1.8,6.6-4.8,8.3l-65.4,37.5C103.3,165,101.6,165.4,100,165.4z M53.8,118.3
+		l46.2,26.5l46.2-26.5L100,91.9L53.8,118.3z" />
+		<path class="gradio--fragment-1" d="M100,128.7c-1.6,0-3.3-0.4-4.8-1.3L29.8,90c-3-1.7-4.8-4.9-4.8-8.3s1.8-6.6,4.8-8.3l65.4-37.5
+		c3-1.7,6.6-1.7,9.5,0l65.4,37.5c3,1.7,4.8,4.9,4.8,8.3s-1.8,6.6-4.8,8.3l-65.4,37.5C103.3,128.3,101.6,128.7,100,128.7z M53.8,81.7
+		l46.2,26.5l46.2-26.5L100,55.2L53.8,81.7z" />
+		<polygon class="gradio--fragment-2" points="39.3,126.5 29.8,109.9 95.4,72.5 104.9,89.2" />
+	</g>
+</svg>

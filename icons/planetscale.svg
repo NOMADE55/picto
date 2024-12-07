@@ -1,0 +1,11 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.planetscale {
+			fill: #414141;
+		}
+	</style>
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+	<path class="planetscale" d="M25,100c0-41.4,33.6-75,75-75c30.5,0,56.7,18.2,68.4,44.2l-99.2,99.2c-4.2-1.9-8.3-4.2-12.1-6.9l61.6-61.6H100
+	l-53,53C32.9,139,25,119.9,25,100 M175,100l-75,75C141.4,175,175,141.4,175,100" />
+</svg>

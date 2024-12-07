@@ -11,8 +11,10 @@
 |   `airtable`    |      <img src="./airtable.svg" alt="airtable" width="42" />      |
 |    `alpine`     |        <img src="./alpine.svg" alt="alpine" width="42" />        |
 |    `angular`    |       <img src="./angular.svg" alt="angular" width="42" />       |
+|   `appwrite`    |      <img src="./appwrite.svg" alt="appwrite" width="42" />      |
 |  `arch-linux`   |    <img src="./arch-linux.svg" alt="arch-linux" width="42" />    |
 |     `astro`     |         <img src="./astro.svg" alt="astro" width="42" />         |
+|     `azure`     |         <img src="./azure.svg" alt="azure" width="42" />         |
 |   `backbone`    |      <img src="./backbone.svg" alt="backbone" width="42" />      |
 |     `bash`      |          <img src="./bash.svg" alt="bash" width="42" />          |
 |    `blender`    |       <img src="./blender.svg" alt="blender" width="42" />       |
@@ -34,8 +36,10 @@
 |    `docker`     |        <img src="./docker.svg" alt="docker" width="42" />        |
 |    `dotnet`     |        <img src="./dotnet.svg" alt="dotnet" width="42" />        |
 |    `drupal`     |        <img src="./drupal.svg" alt="drupal" width="42" />        |
+|    `elysia`     |        <img src="./elysia.svg" alt="elysia" width="42" />        |
 |     `ember`     |         <img src="./ember.svg" alt="ember" width="42" />         |
 |      `eta`      |           <img src="./eta.svg" alt="eta" width="42" />           |
+|   `fast-api`    |      <img src="./fast-api.svg" alt="fast-api" width="42" />      |
 |    `fedora`     |        <img src="./fedora.svg" alt="fedora" width="42" />        |
 |     `figma`     |         <img src="./figma.svg" alt="figma" width="42" />         |
 |   `firebase`    |      <img src="./firebase.svg" alt="firebase" width="42" />      |
@@ -49,6 +53,7 @@
 |     `godot`     |         <img src="./godot.svg" alt="godot" width="42" />         |
 |    `golang`     |        <img src="./golang.svg" alt="golang" width="42" />        |
 | `google-cloud`  |  <img src="./google-cloud.svg" alt="google-cloud" width="42" />  |
+|    `gradio`     |        <img src="./gradio.svg" alt="gradio" width="42" />        |
 |    `grafana`    |       <img src="./grafana.svg" alt="grafana" width="42" />       |
 |    `graphql`    |       <img src="./graphql.svg" alt="graphql" width="42" />       |
 |     `gulp`      |          <img src="./gulp.svg" alt="gulp" width="42" />          |
@@ -80,21 +85,25 @@
 |    `nestjs`     |        <img src="./nestjs.svg" alt="nestjs" width="42" />        |
 |    `netlify`    |       <img src="./netlify.svg" alt="netlify" width="42" />       |
 |      `nim`      |           <img src="./nim.svg" alt="nim" width="42" />           |
+|      `nix`      |           <img src="./nix.svg" alt="nix" width="42" />           |
 |     `node`      |          <img src="./node.svg" alt="node" width="42" />          |
 |     `nuxt`      |          <img src="./nuxt.svg" alt="nuxt" width="42" />          |
 |     `ocaml`     |         <img src="./ocaml.svg" alt="ocaml" width="42" />         |
 |    `october`    |       <img src="./october.svg" alt="october" width="42" />       |
 |    `open-ai`    |       <img src="./open-ai.svg" alt="open-ai" width="42" />       |
+|    `open-cv`    |       <img src="./open-cv.svg" alt="open-cv" width="42" />       |
 |    `pandas`     |        <img src="./pandas.svg" alt="pandas" width="42" />        |
 |   `photoshop`   |     <img src="./photoshop.svg" alt="photoshop" width="42" />     |
 |      `php`      |           <img src="./php.svg" alt="php" width="42" />           |
 |   `pinecone`    |      <img src="./pinecone.svg" alt="pinecone" width="42" />      |
+|  `planetscale`  |   <img src="./planetscale.svg" alt="planetscale" width="42" />   |
 |  `postgresql`   |    <img src="./postgresql.svg" alt="postgresql" width="42" />    |
 |    `postman`    |       <img src="./postman.svg" alt="postman" width="42" />       |
 |    `preact`     |        <img src="./preact.svg" alt="preact" width="42" />        |
 |   `premiere`    |      <img src="./premiere.svg" alt="premiere" width="42" />      |
 |    `prisma`     |        <img src="./prisma.svg" alt="prisma" width="42" />        |
 |    `python`     |        <img src="./python.svg" alt="python" width="42" />        |
+|    `pytorch`    |       <img src="./pytorch.svg" alt="pytorch" width="42" />       |
 |     `qwik`      |          <img src="./qwik.svg" alt="qwik" width="42" />          |
 |   `rabbitmq`    |      <img src="./rabbitmq.svg" alt="rabbitmq" width="42" />      |
 |     `rails`     |         <img src="./rails.svg" alt="rails" width="42" />         |
@@ -108,11 +117,15 @@
 |     `scala`     |         <img src="./scala.svg" alt="scala" width="42" />         |
 |    `shopify`    |       <img src="./shopify.svg" alt="shopify" width="42" />       |
 |     `solid`     |         <img src="./solid.svg" alt="solid" width="42" />         |
+|   `solidity`    |      <img src="./solidity.svg" alt="solidity" width="42" />      |
+|  `springboot`   |    <img src="./springboot.svg" alt="springboot" width="42" />    |
 |    `stencil`    |       <img src="./stencil.svg" alt="stencil" width="42" />       |
 |    `strapi`     |        <img src="./strapi.svg" alt="strapi" width="42" />        |
 |    `svelte`     |        <img src="./svelte.svg" alt="svelte" width="42" />        |
 |     `swift`     |         <img src="./swift.svg" alt="swift" width="42" />         |
 |    `symfony`    |       <img src="./symfony.svg" alt="symfony" width="42" />       |
+|   `tailwind`    |      <img src="./tailwind.svg" alt="tailwind" width="42" />      |
+|     `tauri`     |         <img src="./tauri.svg" alt="tauri" width="42" />         |
 |   `terraform`   |     <img src="./terraform.svg" alt="terraform" width="42" />     |
 |     `turso`     |         <img src="./turso.svg" alt="turso" width="42" />         |
 |  `typescript`   |    <img src="./typescript.svg" alt="typescript" width="42" />    |
@@ -121,6 +134,7 @@
 | `unreal-engine` | <img src="./unreal-engine.svg" alt="unreal-engine" width="42" /> |
 |      `vue`      |           <img src="./vue.svg" alt="vue" width="42" />           |
 |    `webflow`    |       <img src="./webflow.svg" alt="webflow" width="42" />       |
+|    `webpack`    |       <img src="./webpack.svg" alt="webpack" width="42" />       |
 |      `woo`      |           <img src="./woo.svg" alt="woo" width="42" />           |
 |   `wordpress`   |     <img src="./wordpress.svg" alt="wordpress" width="42" />     |
 |     `yarn`      |          <img src="./yarn.svg" alt="yarn" width="42" />          |
@@ -129,5 +143,5 @@
 ---
 
 <br>
-Current icon count: <strong>119</strong>
+Current icon count: <strong>133</strong>
 <!-- SUPPORTED:ICONS:END -->

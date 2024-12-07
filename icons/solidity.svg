@@ -1,0 +1,28 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.solidity--fragment-0 {
+			opacity: 0.8;
+			fill: #000;
+		}
+
+		.solidity--fragment-1 {
+			opacity: 0.45;
+			fill: #000;
+		}
+
+		.solidity--fragment-2 {
+			opacity: 0.6;
+			fill: #000;
+		}
+	</style>
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+	<g>
+		<path class="solidity--fragment-0" d="M100,66.1L76.3,25L52.5,66.1l23.7,41.1L100,66.1z" />
+		<path class="solidity--fragment-1" d="M100,66.1L123.7,25H76.3L52.5,66.1H100z" />
+		<path class="solidity--fragment-2" d="M123.7,25H76.3L100,66.1h47.5L123.7,25z" />
+		<path class="solidity--fragment-0" d="M100,133.9l23.7,41.1l23.7-41.1l-23.7-41.1L100,133.9z" />
+		<path class="solidity--fragment-1" d="M100,133.9L76.3,175h47.5l23.7-41.1H100z" />
+		<path class="solidity--fragment-2" d="M76.3,175h47.5L100,133.9H52.5L76.3,175z" />
+	</g>
+</svg>

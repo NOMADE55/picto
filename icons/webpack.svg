@@ -1,0 +1,25 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.webpack--fragment-0 {
+			fill: #FFFFFF;
+		}
+
+		.webpack--fragment-1 {
+			fill: #8ED6FB;
+		}
+
+		.webpack--fragment-2 {
+			fill: #1C78C0;
+		}
+	</style>
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+	<g>
+		<path class="webpack--fragment-0" d="M100,25l66.3,37.5v75L100,175l-66.3-37.5v-75L100,25z" />
+		<path class="webpack--fragment-1" d="M154.5,134.9l-52.3,29.6v-23l32.6-17.9L154.5,134.9z M158,131.7V69.9l-19.1,11v39.7L158,131.7z M45.3,134.9
+		l52.3,29.6v-23L65,123.5L45.3,134.9z M41.8,131.7V69.9l19.1,11v39.7L41.8,131.7z M44,65.9l53.6-30.3v22.3L63.3,76.7L63,76.8
+		L44,65.9z M155.8,65.9l-53.6-30.3v22.3l34.3,18.9l0.3,0.2L155.8,65.9z" />
+		<path class="webpack--fragment-2" d="M97.6,136.2l-32.1-17.7v-35l32.1,18.6V136.2z M102.2,136.2l32.1-17.7v-35l-32.1,18.6L102.2,136.2z M67.6,79.5
+		l32.3-17.7l32.3,17.7L99.9,98.1L67.6,79.5z" />
+	</g>
+</svg>
