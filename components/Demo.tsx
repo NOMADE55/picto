@@ -81,6 +81,11 @@ const showcaseImageClass = css`
   }
 `;
 
+const commentClass = css`
+  opacity: .4;
+  margin-bottom: .5rem;
+`;
+
 const DEMO_ICONS = [
   'postgresql',
   'php',
@@ -95,21 +100,24 @@ const Demo: FC = () => {
     <section class={cx(containerClass, demoSectionClass)}>
       <div class={showcaseClass}>
         <div class={showcaseInputGroupClass}>
-          <div class={showcaseDemoInputClass}>
-            <span>
-              {HOST}/icons
-            </span>
-            <span class='text-color__yellow'>?i</span>
-            =
-            <span>
-              {DEMO_ICONS.map((icon, idx) =>
-                icon + (idx !== DEMO_ICONS.length - 1 ? ',' : '')
-              )}
-            </span>
-            <span class='text-color__yellow'>&rounded</span>
-            =24
-            <span class='text-color__yellow'>&height</span>
-            =50
+          <div>
+            <p class={commentClass}>// Full stack skills</p>
+            <div class={showcaseDemoInputClass}>
+              <span>
+                {HOST}/icons
+              </span>
+              <span class='text-color__yellow'>?i</span>
+              =
+              <span>
+                {DEMO_ICONS.map((icon, idx) =>
+                  icon + (idx !== DEMO_ICONS.length - 1 ? ',' : '')
+                )}
+              </span>
+              <span class='text-color__yellow'>&rounded</span>
+              =24
+              <span class='text-color__yellow'>&height</span>
+              =50
+            </div>
           </div>
           {
             /* <button class={buttonClass}>
