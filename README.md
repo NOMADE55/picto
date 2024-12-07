@@ -12,6 +12,10 @@
 **Picto** is a tool that generates dynamic images to showcase the programming
 languages, technologies, and tools you’ve learned.
 
+#### ✨ +100 icons in our library currently!
+
+Check the [**full list**](icons/README.md).
+
 ## 🤔 How to create your own **Picto**?
 
 That's easy! Picto allows you to customize the appearance and layout of the

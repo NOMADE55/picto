@@ -37,6 +37,11 @@ const showcaseInputGroupClass = css`
   }
 `;
 
+const showcaseDemoInputClass = css`
+  white-space: nowrap;
+  overflow: auto;
+`;
+
 // const buttonClass = css`
 //   border-radius: var(--rounded);
 //   background: none;
@@ -90,7 +95,7 @@ const Demo: FC = () => {
     <section class={cx(containerClass, demoSectionClass)}>
       <div class={showcaseClass}>
         <div class={showcaseInputGroupClass}>
-          <div>
+          <div class={showcaseDemoInputClass}>
             <span>
               {HOST}/icons
             </span>

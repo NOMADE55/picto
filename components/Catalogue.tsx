@@ -113,8 +113,8 @@ const Header = ({ letter }: PropsWithChildren<HeaderProps>) => (
 
 const cataloguEntryClass = (iconCount: number = 1) =>
   css`
-    position: relative;
-    grid-row: span ${iconCount + 1};
+  position: relative;
+  grid-row: span ${iconCount + 1};
 `;
 
 const Entry = ({ letter, icons }: PropsWithChildren<EntryProps>) => (
