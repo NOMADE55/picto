@@ -34,7 +34,6 @@ const IconsRenderer = memo(({ icons, config }: Props) => {
       version='1.1'
       style={getCSSVariables(config)}
     >
-      {icons}
       <g
         class={`
           theme-${theme}

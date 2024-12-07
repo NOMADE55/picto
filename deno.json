@@ -8,11 +8,11 @@
   },
   "tasks": {
     "start": {
-      "command": "deno serve --watch --allow-all main.tsx",
+      "command": "deno serve --watch --env-file --allow-all main.tsx",
       "description": "Start the server"
     },
     "icons:doc": {
-      "command": "deno --allow-read --allow-write --allow-run bin/icons.ts",
+      "command": "deno --env-file --allow-read --allow-write --allow-run bin/icons.ts",
       "description": "This command parses the icons folder to document them in their files"
     }
   },

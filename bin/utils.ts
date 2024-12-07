@@ -1,4 +1,4 @@
-import { walk, WalkOptions } from 'jsr:@std/fs';
+import { walk, WalkOptions } from '@std/fs';
 
 export const replaceBetween = (
   content: string,

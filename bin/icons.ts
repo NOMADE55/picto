@@ -1,4 +1,4 @@
-import { dirname, fromFileUrl, join } from 'jsr:@std/path';
+import { dirname, fromFileUrl, join } from '@std/path';
 import { getFiles, replaceBetween, writeFile } from './utils.ts';
 
 const SUPPORTED_ICONS_FLAG_START = '<!-- SUPPORTED:ICONS:START -->';
