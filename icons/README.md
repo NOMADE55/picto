@@ -14,14 +14,17 @@
 |   `appwrite`    |      <img src="./appwrite.svg" alt="appwrite" width="42" />      |
 |  `arch-linux`   |    <img src="./arch-linux.svg" alt="arch-linux" width="42" />    |
 |     `astro`     |         <img src="./astro.svg" alt="astro" width="42" />         |
+|     `auth0`     |         <img src="./auth0.svg" alt="auth0" width="42" />         |
 |     `azure`     |         <img src="./azure.svg" alt="azure" width="42" />         |
 |   `backbone`    |      <img src="./backbone.svg" alt="backbone" width="42" />      |
 |     `bash`      |          <img src="./bash.svg" alt="bash" width="42" />          |
 |    `blender`    |       <img src="./blender.svg" alt="blender" width="42" />       |
+|     `bower`     |         <img src="./bower.svg" alt="bower" width="42" />         |
 |      `bun`      |           <img src="./bun.svg" alt="bun" width="42" />           |
 |  `c-plus-plus`  |   <img src="./c-plus-plus.svg" alt="c-plus-plus" width="42" />   |
 |    `c-sharp`    |       <img src="./c-sharp.svg" alt="c-sharp" width="42" />       |
 |    `claude`     |        <img src="./claude.svg" alt="claude" width="42" />        |
+|     `clerk`     |         <img src="./clerk.svg" alt="clerk" width="42" />         |
 |    `clojure`    |       <img src="./clojure.svg" alt="clojure" width="42" />       |
 |  `contentful`   |    <img src="./contentful.svg" alt="contentful" width="42" />    |
 |    `cordova`    |       <img src="./cordova.svg" alt="cordova" width="42" />       |
@@ -56,6 +59,7 @@
 |    `gradio`     |        <img src="./gradio.svg" alt="gradio" width="42" />        |
 |    `grafana`    |       <img src="./grafana.svg" alt="grafana" width="42" />       |
 |    `graphql`    |       <img src="./graphql.svg" alt="graphql" width="42" />       |
+|     `grunt`     |         <img src="./grunt.svg" alt="grunt" width="42" />         |
 |     `gulp`      |          <img src="./gulp.svg" alt="gulp" width="42" />          |
 |    `haskell`    |       <img src="./haskell.svg" alt="haskell" width="42" />       |
 |     `hono`      |          <img src="./hono.svg" alt="hono" width="42" />          |
@@ -113,6 +117,7 @@
 |     `redis`     |         <img src="./redis.svg" alt="redis" width="42" />         |
 |     `remix`     |         <img src="./remix.svg" alt="remix" width="42" />         |
 |     `ruby`      |          <img src="./ruby.svg" alt="ruby" width="42" />          |
+|  `salesforce`   |    <img src="./salesforce.svg" alt="salesforce" width="42" />    |
 |     `sass`      |          <img src="./sass.svg" alt="sass" width="42" />          |
 |     `scala`     |         <img src="./scala.svg" alt="scala" width="42" />         |
 |    `shopify`    |       <img src="./shopify.svg" alt="shopify" width="42" />       |
@@ -143,5 +148,5 @@
 ---
 
 <br>
-Current icon count: <strong>133</strong>
+Current icon count: <strong>138</strong>
 <!-- SUPPORTED:ICONS:END -->
