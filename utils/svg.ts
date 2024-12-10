@@ -3,7 +3,7 @@ import { CSSProperties } from 'hono/jsx';
 export const DEFAULT_SIZE = 100;
 export const ICON_CELL_WIDTH = 225;
 export const ICON_CELL_OFFSET = 25;
-export const PLAYFUL_SCALE = .85;
+export const PLAYFUL_ROTATION = 6;
 
 export const getTransformValue = (
   { index, cols, playful, cellWidth = ICON_CELL_WIDTH }: {
@@ -12,27 +12,17 @@ export const getTransformValue = (
     playful?: boolean;
     cellWidth?: number;
   },
-) => {
-  const transforms = [];
-  const col = index % cols;
-  let translateX = (index % cols) * cellWidth;
-  let translateY = Math.floor(index / cols) * cellWidth;
-
+): string => {
+  let transform = `translate(${(index % cols) * cellWidth}, ${
+    Math.floor(index / cols) * cellWidth
+  })`;
   if (playful) {
-    const scaled = DEFAULT_SIZE * PLAYFUL_SCALE;
-    translateY += DEFAULT_SIZE - scaled;
-    translateX -= (DEFAULT_SIZE - scaled) * col * 2;
-
-    transforms.push(
-      `rotate(${index % 2 ? '-' : ''}5, ${scaled}, ${scaled})`,
-    );
-
-    transforms.push(`scale(${PLAYFUL_SCALE})`);
+    transform += `rotate(${
+      index % 2 ? '-' : ''
+    }${PLAYFUL_ROTATION}, ${DEFAULT_SIZE}, ${DEFAULT_SIZE})`;
   }
-  return [
-    `translate(${translateX}, ${translateY})`,
-    ...transforms,
-  ].join(', ');
+
+  return transform;
 };
 
 export const getCSSVariables = (
@@ -58,10 +48,20 @@ interface ViewBox {
 export const calcViewBox = (
   amount: number = 0,
   { cols, playful }: BaseSVGConfig,
-): ViewBox => ({
-  minY: 0,
-  minX: playful ? ICON_CELL_OFFSET * -1 : 0,
-  height: Math.ceil(amount / cols) * ICON_CELL_WIDTH - ICON_CELL_OFFSET,
-  width: Math.min(cols * ICON_CELL_WIDTH, amount * ICON_CELL_WIDTH) -
-    ICON_CELL_OFFSET,
-});
+): ViewBox => {
+  let minY = 0;
+  let minX = 0;
+  let height = Math.ceil(amount / cols) * ICON_CELL_WIDTH - ICON_CELL_OFFSET;
+  let width = Math.min(cols * ICON_CELL_WIDTH, amount * ICON_CELL_WIDTH) -
+    ICON_CELL_OFFSET;
+
+  if (playful) {
+    const offset = PLAYFUL_ROTATION * 1.5;
+    minY -= offset;
+    minX -= offset;
+    height += offset * 2;
+    width += offset * 2;
+  }
+
+  return { minY, minX, height, width };
+};
