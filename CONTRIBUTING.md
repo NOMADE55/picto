@@ -23,7 +23,7 @@ features of Picto, it's important to closely follow the guidelines.
 - If the icon has more than one `<path>`, they should be grouped in a `<g>`.
 - Naming the file should follow kebab-case, using only the name of the tool or
   language.
-- Background should always have `--rx` and `--bg` variables.
+- Background should always have `--rx`, `--filter`, and `--bg` variables.
 
 ### Recommended flow to create an Icon
 
@@ -48,9 +48,13 @@ features of Picto, it's important to closely follow the guidelines.
 #### Background
 
 Background includes the fill and rx (rounded corner) properties as CSS
-variables. Default value for `fill` will be shown if no background has been set
-by the renderer. Default value for `rx` is always `24px`.
+variables.
+
+- Default value for `bg` will be shown if no background has been set by the
+  renderer.
+- Default value for `rx` is always `24px`.
+- `--filter` has no default value.
 
 ```xml
-<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
+<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px); filter: var(--filter); filter: var(--filter);" />
 ```

@@ -21,7 +21,7 @@
 			fill: #A259FF;
 		}
 	</style>
-	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px); filter: var(--filter);" />
 	<g>
 		<path class="figma--fragment-0"
 			d="M100,100c0-13.8,11.2-25,25-25s25,11.2,25,25s-11.2,25-25,25S100,113.8,100,100z" />

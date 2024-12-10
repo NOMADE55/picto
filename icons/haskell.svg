@@ -13,7 +13,7 @@
 			fill: #8F4E8B;
 		}
 	</style>
-	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px); filter: var(--filter);" />
 	<g>
 		<polygon class="haskell--fragment-0" points="25,152.9 60.3,100 25,47.1 51.5,47.1 86.8,100 51.5,152.9 	" />
 		<polygon class="haskell--fragment-1"

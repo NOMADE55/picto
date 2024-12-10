@@ -3,11 +3,20 @@ import Renderer from '../pages/IconsRenderer.tsx';
 import { parseIconParameters } from '../utils/icons.ts';
 
 const DEFAULT_COLS = 8;
-const DEFAULT_THEME = 'default';
 const VALID_MIN_SIZE = 8;
 const VALID_MAX_SIZE = 800;
 const VALID_MIN_ROUNDED = 0;
 const VALID_MAX_ROUNDED = 200;
+const VALID_THEME = [
+  'default',
+] as const;
+const VALID_SHADOW = [
+  'xs',
+  'sm',
+  'md',
+  'lg',
+  'xl',
+] as const;
 
 const app = new OpenAPIHono();
 
@@ -23,8 +32,8 @@ const QueryParamsSchema = z.object({
   ).optional(),
   i: z.string().optional(),
   bg: z.enum(['none']).transform((v?: string) => v !== 'none').optional(),
-  theme: z.enum(['light', 'dark', 'default']).optional().default(
-    DEFAULT_THEME,
+  theme: z.enum(VALID_THEME).optional().default(
+    'default',
   ),
   rounded: z.union([
     z.enum(['none', 'round']),
@@ -37,6 +46,7 @@ const QueryParamsSchema = z.object({
     if (v === 'round') return 200;
     return 0;
   }).optional(),
+  shadow: z.enum(VALID_SHADOW).optional(),
 });
 
 const index = createRoute({
@@ -67,14 +77,15 @@ app.use('/', async (c, next) => {
 });
 
 app.openapi(index, async (c) => {
-  const { theme, cols, i, rounded, bg = true, size, playful } = c.req.valid(
-    'query',
-  );
+  const { theme, cols, i, rounded, bg = true, size, playful, shadow } = c.req
+    .valid(
+      'query',
+    );
   const icons = i?.split(',') || [];
   return c.render(
     <Renderer
       icons={await parseIconParameters(icons)}
-      config={{ theme, cols, rounded, bg, size, playful }}
+      config={{ bg, cols, playful, rounded, shadow, size, theme }}
     />,
   );
 });

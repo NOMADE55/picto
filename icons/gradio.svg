@@ -30,7 +30,7 @@
 			<stop stop-color="#F97700" offset="1" />
 		</linearGradient>
 	</defs>
-	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px); filter: var(--filter);" />
 	<g>
 		<path class="gradio--fragment-0" d="M100,165.4c-1.6,0-3.3-0.4-4.8-1.3l-65.4-37.5c-3-1.7-4.8-4.9-4.8-8.3s1.8-6.6,4.8-8.3l65.4-37.5
 		c3-1.7,6.6-1.7,9.5,0l65.4,37.5c3,1.7,4.8,4.9,4.8,8.3s-1.8,6.6-4.8,8.3l-65.4,37.5C103.3,165,101.6,165.4,100,165.4z M53.8,118.3

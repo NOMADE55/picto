@@ -25,7 +25,7 @@
 			<stop stop-color="#FF5BE1" offset="1" stop-opacity="0" />
 		</linearGradient>
 	</defs>
-	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px); filter: var(--filter);" />
 	<g>
 		<path class="angular--fragment-0" d="M170.9,50l-5.1,80.3L116.8,25L170.9,50z M137,153.9L100,175l-37-21.1l7.5-18.2h58.9L137,153.9z M100,65
 	l19.4,47.1H80.6L100,65z M34.2,130.4L29.1,50l54-25L34.2,130.4z" />

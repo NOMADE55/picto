@@ -13,7 +13,7 @@ interface Props {
 }
 
 const IconsRenderer = memo(({ icons, config }: Props) => {
-  const { cols, theme, rounded, playful } = config;
+  const { cols, playful, rounded, shadow, theme } = config;
   const viewBox = calcViewBox(icons.length, config);
   const { width, height, minX, minY } = viewBox;
   const scale = calcScale(config);
@@ -31,10 +31,14 @@ const IconsRenderer = memo(({ icons, config }: Props) => {
       version='1.1'
       style={getCSSVariables(config)}
     >
+      <style>
+        {'g svg {overflow: visible}'}
+      </style>
       <g
         class={`
           theme-${theme}
           ${rounded === 200 ? 'rounded' : ''}
+          ${shadow ? 'shadow-' + shadow : ''}
         `}
       >
         {icons.map(async (icon, index) => (

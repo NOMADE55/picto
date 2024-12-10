@@ -13,7 +13,7 @@
 			fill: #1C78C0;
 		}
 	</style>
-	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px); filter: var(--filter);" />
 	<g>
 		<path class="webpack--fragment-0" d="M100,25l66.3,37.5v75L100,175l-66.3-37.5v-75L100,25z" />
 		<path class="webpack--fragment-1" d="M154.5,134.9l-52.3,29.6v-23l32.6-17.9L154.5,134.9z M158,131.7V69.9l-19.1,11v39.7L158,131.7z M45.3,134.9

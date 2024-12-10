@@ -5,7 +5,7 @@
 			fill: #FF4438;
 		}
 	</style>
-	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px); filter: var(--filter);" />
 	<path class="redis"
 		d="M166.9,107.2c-10.4,13.1-21.6,28-44,28c-20,0-27.5-17.7-28-32c4.4,9.3,13,16.8,26.3,16.4
 	c25.7-0.8,43.4-24.1,43.4-45.2c0-25.3-18.9-43.6-51.7-43.6c-23.4,0-52.5,8.9-71.6,23c-0.2,14.5,7.9,33.4,10.8,31.3

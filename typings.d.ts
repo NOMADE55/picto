@@ -1,4 +1,5 @@
 type Theme = 'dark' | 'light' | 'default' | 'auto';
+type Size = 'xs' | 'sm' | 'md' | 'lg' | 'xl';
 
 interface BaseSVGConfig {
   cols: number;
@@ -7,4 +8,5 @@ interface BaseSVGConfig {
   bg?: boolean;
   size?: number;
   playful?: boolean;
+  shadow?: Size;
 }

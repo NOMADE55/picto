@@ -189,7 +189,7 @@
 			<stop stop-color="#791C12" offset="1" />
 		</linearGradient>
 	</defs>
-	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px); filter: var(--filter);" />
 	<g>
 		<path class="ruby--fragment-0" d="M141.2,124l-85.6,51l110.9-7.5L175,55.3L141.2,124z" />
 		<path class="ruby--fragment-1" d="M166.6,167.4l-9.5-66l-26,34.4L166.6,167.4z" />

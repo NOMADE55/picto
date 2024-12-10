@@ -9,7 +9,7 @@
 			fill: #5277C3;
 		}
 	</style>
-	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px); filter: var(--filter);" />
 	<g>
 		<path class="nix--fragment-0" d="M83.9,73.8l-36.5,67.7l-8.5-15.5l9.9-18.1l-19.6-0.1l-4.2-7.7l4.3-7.9l27.9,0.1l10-18.5L83.9,73.8z M86.8,128
 		h73.1l-8.3,15.7l-19.6-0.1l9.7,18.2l-4.2,7.8H129l-13.8-25.8l-19.9,0L86.8,128z M129.3,98.3L92.8,30.6l16.8-0.2l9.7,18.2l9.8-18.1

@@ -17,7 +17,7 @@
 			fill: #FBBC05;
 		}
 	</style>
-	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px); filter: var(--filter);" />
 	<g>
 		<path class="google-cloud--fragment-0" d="M124.8,73l13-13l0.9-5.5c-23.8-21.6-61.5-19.2-82.9,5.1C49.8,66.3,45.4,74.7,43,83.4l4.7-0.7l26.1-4.3l2-2.1
 		c11.6-12.7,31.2-14.5,44.6-3.6L124.8,73z" />

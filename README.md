@@ -35,6 +35,7 @@ https://mypicto.xyz/icons
 | bg        | string           | -       | Background setting (`none` or empty string)                                |
 | rounded   | string           | -       | Border radius setting (`none`, `rounded` or numeric: `0`, `6`, `12`, etc.) |
 | playful   | string (booleam) | false   | Add _pizzazz_ to the icon row                                              |
+| shadow    | string (size)    | -       | Add drop shadow to the icons' background (`xs`, `sm`, `md`, `lg`, `xl`)    |
 
 ## Examples
 

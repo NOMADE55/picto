@@ -13,6 +13,6 @@
 			<stop stop-color="#7F52FF" offset="1" />
 		</radialGradient>
 	</defs>
-	<rect width="200" height="200" style="fill: var(--bg, #19191c); rx: var(--rx, 24px);" />
+	<rect width="200" height="200" style="fill: var(--bg, #19191c); rx: var(--rx, 24px); filter: var(--filter);" />
 	<path class="kotlin" d="M175,175H25V25h150L98.4,98.9L175,175z" />
 </svg>

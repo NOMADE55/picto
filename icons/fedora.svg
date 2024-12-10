@@ -13,7 +13,7 @@
 			fill: #FFFFFF;
 		}
 	</style>
-	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px); filter: var(--filter);" />
 	<g>
 		<path class="fedora--fragment-0" d="M175,100c0-41.4-33.6-75-75-75C58.6,25,25,58.6,25,100v58c0,9.4,7.6,17,17.1,17h58
 		C141.4,175,175,141.4,175,100" />

@@ -17,7 +17,7 @@
 			fill: #81D837;
 		}
 	</style>
-	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px); filter: var(--filter);" />
 	<g>
 		<path class="clojure--fragment-0" d="M38.8,56.4C63,22.7,109.9,15,143.7,39.2c19.7,14.1,31.3,36.8,31.3,61c0,39.6-41.7,34.1-41.7,34.1
 		c18.6-18.8,18.5-49.1-0.3-67.7c-13.8-13.6-34.4-17.6-52.3-10.1C57.6,43.2,38.8,56.4,38.8,56.4" />

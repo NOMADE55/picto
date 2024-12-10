@@ -13,7 +13,7 @@
 			fill: #FFFFFF;
 		}
 	</style>
-	<rect width="200" height="200" style="fill: var(--bg, #130654); rx: var(--rx, 24px);" />
+	<rect width="200" height="200" style="fill: var(--bg, #130654); rx: var(--rx, 24px); filter: var(--filter);" />
 	<g>
 		<rect class="pandas--fragment-0" x="79.2" y="77.8" width="16.4" height="16.1" />
 		<rect class="pandas--fragment-1" x="105" y="105.9" width="16.4" height="16.1" />

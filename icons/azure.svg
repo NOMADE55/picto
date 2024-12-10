@@ -5,7 +5,7 @@
 			fill: #0089D6;
 		}
 	</style>
-	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px); filter: var(--filter);" />
 	<path class="azure"
 		d="M94.4,159.7c19.3-3.9,35.2-7.2,35.4-7.2l0.3-0.1l-18.2-24.9c-10-13.7-18.2-25-18.2-25
 	c0-0.1,18.8-59.7,18.9-59.9c0-0.1,12.8,25.3,31,61.6l31.2,62.2l0.2,0.5h-57.8H59.4L94.4,159.7z M25,152.1c0,0,8.6-17.2,19-38.1

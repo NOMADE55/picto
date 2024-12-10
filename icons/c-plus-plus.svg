@@ -17,7 +17,7 @@
 			fill: #FFFFFF;
 		}
 	</style>
-	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px); filter: var(--filter);" />
 	<g>
 		<path class="c-plus-plus--fragment-0"
 			d="M164.9,137.5c1-1.8,1.7-3.9,1.7-5.7V68.2c0-1.8-0.6-3.9-1.7-5.7L100,100L164.9,137.5L164.9,137.5z" />

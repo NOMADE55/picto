@@ -9,7 +9,7 @@
 			fill: #FFFFFF;
 		}
 	</style>
-	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px); filter: var(--filter);" />
 	<g>
 		<path class="salesforce--fragment-0" d="M87.4,59c4.8-5,11.6-8.2,19-8.2c9.9,0,18.5,5.5,23.1,13.7c4-1.8,8.4-2.8,13.1-2.8c17.9,0,32.3,14.6,32.3,32.6
 		c0,18-14.5,32.6-32.3,32.6c-2.2,0-4.3-0.2-6.4-0.6c-4.1,7.2-11.8,12.1-20.6,12.1c-3.7,0-7.2-0.9-10.3-2.4

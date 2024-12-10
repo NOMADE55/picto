@@ -17,7 +17,7 @@
 			fill: #9f323a;
 		}
 	</style>
-	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px); filter: var(--filter);" />
 	<g>
 		<path class="airtable--fragment-0" d="M91.8,37.4L35.9,60.5c-3.1,1.3-3.1,5.7,0.1,6.9l56.2,22.3c4.9,2,10.4,2,15.4,0l56.2-22.3
 		c3.1-1.2,3.2-5.7,0.1-6.9l-55.9-23.1C102.6,35.3,96.9,35.3,91.8,37.4" />

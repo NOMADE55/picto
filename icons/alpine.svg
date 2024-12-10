@@ -9,7 +9,7 @@
 			fill: #2D3441;
 		}
 	</style>
-	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px); filter: var(--filter);" />
 	<g>
 		<polygon class="alpine--fragment-0" points="141.7,65.6 175,98.8 141.7,132 108.3,98.8" />
 		<polygon class="alpine--fragment-1" points="58.3,65.6 127.4,134.4 60.8,134.4 25,98.8" />

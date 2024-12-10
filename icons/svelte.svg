@@ -5,7 +5,7 @@
 			fill: #FF3E00;
 		}
 	</style>
-	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px); filter: var(--filter);" />
 	<path class="svelte"
 		d="M165.4,35.6c-17-23.3-48.9-29.9-73.7-15.3l-42,26C38.4,53.1,30.4,64.5,28,77.6c-2,10.8-0.2,22,5,31.6
 	c-3.6,5.3-6,11.2-7.2,17.5c-2.4,13.2,0.8,26.9,8.8,37.7c17,23.3,48.8,29.9,73.7,15.4l42-26c11.4-6.9,19.3-18.3,21.8-31.3
