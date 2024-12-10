@@ -47,10 +47,10 @@ https://mypicto.xyz/icons?i=html,css,javascript,python&round=none&cols=2
 
 ### No background
 
-<img src="https://mypicto.xyz/icons?i=angular,css,python,vue&bg=none&size=22">
+<img src="https://mypicto.xyz/icons?i=svelte,react,php,auth0,vue,python&bg=none&size=22">
 
 ```
-https://mypicto.xyz/icons?i=html,css,javascript,python,vue&bg=none&cols=4
+https://mypicto.xyz/icons?i=svelte,react,php,auth0,vue,python&bg=none&cols=4
 ```
 
 ## 📍 Roadmap
