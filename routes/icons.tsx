@@ -12,6 +12,9 @@ const VALID_MAX_ROUNDED = 200;
 const app = new OpenAPIHono();
 
 const QueryParamsSchema = z.object({
+  playful: z.string().regex(/true|false/).transform((v?: string) =>
+    v === 'true'
+  ).optional(),
   cols: z.string().regex(/^\d+$/).transform(Number).optional().default(
     `${DEFAULT_COLS}`,
   ),
@@ -64,12 +67,14 @@ app.use('/', async (c, next) => {
 });
 
 app.openapi(index, async (c) => {
-  const { theme, cols, i, rounded, bg = true, size } = c.req.valid('query');
+  const { theme, cols, i, rounded, bg = true, size, playful } = c.req.valid(
+    'query',
+  );
   const icons = i?.split(',') || [];
   return c.render(
     <Renderer
       icons={await parseIconParameters(icons)}
-      config={{ theme, cols, rounded, bg, size }}
+      config={{ theme, cols, rounded, bg, size, playful }}
     />,
   );
 });

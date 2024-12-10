@@ -34,6 +34,7 @@ https://mypicto.xyz/icons
 | size      | string (numeric) | 100     | Icon size                                                                  |
 | bg        | string           | -       | Background setting (`none` or empty string)                                |
 | rounded   | string           | -       | Border radius setting (`none`, `rounded` or numeric: `0`, `6`, `12`, etc.) |
+| playful   | string (booleam) | false   | Add _pizzazz_ to the icon row                                              |
 
 ## Examples
 
@@ -51,6 +52,14 @@ https://mypicto.xyz/icons?i=html,css,javascript,python&round=none&cols=2
 
 ```
 https://mypicto.xyz/icons?i=svelte,react,php,auth0,vue,python&bg=none&cols=4
+```
+
+### Plaful 8 column showcase
+
+<img src="https://mypicto.xyz/icons?i=javascript,react,11ty,svelte,unity,pytorch,postman,premiere&playful=true&cols=8&size=22">
+
+```
+https://mypicto.xyz/icons?i=javascript,react,11ty,svelte,unity,pytorch,postman,premiere&playful=true&cols=8
 ```
 
 ## 📍 Roadmap

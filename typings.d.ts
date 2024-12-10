@@ -6,4 +6,5 @@ interface BaseSVGConfig {
   rounded?: number;
   bg?: boolean;
   size?: number;
+  playful?: boolean;
 }

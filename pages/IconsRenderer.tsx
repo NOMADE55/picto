@@ -2,10 +2,9 @@ import { memo } from 'hono/jsx';
 
 import {
   calcScale,
+  calcViewBox,
   getCSSVariables,
   getTransformValue,
-  ICON_CELL_OFFSET,
-  ICON_CELL_WIDTH,
 } from '../utils/svg.ts';
 
 interface Props {
@@ -14,11 +13,9 @@ interface Props {
 }
 
 const IconsRenderer = memo(({ icons, config }: Props) => {
-  const { cols, theme, rounded } = config;
-  const amount = icons.length;
-  const width = Math.min(cols * ICON_CELL_WIDTH, amount * ICON_CELL_WIDTH) -
-    ICON_CELL_OFFSET;
-  const height = Math.ceil(amount / cols) * ICON_CELL_WIDTH - ICON_CELL_OFFSET;
+  const { cols, theme, rounded, playful } = config;
+  const viewBox = calcViewBox(icons.length, config);
+  const { width, height, minX, minY } = viewBox;
   const scale = calcScale(config);
   const scaledHeight = scale * height;
   const scaledWidth = scale * width;
@@ -27,7 +24,7 @@ const IconsRenderer = memo(({ icons, config }: Props) => {
     <svg
       width={scaledWidth}
       height={scaledHeight}
-      viewBox={`0 0 ${width} ${height}`}
+      viewBox={`${minX} ${minY} ${width} ${height}`}
       fill='none'
       xmlns='http://www.w3.org/2000/svg'
       xmlns:xlink='http://www.w3.org/1999/xlink'
@@ -42,7 +39,7 @@ const IconsRenderer = memo(({ icons, config }: Props) => {
       >
         {icons.map(async (icon, index) => (
           <g
-            transform={getTransformValue({ index, cols })}
+            transform={getTransformValue({ index, cols, playful })}
             dangerouslySetInnerHTML={{ __html: await Deno.readTextFile(icon) }}
           />
         ))}
