@@ -14,10 +14,13 @@
 |   `appwrite`    |      <img src="./appwrite.svg" alt="appwrite" width="42" />      |
 |  `arch-linux`   |    <img src="./arch-linux.svg" alt="arch-linux" width="42" />    |
 |     `astro`     |         <img src="./astro.svg" alt="astro" width="42" />         |
+|    `aurelia`    |       <img src="./aurelia.svg" alt="aurelia" width="42" />       |
 |     `auth0`     |         <img src="./auth0.svg" alt="auth0" width="42" />         |
+|      `aws`      |           <img src="./aws.svg" alt="aws" width="42" />           |
 |     `azure`     |         <img src="./azure.svg" alt="azure" width="42" />         |
 |   `backbone`    |      <img src="./backbone.svg" alt="backbone" width="42" />      |
 |     `bash`      |          <img src="./bash.svg" alt="bash" width="42" />          |
+|   `bitbucket`   |     <img src="./bitbucket.svg" alt="bitbucket" width="42" />     |
 |    `blender`    |       <img src="./blender.svg" alt="blender" width="42" />       |
 |     `bower`     |         <img src="./bower.svg" alt="bower" width="42" />         |
 |      `bun`      |           <img src="./bun.svg" alt="bun" width="42" />           |
@@ -53,6 +56,7 @@
 |    `gatsby`     |        <img src="./gatsby.svg" alt="gatsby" width="42" />        |
 |      `git`      |           <img src="./git.svg" alt="git" width="42" />           |
 |    `github`     |        <img src="./github.svg" alt="github" width="42" />        |
+|    `gitlab`     |        <img src="./gitlab.svg" alt="gitlab" width="42" />        |
 |     `godot`     |         <img src="./godot.svg" alt="godot" width="42" />         |
 |    `golang`     |        <img src="./golang.svg" alt="golang" width="42" />        |
 | `google-cloud`  |  <img src="./google-cloud.svg" alt="google-cloud" width="42" />  |
@@ -83,7 +87,9 @@
 |    `magento`    |       <img src="./magento.svg" alt="magento" width="42" />       |
 |    `mariadb`    |       <img src="./mariadb.svg" alt="mariadb" width="42" />       |
 |   `markdown`    |      <img src="./markdown.svg" alt="markdown" width="42" />      |
+|  `material-ui`  |   <img src="./material-ui.svg" alt="material-ui" width="42" />   |
 |    `meteor`     |        <img src="./meteor.svg" alt="meteor" width="42" />        |
+|    `mithril`    |       <img src="./mithril.svg" alt="mithril" width="42" />       |
 |     `mongo`     |         <img src="./mongo.svg" alt="mongo" width="42" />         |
 |     `mysql`     |         <img src="./mysql.svg" alt="mysql" width="42" />         |
 |    `nestjs`     |        <img src="./nestjs.svg" alt="nestjs" width="42" />        |
@@ -115,6 +121,7 @@
 |     `react`     |         <img src="./react.svg" alt="react" width="42" />         |
 |    `redhat`     |        <img src="./redhat.svg" alt="redhat" width="42" />        |
 |     `redis`     |         <img src="./redis.svg" alt="redis" width="42" />         |
+|     `redux`     |         <img src="./redux.svg" alt="redux" width="42" />         |
 |     `remix`     |         <img src="./remix.svg" alt="remix" width="42" />         |
 |     `ruby`      |          <img src="./ruby.svg" alt="ruby" width="42" />          |
 |  `salesforce`   |    <img src="./salesforce.svg" alt="salesforce" width="42" />    |
@@ -148,5 +155,5 @@
 ---
 
 <br>
-Current icon count: <strong>138</strong>
+Current icon count: <strong>145</strong>
 <!-- SUPPORTED:ICONS:END -->

@@ -1,0 +1,148 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.aurelia--fragment-0 {
+			fill: url(#gradientFragment1);
+		}
+
+		.aurelia--fragment-1 {
+			fill: url(#gradientFragment2);
+		}
+
+		.aurelia--fragment-2 {
+			fill: url(#gradientFragment3);
+		}
+
+		.aurelia--fragment-3 {
+			fill: url(#gradientFragment4);
+		}
+
+		.aurelia--fragment-4 {
+			fill: url(#gradientFragment5);
+		}
+
+		.aurelia--fragment-5 {
+			fill: url(#gradientFragment6);
+		}
+
+		.aurelia--fragment-6 {
+			fill: url(#gradientFragment7);
+		}
+
+		.aurelia--fragment-7 {
+			fill: #714896;
+		}
+
+		.aurelia--fragment-8 {
+			fill: #6F4795;
+		}
+
+		.aurelia--fragment-9 {
+			fill: #88519F;
+		}
+
+		.aurelia--fragment-10 {
+			fill: #85509E;
+		}
+
+		.aurelia--fragment-11 {
+			fill: #8D166A;
+		}
+
+		.aurelia--fragment-12 {
+			fill: #A70D6F;
+		}
+
+		.aurelia--fragment-13 {
+			fill: #9E61AD;
+		}
+
+		.aurelia--fragment-14 {
+			fill: #8053A3;
+		}
+
+		.aurelia--fragment-15 {
+			fill: url(#gradientFragment8);
+		}
+	</style>
+	<defs>
+		<linearGradient id="gradientFragment1" gradientUnits="userSpaceOnUse" x1="-2.4303" y1="200.4545" x2="-1.253"
+			y2="199.5434" gradientTransform="matrix(150.2364 0 0 -163.6364 374.3767 32765.3633)">
+			<stop stop-color="#C06FBB" offset="0" />
+			<stop stop-color="#6E4D9B" offset="1" />
+		</linearGradient>
+		<linearGradient id="gradientFragment8" gradientUnits="userSpaceOnUse" x1="4.847068e-02" y1="199.9058"
+			x2="0.1958" y2="200.0527" gradientTransform="matrix(797.342 0 0 -634.2445 2.474 126937.1406)">
+			<stop stop-color="#6E4D9B" offset="0" />
+			<stop stop-color="#77327A" offset="0.14" />
+			<stop stop-color="#B31777" offset="0.53" />
+			<stop stop-color="#CD0F7E" offset="0.79" />
+			<stop stop-color="#ED2C89" offset="1" />
+		</linearGradient>
+		<linearGradient id="gradientFragment2" gradientUnits="userSpaceOnUse" x1="-0.8968" y1="200.9366" x2="-1.2166"
+			y2="201.311" gradientTransform="matrix(299.1177 0 0 -323.0384 412.0989 65070.1953)">
+			<stop stop-color="#6E4D9B" offset="0" />
+			<stop stop-color="#77327A" offset="0.14" />
+			<stop stop-color="#B31777" offset="0.29" />
+			<stop stop-color="#CD0F7E" offset="0.84" />
+			<stop stop-color="#ED2C89" offset="1" />
+		</linearGradient>
+
+		<linearGradient id="gradientFragment3" gradientUnits="userSpaceOnUse" x1="-1.7953" y1="204.1578" x2="-0.8867"
+			y2="202.6616" gradientTransform="matrix(164.5417 0 0 -151.2746 258.3647 30844.0215)">
+			<stop stop-color="#C06FBB" offset="0" />
+			<stop stop-color="#6E4D9B" offset="1" />
+		</linearGradient>
+
+		<linearGradient id="gradientFragment4" gradientUnits="userSpaceOnUse" x1="-5.1352" y1="203.4088" x2="-3.3985"
+			y2="201.9899" gradientTransform="matrix(123.9043 0 0 -124.1578 605.5592 25216.0879)">
+			<stop stop-color="#C06FBB" offset="0" />
+			<stop stop-color="#6E4D9B" offset="1" />
+		</linearGradient>
+		<linearGradient id="gradientFragment6" gradientUnits="userSpaceOnUse" x1="0.1538" y1="199.5268" x2="-0.1674"
+			y2="199.9039" gradientTransform="matrix(298.6771 0 0 -322.3775 109.1001 64483.957)">
+			<stop stop-color="#6E4D9B" offset="0" />
+			<stop stop-color="#77327A" offset="0.14" />
+			<stop stop-color="#B31777" offset="0.29" />
+			<stop stop-color="#CD0F7E" offset="0.84" />
+			<stop stop-color="#ED2C89" offset="1" />
+		</linearGradient>
+		<linearGradient id="gradientFragment5" gradientUnits="userSpaceOnUse" x1="-0.3563" y1="201.2148" x2="0.6946"
+			y2="200.2876" gradientTransform="matrix(190.886 0 0 -190.7531 27.1823 38393.2969)">
+			<stop stop-color="#C06FBB" offset="0" />
+			<stop stop-color="#6E4D9B" offset="1" />
+		</linearGradient>
+		<linearGradient id="gradientFragment7" gradientUnits="userSpaceOnUse" x1="-2.3831" y1="200.5167" x2="-1.2058"
+			y2="199.4178" gradientTransform="matrix(150.2515 0 0 -163.6364 374.3738 32765.3672)">
+			<stop stop-color="#C06FBB" offset="0" />
+			<stop stop-color="#6E4D9B" offset="1" />
+		</linearGradient>
+	</defs>
+	<rect width="200" height="200" style="fill: var(--bg, #f4f4f4); rx: var(--rx, 24);" />
+	<g>
+		<path class="aurelia--fragment-0" d="M123.2,54l-13.9,9.3L95,41.8l13.9-9.3L123.2,54L123.2,54L123.2,54z" />
+		<path class="aurelia--fragment-1"
+			d="M134.5,118.5l23.8,35.6L130,173.1l-23.8-35.6l-4.1-6.2l28.3-18.9L134.5,118.5L134.5,118.5L134.5,118.5z" />
+		<path class="aurelia--fragment-2"
+			d="M98.9,142.4l5.2,7.8l-21.6,14.4l-9.4-14.1l4.7-3.1l16.9-11.2L98.9,142.4L98.9,142.4L98.9,142.4z" />
+		<path class="aurelia--fragment-3" d="M146.3,101.7l6-4l9.4,14.1l-13.9,9.3l-5.2-7.8l7.9-5.3L146.3,101.7L146.3,101.7L146.3,101.7L146.3,101.7z
+		M142.6,113.2l-4.1-6.2l7.9-5.3l4.1,6.2L142.6,113.2L142.6,113.2L142.6,113.2L142.6,113.2z" />
+		<path class="aurelia--fragment-4"
+			d="M48.7,103.7l-4.7,3.1L29.6,85.4L51.2,71L61.3,86L44.4,97.3L61.3,86l4.3,6.4L48.7,103.7L48.7,103.7L48.7,103.7z" />
+		<path class="aurelia--fragment-5" d="M101.2,68.6L72.9,87.6l-4.3-6.4L45.1,45.8l28.3-18.9L97,62.2L101.2,68.6z" />
+		<path class="aurelia--fragment-6"
+			d="M117.2,58l-7.9,5.3l-4.3-6.4L95,41.8l13.9-9.3L123.2,54L117.2,58L117.2,58L117.2,58z" />
+		<path class="aurelia--fragment-7" d="M82,153.6l-4.1-6.2l16.9-11.2l4.1,6.2L82,153.6L82,153.6L82,153.6z" />
+		<path class="aurelia--fragment-8"
+			d="M142.6,113.2l-4.1-6.2l7.9-5.3l4.1,6.2L142.6,113.2L142.6,113.2L142.6,113.2z" />
+		<path class="aurelia--fragment-9" d="M48.7,103.7l-4.3-6.4L61.3,86l4.3,6.4L48.7,103.7L48.7,103.7L48.7,103.7z" />
+		<path class="aurelia--fragment-10" d="M109.3,63.3l-4.3-6.4l7.9-5.3l4.3,6.4L109.3,63.3L109.3,63.3L109.3,63.3z" />
+		<path class="aurelia--fragment-11"
+			d="M134.5,118.5l-28.3,18.9l-4.1-6.2l28.3-18.9L134.5,118.5L134.5,118.5L134.5,118.5z" />
+		<path class="aurelia--fragment-12" d="M97,62.2l4.3,6.4L72.9,87.6l-4.3-6.4L97,62.2L97,62.2L97,62.2z" />
+		<path class="aurelia--fragment-13" d="M40.7,57.1l5.3,8l-8,5.3l-5.3-8L40.7,57.1L40.7,57.1z" />
+		<path class="aurelia--fragment-14" d="M69.5,153.2l5.3,8l-8,5.3l-5.3-8L69.5,153.2L69.5,153.2z" />
+		<path class="aurelia--fragment-15"
+			d="M48.5,161.2L25,125.8l125.4-83.9L175,76.8L48.5,161.2L48.5,161.2L48.5,161.2L48.5,161.2z" />
+	</g>
+</svg>

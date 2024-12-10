@@ -1,0 +1,27 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.bitbucket--fragment-0 {
+			fill: #2684FF;
+		}
+
+		.bitbucket--fragment-1 {
+			fill: url(#gradientFragment);
+		}
+	</style>
+	<defs>
+		<linearGradient id="gradientFragment" gradientUnits="userSpaceOnUse" x1="-794.0883" y1="-434.0641"
+			x2="-794.3207" y2="-433.8827" gradientTransform="matrix(320.525 0 0 320.525 254703.5625 139219.0781)">
+			<stop stop-color="#0052CC" offset="0.18" />
+			<stop stop-color="#2684FF" offset="1" />
+		</linearGradient>
+	</defs>
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+	<g>
+		<path class="bitbucket--fragment-0" d="M29.9,32.5c-2.7,0-4.8,2.1-4.9,4.8c0,0.3,0,0.6,0.1,0.8l20.4,123.8c0.5,3.1,3.2,5.4,6.4,5.5h97.9
+		c2.4,0,4.4-1.7,4.8-4l20.4-125.2c0.4-2.6-1.3-5.1-3.9-5.5c-0.3,0-0.5-0.1-0.8-0.1L29.9,32.5z M115.8,122H84.5l-8.5-44.2h47.3
+		L115.8,122z" />
+		<path class="bitbucket--fragment-1"
+			d="M168.4,77.9h-45.1l-7.6,44.2H84.5l-36.9,43.8c1.2,1,2.7,1.6,4.2,1.6h97.9c2.4,0,4.4-1.7,4.8-4L168.4,77.9z" />
+	</g>
+</svg>
