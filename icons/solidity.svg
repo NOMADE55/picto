@@ -16,7 +16,7 @@
 			fill: #000;
 		}
 	</style>
-	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
 	<g>
 		<path class="solidity--fragment-0" d="M100,66.1L76.3,25L52.5,66.1l23.7,41.1L100,66.1z" />
 		<path class="solidity--fragment-1" d="M100,66.1L123.7,25H76.3L52.5,66.1H100z" />

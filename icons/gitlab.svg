@@ -13,7 +13,7 @@
 			fill: #E24329;
 		}
 	</style>
-	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
 	<g>
 		<path class="gitlab--fragment-0" d="M100,169.1l-27.6-85H33.7L100,169.1z M100,169.1l27.6-85h38.7L100,169.1z" />
 		<path class="gitlab--fragment-1" d="M33.7,84.1L33.7,84.1l-8.4,25.8c-0.8,2.4,0.1,4.9,2.1,6.4l72.6,52.8L33.7,84.1z M166.3,84.1L166.3,84.1

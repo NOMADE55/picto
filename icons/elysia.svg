@@ -31,7 +31,7 @@
 			fill: #5E5E5E;
 		}
 	</style>
-	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
 	<g>
 		<path class="elysia--fragment-0" d="M149.3,163.5c15.7-13.7,25.7-34,25.7-56.5c0-41.4-33.6-75-75-75s-75,33.6-75,75c0,21.9,9.4,41.6,24.3,55.3
 		l0.1-0.5l98.4-32.2L149.3,163.5z" />

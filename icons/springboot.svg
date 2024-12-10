@@ -9,7 +9,7 @@
 			fill: #FFFFFF;
 		}
 	</style>
-	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
 	<g>
 		<path class="springboot--fragment-0" d="M161.6,33.7c-2.2,5.2-4.9,9.9-8,14C140,33.9,120.9,25.1,99.9,25.1C58.7,25.1,25,58.6,25,100
 		c0,21.6,9.3,41.1,23.9,54.8l2.8,2.5c13,11,29.8,17.6,48.2,17.6c39.4,0,71.8-30.7,74.6-69.5C176.7,86.6,171,62.5,161.6,33.7z

@@ -5,7 +5,7 @@
 			fill: #fff;
 		}
 	</style>
-	<rect width="200" height="200" style="fill: var(--bg, #05998B); rx: var(--rx, 24);" />
+	<rect width="200" height="200" style="fill: var(--bg, #05998B); rx: var(--rx, 24px);" />
 	<path class="fast-api" d="M91.1,27.7H175L91.1,86.6h57.1L25,172.3l26.8-58.9l12.5-26.8
 	L91.1,27.7z" />
 </svg>

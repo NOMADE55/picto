@@ -30,7 +30,7 @@
 			}
 		}
 	</style>
-	<rect width="200" height="200" style="fill: var(--bg, #E14E1D); rx: var(--rx, 24);" />
+	<rect width="200" height="200" style="fill: var(--bg, #E14E1D); rx: var(--rx, 24px);" />
 	<g>
 		<path class="html--fragment-0" d="M37.5,29.5l6.7,75.5h86.5l-2.9,32.4l-27.8,7.5l-27.8-7.5l-1.9-20.8h-25l3.6,40.1l51.1,14.2l51.2-14.2L158,80
 		h-91l-2.3-25.6h95.4h0.1l2.2-25H37.5z" />

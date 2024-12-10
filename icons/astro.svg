@@ -9,7 +9,7 @@
 			fill: #FFFFFF;
 		}
 	</style>
-	<rect width="200" height="200" style="fill: var(--bg, #17191e); rx: var(--rx, 24);" />
+	<rect width="200" height="200" style="fill: var(--bg, #17191e); rx: var(--rx, 24px);" />
 	<g>
 		<linearGradient id="gradientSegment0" gradientUnits="userSpaceOnUse" x1="65.3937" y1="40.07" x2="130.8258"
 			y2="70.9857" gradientTransform="matrix(1 0 0 -1 0 201)">

@@ -118,7 +118,7 @@
 			<stop stop-color="#6E4D9B" offset="1" />
 		</linearGradient>
 	</defs>
-	<rect width="200" height="200" style="fill: var(--bg, #f4f4f4); rx: var(--rx, 24);" />
+	<rect width="200" height="200" style="fill: var(--bg, #f4f4f4); rx: var(--rx, 24px);" />
 	<g>
 		<path class="aurelia--fragment-0" d="M123.2,54l-13.9,9.3L95,41.8l13.9-9.3L123.2,54L123.2,54L123.2,54z" />
 		<path class="aurelia--fragment-1"

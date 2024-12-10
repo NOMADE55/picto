@@ -17,7 +17,7 @@
 			fill: #00FFFF;
 		}
 	</style>
-	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
 	<g>
 		<polygon class="lit--fragment-0"
 			points="70,115 82.2,94 100.1,85.1 130.1,115.1 135.1,144 130,175 100,145 82.2,133 	" />

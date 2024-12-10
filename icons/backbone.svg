@@ -9,7 +9,7 @@
 			fill: #0071B5;
 		}
 	</style>
-	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
 	<g>
 		<path class="backbone--fragment-0" d="M39.6,25v81.1l60.4,34.4v-23.4l-40.4-23V58L100,81V59.4L39.6,25L39.6,25z" />
 		<path class="backbone--fragment-1"

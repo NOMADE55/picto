@@ -21,7 +21,7 @@
 			fill: #CD4739;
 		}
 	</style>
-	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
 	<g>
 		<path class="contentful--fragment-0" d="M79,129.5c-8-7.5-12.7-17.8-12.7-29.5s4.7-22,12.2-29.5c6.6-6.6,6.6-16.9,0-23.4s-16.9-6.6-23.4,0
 		C42,60.6,33.6,79.4,33.6,100s8.4,39.4,22,53c6.6,6.6,16.9,6.6,23.4,0C85.1,146.4,85.1,136.1,79,129.5z" />

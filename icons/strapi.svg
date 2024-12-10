@@ -9,7 +9,7 @@
 			fill: #9593FF;
 		}
 	</style>
-	<rect width="200" height="200" style="fill: var(--bg, #4945FF); rx: var(--rx, 24);" />
+	<rect width="200" height="200" style="fill: var(--bg, #4945FF); rx: var(--rx, 24px);" />
 	<g>
 		<path class="strapi--fragment-0"
 			d="M140.3,58.3H68.9v36.4h35v1.4h1.4v-1.4h0v36.4h36.4V59.7C141.7,58.9,141.1,58.3,140.3,58.3z" />

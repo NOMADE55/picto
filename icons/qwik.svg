@@ -13,7 +13,7 @@
 			fill: #FFFFFF;
 		}
 	</style>
-	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
 	<g>
 		<path class="qwik--fragment-0" d="M156.7,179.6l-28.6-28.4l-0.4,0.1v-0.3L67,90.9l15-14.5L73.1,26L31.4,77.7c-7.1,7.2-8.4,18.8-3.3,27.4
 		l26.1,43.2c4,6.7,11.2,10.7,19,10.6l12.9-0.1L156.7,179.6z" />

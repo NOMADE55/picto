@@ -9,7 +9,7 @@
 			fill: #014847;
 		}
 	</style>
-	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
 	<g>
 		<path class="netlify--fragment-0" d="M65.5,144.2h-1.4l-7.1-7.1v-1.4l10.8-10.8h7.5l1,1v7.5L65.5,144.2z M57,64.3v-1.4l7.1-7.1h1.4l10.8,10.8v7.5
 		l-1,1h-7.5L57,64.3z M67,106H25.9l-0.9-0.9V94.8l0.9-0.9H67l0.9,0.9v10.3L67,106z M174.1,106H133l-0.9-0.9V94.8L133,94h41.1

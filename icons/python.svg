@@ -2,26 +2,26 @@
 	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
 	<style>
 		.python-blue {
-			fill: url(#blueGrad);
+			fill: url(#gradientFragment1);
 		}
 
 		.python-yellow {
-			fill: url(#yellowGrad);
+			fill: url(#gradientFragment2);
 		}
 	</style>
 	<defs>
-		<linearGradient id="yellowGrad" gradientUnits="userSpaceOnUse" x1="-339.081" y1="699.6934" x2="-339.0638"
+		<linearGradient id="gradientFragment1" gradientUnits="userSpaceOnUse" x1="-338.7413" y1="699.3647"
+			x2="-338.7263" y2="699.3497" gradientTransform="matrix(4734.5 0 0 -4745.25 1603810.75 3318700.5)">
+			<stop offset="0" stop-color="#387EB8" />
+			<stop offset="1" stop-color="#366994" />
+		</linearGradient>
+		<linearGradient id="gradientFragment2" gradientUnits="userSpaceOnUse" x1="-339.081" y1="699.6934" x2="-339.0638"
 			y2="699.6785" gradientTransform="matrix(4734.5 0 0 -4745.25 1605460.75 3320306.75)">
 			<stop offset="0" stop-color="#FFE052" />
 			<stop offset="1" stop-color="#FFC331" />
 		</linearGradient>
-		<linearGradient id="blueGrad" gradientUnits="userSpaceOnUse" x1="-338.7413" y1="699.3647" x2="-338.7263"
-			y2="699.3497" gradientTransform="matrix(4734.5 0 0 -4745.25 1603810.75 3318700.5)">
-			<stop offset="0" stop-color="#387EB8" />
-			<stop offset="1" stop-color="#366994" />
-		</linearGradient>
 	</defs>
-	<rect width="200" height="200" style="fill: var(--bg, #242938); rx: var(--rx, 24);" />
+	<rect width="200" height="200" style="fill: var(--bg, #242938); rx: var(--rx, 24px);" />
 	<g>
 		<path class="python-blue" d="M99.4,25.5c-38,0-35.6,16.4-35.6,16.4v17.1h36.2v5.4H49.3c0,0-24.3-3-24.3,35.6s21.5,37,21.5,37h12.4v-18
 		c0,0-0.7-21.5,20.9-21.5H116c0,0,20.2,0.3,20.2-19.6V45.4c0,0,3.1-19.9-36.7-19.9l0,0L99.4,25.5z M79.4,37c3.6-0.1,6.6,2.7,6.7,6.3

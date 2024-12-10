@@ -21,6 +21,7 @@
 			fill: #0E5199;
 		}
 	</style>
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
 	<g>
 		<polyline class="flutter--fragment-0" points="96.6,112.3 115,94.5 160.5,94.5 120.1,134.8 96.6,112.3 96.6,112.3 96.6,112.3 96.6,112.3
 		96.6,112.3" />

@@ -5,7 +5,7 @@
 			fill: #EC6737;
 		}
 	</style>
-	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
 	<path class="magento" d="M108.4,70v85.4l-8.4,5.1l-8.4-5.2V70.1L69.8,83.5v73.1L100,175l30.4-18.6v-73L108.4,70z M100,25L36.5,63.5v73.1
 	l16.5,9.7V73.2l47-28.6l47,28.5l0.2,0.1l0,72.9l16.3-9.6V63.5L100,25z" />
 </svg>

@@ -13,7 +13,7 @@
 			fill: #FFFFFF;
 		}
 	</style>
-	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
 	<g>
 		<path class="lua--fragment-0"
 			d="M102.7,175l-0.1-1.7c2.1-0.1,4.3-0.2,6.4-0.5l0.2,1.7C107,174.7,104.8,174.9,102.7,175z M96.1,174.9

@@ -18,7 +18,7 @@
 			<stop stop-color="#E62D2A" offset="1" />
 		</linearGradient>
 	</defs>
-	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
 	<g>
 		<path class="scala--fragment-0" d="M53.8,117.3v11.5c0,1.9,42,5.2,69.3,11.5c13.2-3.1,23-6.8,23-11.5v-11.5c0-4.7-9.8-8.5-23-11.5
 		C95.8,112.1,53.8,115.4,53.8,117.3 M53.8,71.2v11.5c0,1.9,42,5.2,69.3,11.5c13.2-3.1,23-6.8,23-11.5V71.2c0-4.7-9.8-8.5-23-11.5

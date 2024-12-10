@@ -2,31 +2,31 @@
 	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
 	<style>
 		.ruby--fragment-0 {
-			fill: url(#gradientSegment1);
+			fill: url(#gradientFragment1);
 		}
 
 		.ruby--fragment-1 {
-			fill: url(#gradientSegment2);
+			fill: url(#gradientFragment2);
 		}
 
 		.ruby--fragment-2 {
-			fill: url(#gradientSegment3);
+			fill: url(#gradientFragment3);
 		}
 
 		.ruby--fragment-3 {
-			fill: url(#gradientSegment4);
+			fill: url(#gradientFragment4);
 		}
 
 		.ruby--fragment-4 {
-			fill: url(#gradientSegment5);
+			fill: url(#gradientFragment5);
 		}
 
 		.ruby--fragment-5 {
-			fill: url(#gradientSegment6);
+			fill: url(#gradientFragment6);
 		}
 
 		.ruby--fragment-6 {
-			fill: url(#gradientSegment7);
+			fill: url(#gradientFragment7);
 		}
 
 		.ruby--fragment-7 {
@@ -34,23 +34,23 @@
 		}
 
 		.ruby--fragment-8 {
-			fill: url(#gradientSegment8);
+			fill: url(#gradientFragment8);
 		}
 
 		.ruby--fragment-9 {
-			fill: url(#gradientSegment9);
+			fill: url(#gradientFragment9);
 		}
 
 		.ruby--fragment-10 {
-			fill: url(#gradientSegment10);
+			fill: url(#gradientFragment10);
 		}
 
 		.ruby--fragment-11 {
-			fill: url(#gradientSegment11);
+			fill: url(#gradientFragment11);
 		}
 
 		.ruby--fragment-12 {
-			fill: url(#gradientSegment12);
+			fill: url(#gradientFragment12);
 		}
 
 		.ruby--fragment-13 {
@@ -58,81 +58,81 @@
 		}
 
 		.ruby--fragment-14 {
-			fill: url(#gradientSegment13);
+			fill: url(#gradientFragment13);
 		}
 
 		.ruby--fragment-15 {
-			fill: url(#gradientSegment14);
+			fill: url(#gradientFragment14);
 		}
 
 		.ruby--fragment-16 {
-			fill: url(#gradientSegment15);
+			fill: url(#gradientFragment15);
 		}
 
 		.ruby--fragment-17 {
-			fill: url(#gradientSegment16);
+			fill: url(#gradientFragment16);
 		}
 	</style>
 	<defs>
-		<linearGradient id="gradientSegment1" gradientUnits="userSpaceOnUse" x1="-137.7215" y1="336.4584" x2="-138.9926"
-			y2="338.6963" gradientTransform="matrix(25 0 0 -25 3600 8600)">
+		<linearGradient id="gradientFragment1" gradientUnits="userSpaceOnUse" x1="-137.7215" y1="336.4584"
+			x2="-138.9926" y2="338.6963" gradientTransform="matrix(25 0 0 -25 3600 8600)">
 			<stop stop-color="#FB7655" offset="0" />
 			<stop stop-color="#E42B1E" offset="0.41" />
 			<stop stop-color="#990000" offset="0.99" />
 			<stop stop-color="#990000" offset="1" />
 		</linearGradient>
-		<linearGradient id="gradientSegment2" gradientUnits="userSpaceOnUse" x1="-137.0972" y1="338.3379" x2="-138.7312"
-			y2="339.4314" gradientTransform="matrix(25 0 0 -25 3600 8600)">
+		<linearGradient id="gradientFragment2" gradientUnits="userSpaceOnUse" x1="-137.0972" y1="338.3379"
+			x2="-138.7312" y2="339.4314" gradientTransform="matrix(25 0 0 -25 3600 8600)">
 			<stop stop-color="#871101" offset="0" />
 			<stop stop-color="#911209" offset="0.99" />
 			<stop stop-color="#911209" offset="1" />
 		</linearGradient>
-		<linearGradient id="gradientSegment3" gradientUnits="userSpaceOnUse" x1="-138.4011" y1="336.3894" x2="-140.0351"
-			y2="337.4829" gradientTransform="matrix(25 0 0 -25 3600 8600)">
+		<linearGradient id="gradientFragment3" gradientUnits="userSpaceOnUse" x1="-138.4011" y1="336.3894"
+			x2="-140.0351" y2="337.4829" gradientTransform="matrix(25 0 0 -25 3600 8600)">
 			<stop stop-color="#871101" offset="0" />
 			<stop stop-color="#911209" offset="0.99" />
 			<stop stop-color="#911209" offset="1" />
 		</linearGradient>
-		<linearGradient id="gradientSegment4" gradientUnits="userSpaceOnUse" x1="-141.8281" y1="339.1314" x2="-141.5739"
-			y2="337.4836" gradientTransform="matrix(25 0 0 -25 3600 8600)">
+		<linearGradient id="gradientFragment4" gradientUnits="userSpaceOnUse" x1="-141.8281" y1="339.1314"
+			x2="-141.5739" y2="337.4836" gradientTransform="matrix(25 0 0 -25 3600 8600)">
 			<stop stop-color="#FFFFFF" offset="0" />
 			<stop stop-color="#E57252" offset="0.23" />
 			<stop stop-color="#DE3B20" offset="0.46" />
 			<stop stop-color="#A60003" offset="0.99" />
 			<stop stop-color="#A60003" offset="1" />
 		</linearGradient>
-		<linearGradient id="gradientSegment5" gradientUnits="userSpaceOnUse" x1="-138.5468" y1="342.2246" x2="-138.2664"
-			y2="341.0195" gradientTransform="matrix(25 0 0 -25 3600 8600)">
+		<linearGradient id="gradientFragment5" gradientUnits="userSpaceOnUse" x1="-138.5468" y1="342.2246"
+			x2="-138.2664" y2="341.0195" gradientTransform="matrix(25 0 0 -25 3600 8600)">
 			<stop stop-color="#FFFFFF" offset="0" />
 			<stop stop-color="#E46342" offset="0.18" />
 			<stop stop-color="#C82410" offset="0.4" />
 			<stop stop-color="#A80D00" offset="0.99" />
 			<stop stop-color="#A80D00" offset="1" />
 		</linearGradient>
-		<linearGradient id="gradientSegment6" gradientUnits="userSpaceOnUse" x1="-139.3972" y1="342.6497" x2="-138.1939"
-			y2="343.2497" gradientTransform="matrix(25 0 0 -25 3600 8600)">
+		<linearGradient id="gradientFragment6" gradientUnits="userSpaceOnUse" x1="-139.3972" y1="342.6497"
+			x2="-138.1939" y2="343.2497" gradientTransform="matrix(25 0 0 -25 3600 8600)">
 			<stop stop-color="#FFFFFF" offset="0" />
 			<stop stop-color="#C81F11" offset="0.54" />
 			<stop stop-color="#BF0905" offset="0.99" />
 			<stop stop-color="#BF0905" offset="1" />
 		</linearGradient>
-		<linearGradient id="gradientSegment7" gradientUnits="userSpaceOnUse" x1="-142.8823" y1="339.5515" x2="-142.7828"
-			y2="338.5584" gradientTransform="matrix(25 0 0 -25 3600 8600)">
+		<linearGradient id="gradientFragment7" gradientUnits="userSpaceOnUse" x1="-142.8823" y1="339.5515"
+			x2="-142.7828" y2="338.5584" gradientTransform="matrix(25 0 0 -25 3600 8600)">
 			<stop stop-color="#FFFFFF" offset="0" />
 			<stop stop-color="#DE4024" offset="0.31" />
 			<stop stop-color="#BF190B" offset="0.99" />
 			<stop stop-color="#BF190B" offset="1" />
 		</linearGradient>
-		<linearGradient id="gradientSegment8" gradientUnits="userSpaceOnUse" x1="-140.0089" y1="340.6747" x2="-139.9152"
-			y2="338.9928" gradientTransform="matrix(25 0 0 -25 3600 8600)">
+		<linearGradient id="gradientFragment8" gradientUnits="userSpaceOnUse" x1="-140.0089" y1="340.6747"
+			x2="-139.9152" y2="338.9928" gradientTransform="matrix(25 0 0 -25 3600 8600)">
 			<stop stop-color="#FFFFFF" offset="0" />
 			<stop stop-color="#E4714E" offset="0.23" />
 			<stop stop-color="#BE1A0D" offset="0.56" />
 			<stop stop-color="#A80D00" offset="0.99" />
 			<stop stop-color="#A80D00" offset="1" />
 		</linearGradient>
-		<linearGradient id="gradientSegment9" gradientUnits="userSpaceOnUse" x1="-143.5695" y1="338.2972" x2="-138.9056"
-			y2="343.0797" gradientTransform="matrix(25 0 0 -25 3600 8600)">
+		<linearGradient id="gradientFragment9" gradientUnits="userSpaceOnUse" x1="-143.5695" y1="338.2972"
+			x2="-138.9056" y2="343.0797" gradientTransform="matrix(25 0 0 -25 3600 8600)">
 			<stop stop-color="#BD0012" offset="0" />
 			<stop stop-color="#FFFFFF" offset="7.000000e-02" />
 			<stop stop-color="#FFFFFF" offset="0.17" />
@@ -143,45 +143,45 @@
 			<stop stop-color="#E82609" offset="0.99" />
 			<stop stop-color="#E82609" offset="1" />
 		</linearGradient>
-		<linearGradient id="gradientSegment10" gradientUnits="userSpaceOnUse" x1="-139.9992" y1="337.8081"
+		<linearGradient id="gradientFragment10" gradientUnits="userSpaceOnUse" x1="-139.9992" y1="337.8081"
 			x2="-141.4004" y2="338.153" gradientTransform="matrix(25 0 0 -25 3600 8600)">
 			<stop stop-color="#8C0C01" offset="0" />
 			<stop stop-color="#990C00" offset="0.54" />
 			<stop stop-color="#A80D0E" offset="0.99" />
 			<stop stop-color="#A80D0E" offset="1" />
 		</linearGradient>
-		<linearGradient id="gradientSegment11" gradientUnits="userSpaceOnUse" x1="-137.5929" y1="339.4931"
+		<linearGradient id="gradientFragment11" gradientUnits="userSpaceOnUse" x1="-137.5929" y1="339.4931"
 			x2="-138.8404" y2="340.6081" gradientTransform="matrix(25 0 0 -25 3600 8600)">
 			<stop stop-color="#7E110B" offset="0" />
 			<stop stop-color="#9E0C00" offset="0.99" />
 			<stop stop-color="#9E0C00" offset="1" />
 		</linearGradient>
-		<linearGradient id="gradientSegment12" gradientUnits="userSpaceOnUse" x1="-137.1338" y1="341.5468"
+		<linearGradient id="gradientFragment12" gradientUnits="userSpaceOnUse" x1="-137.1338" y1="341.5468"
 			x2="-137.7555" y2="342.2096" gradientTransform="matrix(25 0 0 -25 3600 8600)">
 			<stop stop-color="#79130D" offset="0" />
 			<stop stop-color="#9E120B" offset="0.99" />
 			<stop stop-color="#9E120B" offset="1" />
 		</linearGradient>
-		<radialGradient id="gradientSegment13" cx="-151.6504" cy="350.6919" r="0.25"
+		<radialGradient id="gradientFragment13" cx="-151.6504" cy="350.6919" r="0.25"
 			gradientTransform="matrix(152.4987 0 0 -152.923 23260.3848 53714.1289)" gradientUnits="userSpaceOnUse">
 			<stop stop-color="#A80D00" offset="0" />
 			<stop stop-color="#7E0E08" offset="0.99" />
 			<stop stop-color="#7E0E08" offset="1" />
 		</radialGradient>
-		<radialGradient id="gradientSegment14" cx="-150.4602" cy="351.264" r="0.25"
+		<radialGradient id="gradientFragment14" cx="-150.4602" cy="351.264" r="0.25"
 			gradientTransform="matrix(202.7265 0 0 -203.291 30583.3633 71544.4609)" gradientUnits="userSpaceOnUse">
 			<stop stop-color="#A30C00" offset="0" />
 			<stop stop-color="#800E08" offset="0.99" />
 			<stop stop-color="#800E08" offset="1" />
 		</radialGradient>
-		<linearGradient id="gradientSegment15" gradientUnits="userSpaceOnUse" x1="-142.192" y1="337.0076" x2="-142.6997"
-			y2="338.7254" gradientTransform="matrix(25 0 0 -25 3600 8600)">
+		<linearGradient id="gradientFragment15" gradientUnits="userSpaceOnUse" x1="-142.192" y1="337.0076"
+			x2="-142.6997" y2="338.7254" gradientTransform="matrix(25 0 0 -25 3600 8600)">
 			<stop stop-color="#8B2114" offset="0" />
 			<stop stop-color="#9E100A" offset="0.43" />
 			<stop stop-color="#B3100C" offset="0.99" />
 			<stop stop-color="#B3100C" offset="1" />
 		</linearGradient>
-		<linearGradient id="gradientSegment16" gradientUnits="userSpaceOnUse" x1="-138.3171" y1="342.7022"
+		<linearGradient id="gradientFragment16" gradientUnits="userSpaceOnUse" x1="-138.3171" y1="342.7022"
 			x2="-137.1836" y2="342.2032" gradientTransform="matrix(25 0 0 -25 3600 8600)">
 			<stop stop-color="#B31000" offset="0" />
 			<stop stop-color="#910F08" offset="0.44" />
@@ -189,7 +189,7 @@
 			<stop stop-color="#791C12" offset="1" />
 		</linearGradient>
 	</defs>
-	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
 	<g>
 		<path class="ruby--fragment-0" d="M141.2,124l-85.6,51l110.9-7.5L175,55.3L141.2,124z" />
 		<path class="ruby--fragment-1" d="M166.6,167.4l-9.5-66l-26,34.4L166.6,167.4z" />
