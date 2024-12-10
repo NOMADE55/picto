@@ -47,6 +47,10 @@ features of Picto, it's important to closely follow the guidelines.
 
 #### Background
 
+Background includes the fill and rx (rounded corner) properties as CSS
+variables. Default value for `fill` will be shown if no background has been set
+by the renderer. Default value for `rx` is always `24px`.
+
 ```xml
-<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24);" />
+<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px);" />
 ```
