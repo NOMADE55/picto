@@ -44,8 +44,10 @@
 |    `drupal`     |        <img src="./drupal.svg" alt="drupal" width="42" />        |
 |    `elysia`     |        <img src="./elysia.svg" alt="elysia" width="42" />        |
 |     `ember`     |         <img src="./ember.svg" alt="ember" width="42" />         |
+|    `encore`     |        <img src="./encore.svg" alt="encore" width="42" />        |
 |      `eta`      |           <img src="./eta.svg" alt="eta" width="42" />           |
 |   `fast-api`    |      <img src="./fast-api.svg" alt="fast-api" width="42" />      |
+|    `fastify`    |       <img src="./fastify.svg" alt="fastify" width="42" />       |
 |    `fedora`     |        <img src="./fedora.svg" alt="fedora" width="42" />        |
 |     `figma`     |         <img src="./figma.svg" alt="figma" width="42" />         |
 |   `firebase`    |      <img src="./firebase.svg" alt="firebase" width="42" />      |
@@ -98,6 +100,7 @@
 |      `nix`      |           <img src="./nix.svg" alt="nix" width="42" />           |
 |     `node`      |          <img src="./node.svg" alt="node" width="42" />          |
 |     `nuxt`      |          <img src="./nuxt.svg" alt="nuxt" width="42" />          |
+|      `oak`      |           <img src="./oak.svg" alt="oak" width="42" />           |
 |     `ocaml`     |         <img src="./ocaml.svg" alt="ocaml" width="42" />         |
 |    `october`    |       <img src="./october.svg" alt="october" width="42" />       |
 |    `open-ai`    |       <img src="./open-ai.svg" alt="open-ai" width="42" />       |
@@ -155,5 +158,5 @@
 ---
 
 <br>
-Current icon count: <strong>145</strong>
+Current icon count: <strong>148</strong>
 <!-- SUPPORTED:ICONS:END -->
