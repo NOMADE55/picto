@@ -75,6 +75,7 @@
 |     `java`      |          <img src="./java.svg" alt="java" width="42" />          |
 |  `javascript`   |    <img src="./javascript.svg" alt="javascript" width="42" />    |
 |    `jekyll`     |        <img src="./jekyll.svg" alt="jekyll" width="42" />        |
+|    `jenkins`    |       <img src="./jenkins.svg" alt="jenkins" width="42" />       |
 |     `jest`      |          <img src="./jest.svg" alt="jest" width="42" />          |
 |    `joomla`     |        <img src="./joomla.svg" alt="joomla" width="42" />        |
 |    `jquery`     |        <img src="./jquery.svg" alt="jquery" width="42" />        |
@@ -82,6 +83,7 @@
 |     `kafka`     |         <img src="./kafka.svg" alt="kafka" width="42" />         |
 |    `kotlin`     |        <img src="./kotlin.svg" alt="kotlin" width="42" />        |
 |    `laravel`    |       <img src="./laravel.svg" alt="laravel" width="42" />       |
+|     `lerna`     |         <img src="./lerna.svg" alt="lerna" width="42" />         |
 |   `lightroom`   |     <img src="./lightroom.svg" alt="lightroom" width="42" />     |
 |  `linux-mint`   |    <img src="./linux-mint.svg" alt="linux-mint" width="42" />    |
 |      `lit`      |           <img src="./lit.svg" alt="lit" width="42" />           |
@@ -100,6 +102,7 @@
 |      `nix`      |           <img src="./nix.svg" alt="nix" width="42" />           |
 |     `node`      |          <img src="./node.svg" alt="node" width="42" />          |
 |     `nuxt`      |          <img src="./nuxt.svg" alt="nuxt" width="42" />          |
+|      `nx`       |            <img src="./nx.svg" alt="nx" width="42" />            |
 |      `oak`      |           <img src="./oak.svg" alt="oak" width="42" />           |
 |     `ocaml`     |         <img src="./ocaml.svg" alt="ocaml" width="42" />         |
 |    `october`    |       <img src="./october.svg" alt="october" width="42" />       |
@@ -127,9 +130,11 @@
 |     `redux`     |         <img src="./redux.svg" alt="redux" width="42" />         |
 |     `remix`     |         <img src="./remix.svg" alt="remix" width="42" />         |
 |     `ruby`      |          <img src="./ruby.svg" alt="ruby" width="42" />          |
+|     `rxjs`      |          <img src="./rxjs.svg" alt="rxjs" width="42" />          |
 |  `salesforce`   |    <img src="./salesforce.svg" alt="salesforce" width="42" />    |
 |     `sass`      |          <img src="./sass.svg" alt="sass" width="42" />          |
 |     `scala`     |         <img src="./scala.svg" alt="scala" width="42" />         |
+|    `sentry`     |        <img src="./sentry.svg" alt="sentry" width="42" />        |
 |    `shopify`    |       <img src="./shopify.svg" alt="shopify" width="42" />       |
 |     `solid`     |         <img src="./solid.svg" alt="solid" width="42" />         |
 |   `solidity`    |      <img src="./solidity.svg" alt="solidity" width="42" />      |
@@ -142,6 +147,7 @@
 |   `tailwind`    |      <img src="./tailwind.svg" alt="tailwind" width="42" />      |
 |     `tauri`     |         <img src="./tauri.svg" alt="tauri" width="42" />         |
 |   `terraform`   |     <img src="./terraform.svg" alt="terraform" width="42" />     |
+|   `travis-ci`   |     <img src="./travis-ci.svg" alt="travis-ci" width="42" />     |
 |     `turso`     |         <img src="./turso.svg" alt="turso" width="42" />         |
 |  `typescript`   |    <img src="./typescript.svg" alt="typescript" width="42" />    |
 |    `ubuntu`     |        <img src="./ubuntu.svg" alt="ubuntu" width="42" />        |
@@ -158,5 +164,5 @@
 ---
 
 <br>
-Current icon count: <strong>148</strong>
+Current icon count: <strong>154</strong>
 <!-- SUPPORTED:ICONS:END -->
