@@ -7,9 +7,11 @@
 |    Icon name    |                               Icon                               |
 | :-------------: | :--------------------------------------------------------------: |
 |     `11ty`      |          <img src="./11ty.svg" alt="11ty" width="42" />          |
+|    `adonis`     |        <img src="./adonis.svg" alt="adonis" width="42" />        |
 | `after-effects` | <img src="./after-effects.svg" alt="after-effects" width="42" /> |
 |   `airtable`    |      <img src="./airtable.svg" alt="airtable" width="42" />      |
 |    `alpine`     |        <img src="./alpine.svg" alt="alpine" width="42" />        |
+|    `analog`     |        <img src="./analog.svg" alt="analog" width="42" />        |
 |    `angular`    |       <img src="./angular.svg" alt="angular" width="42" />       |
 |   `appwrite`    |      <img src="./appwrite.svg" alt="appwrite" width="42" />      |
 |  `arch-linux`   |    <img src="./arch-linux.svg" alt="arch-linux" width="42" />    |
@@ -115,6 +117,7 @@
 |      `php`      |           <img src="./php.svg" alt="php" width="42" />           |
 |   `pinecone`    |      <img src="./pinecone.svg" alt="pinecone" width="42" />      |
 |  `planetscale`  |   <img src="./planetscale.svg" alt="planetscale" width="42" />   |
+|  `playwright`   |    <img src="./playwright.svg" alt="playwright" width="42" />    |
 |  `postgresql`   |    <img src="./postgresql.svg" alt="postgresql" width="42" />    |
 |    `postman`    |       <img src="./postman.svg" alt="postman" width="42" />       |
 |    `preact`     |        <img src="./preact.svg" alt="preact" width="42" />        |
@@ -130,7 +133,9 @@
 |    `redhat`     |        <img src="./redhat.svg" alt="redhat" width="42" />        |
 |     `redis`     |         <img src="./redis.svg" alt="redis" width="42" />         |
 |     `redux`     |         <img src="./redux.svg" alt="redux" width="42" />         |
+|    `redwood`    |       <img src="./redwood.svg" alt="redwood" width="42" />       |
 |     `remix`     |         <img src="./remix.svg" alt="remix" width="42" />         |
+|    `rollup`     |        <img src="./rollup.svg" alt="rollup" width="42" />        |
 |     `ruby`      |          <img src="./ruby.svg" alt="ruby" width="42" />          |
 |     `rxjs`      |          <img src="./rxjs.svg" alt="rxjs" width="42" />          |
 |  `salesforce`   |    <img src="./salesforce.svg" alt="salesforce" width="42" />    |
@@ -143,6 +148,7 @@
 |   `solidity`    |      <img src="./solidity.svg" alt="solidity" width="42" />      |
 |  `springboot`   |    <img src="./springboot.svg" alt="springboot" width="42" />    |
 |    `stencil`    |       <img src="./stencil.svg" alt="stencil" width="42" />       |
+|   `storybook`   |     <img src="./storybook.svg" alt="storybook" width="42" />     |
 |    `strapi`     |        <img src="./strapi.svg" alt="strapi" width="42" />        |
 |    `svelte`     |        <img src="./svelte.svg" alt="svelte" width="42" />        |
 |     `swift`     |         <img src="./swift.svg" alt="swift" width="42" />         |
@@ -156,6 +162,8 @@
 |    `ubuntu`     |        <img src="./ubuntu.svg" alt="ubuntu" width="42" />        |
 |     `unity`     |         <img src="./unity.svg" alt="unity" width="42" />         |
 | `unreal-engine` | <img src="./unreal-engine.svg" alt="unreal-engine" width="42" /> |
+|     `vite`      |          <img src="./vite.svg" alt="vite" width="42" />          |
+|    `vitest`     |        <img src="./vitest.svg" alt="vitest" width="42" />        |
 |      `vue`      |           <img src="./vue.svg" alt="vue" width="42" />           |
 |    `webflow`    |       <img src="./webflow.svg" alt="webflow" width="42" />       |
 |    `webpack`    |       <img src="./webpack.svg" alt="webpack" width="42" />       |
@@ -167,5 +175,5 @@
 ---
 
 <br>
-Current icon count: <strong>157</strong>
+Current icon count: <strong>165</strong>
 <!-- SUPPORTED:ICONS:END -->
