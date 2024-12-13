@@ -1,5 +1,6 @@
 import { dirname, fromFileUrl, join } from '@std/path';
 import { getFiles, replaceBetween, writeFile } from './utils.ts';
+import { iconNames as icons } from '../icons/index.ts';
 
 const SUPPORTED_ICONS_FLAG_START = '<!-- SUPPORTED:ICONS:START -->';
 const SUPPORTED_ICONS_FLAG_END = '<!-- SUPPORTED:ICONS:END -->';
@@ -12,6 +13,12 @@ const files = await getFiles(iconsDir);
 
 const iconNames = files.filter(({ name }) => name.split('.').pop() === 'svg')
   .map(({ name }) => name.split('.').shift()).sort();
+const diff = iconNames.length - icons.length;
+
+if (diff === 0) {
+  console.log('Nothing to update!');
+  Deno.exit(2);
+}
 
 // Update Index File
 writeFile(
@@ -46,3 +53,4 @@ writeFile(
 );
 
 console.log('%cReadme file updated!', 'color: green');
+console.log(`%cAdded new ${diff} icons!`, 'color: green');
