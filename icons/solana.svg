@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	y="0px" viewBox="0 0 200 200" style="enable-background:new 0 0 200 200;" xml:space="preserve">
+	<style type="text/css">
+		.solana--fragment-0 {
+			fill: url(#svgFragment1);
+		}
+
+		.solana--fragment-1 {
+			fill: url(#svgFragment2);
+		}
+
+		.solana--fragment-2 {
+			fill: url(#svgFragment3);
+		}
+	</style>
+	<defs>
+		<linearGradient id="svgFragment1" gradientUnits="userSpaceOnUse" x1="161.1068" y1="-86.901" x2="78.264"
+			y2="71.7763" gradientTransform="matrix(1 0 0 1 0 114)">
+			<stop stop-color="#00FFA3" offset="0" />
+			<stop stop-color="#DC1FFF" offset="1" />
+		</linearGradient>
+		<linearGradient id="svgFragment2" gradientUnits="userSpaceOnUse" x1="124.8866" y1="-105.8109" x2="42.0438"
+			y2="52.8663" gradientTransform="matrix(1 0 0 1 0 114)">
+			<stop stop-color="#00FFA3" offset="0" />
+			<stop stop-color="#DC1FFF" offset="1" />
+		</linearGradient>
+		<linearGradient id="svgFragment3" gradientUnits="userSpaceOnUse" x1="142.8807" y1="-96.4165" x2="60.0378"
+			y2="62.2607" gradientTransform="matrix(1 0 0 1 0 114)">
+			<stop stop-color="#00FFA3" offset="0" />
+			<stop stop-color="#DC1FFF" offset="1" />
+		</linearGradient>
+	</defs>
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px); filter: var(--filter);" />
+	<g>
+		<path class="solana--fragment-0" d="M49.4,130.9c0.9-0.9,2.1-1.4,3.5-1.4h119.7c2.2,0,3.3,2.6,1.7,4.2l-23.6,23.6c-0.9,0.9-2.1,1.4-3.5,1.4H27.5
+		c-2.2,0-3.3-2.6-1.7-4.2L49.4,130.9z" />
+		<path class="solana--fragment-1" d="M49.4,42.7c0.9-0.9,2.2-1.4,3.5-1.4h119.7c2.2,0,3.3,2.6,1.7,4.2l-23.6,23.6c-0.9,0.9-2.1,1.4-3.5,1.4H27.5
+		c-2.2,0-3.3-2.6-1.7-4.2L49.4,42.7z" />
+		<path class="solana--fragment-2" d="M150.6,86.5c-0.9-0.9-2.1-1.4-3.5-1.4H27.5c-2.2,0-3.3,2.6-1.7,4.2l23.6,23.6c0.9,0.9,2.1,1.4,3.5,1.4h119.7
+		c2.2,0,3.3-2.6,1.7-4.2L150.6,86.5z" />
+	</g>
+</svg>

@@ -21,6 +21,7 @@
 |   `backbone`    |      <img src="./backbone.svg" alt="backbone" width="42" />      |
 |     `bash`      |          <img src="./bash.svg" alt="bash" width="42" />          |
 |   `bitbucket`   |     <img src="./bitbucket.svg" alt="bitbucket" width="42" />     |
+|    `bitcoin`    |       <img src="./bitcoin.svg" alt="bitcoin" width="42" />       |
 |    `blender`    |       <img src="./blender.svg" alt="blender" width="42" />       |
 |     `bower`     |         <img src="./bower.svg" alt="bower" width="42" />         |
 |      `bun`      |           <img src="./bun.svg" alt="bun" width="42" />           |
@@ -46,6 +47,7 @@
 |     `ember`     |         <img src="./ember.svg" alt="ember" width="42" />         |
 |    `encore`     |        <img src="./encore.svg" alt="encore" width="42" />        |
 |      `eta`      |           <img src="./eta.svg" alt="eta" width="42" />           |
+|    `etherum`    |       <img src="./etherum.svg" alt="etherum" width="42" />       |
 |   `fast-api`    |      <img src="./fast-api.svg" alt="fast-api" width="42" />      |
 |    `fastify`    |       <img src="./fastify.svg" alt="fastify" width="42" />       |
 |    `fedora`     |        <img src="./fedora.svg" alt="fedora" width="42" />        |
@@ -136,6 +138,7 @@
 |     `scala`     |         <img src="./scala.svg" alt="scala" width="42" />         |
 |    `sentry`     |        <img src="./sentry.svg" alt="sentry" width="42" />        |
 |    `shopify`    |       <img src="./shopify.svg" alt="shopify" width="42" />       |
+|    `solana`     |        <img src="./solana.svg" alt="solana" width="42" />        |
 |     `solid`     |         <img src="./solid.svg" alt="solid" width="42" />         |
 |   `solidity`    |      <img src="./solidity.svg" alt="solidity" width="42" />      |
 |  `springboot`   |    <img src="./springboot.svg" alt="springboot" width="42" />    |
@@ -164,5 +167,5 @@
 ---
 
 <br>
-Current icon count: <strong>154</strong>
+Current icon count: <strong>157</strong>
 <!-- SUPPORTED:ICONS:END -->

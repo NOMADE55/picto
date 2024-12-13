@@ -1,0 +1,27 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.etherum--fragment-0 {
+			fill: #000;
+			opacity: 0.6;
+		}
+
+		.etherum--fragment-1 {
+			fill: #000;
+			opacity: 0.45;
+		}
+
+		.etherum--fragment-2 {
+			fill: #000;
+			opacity: 0.8;
+		}
+	</style>
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px); filter: var(--filter);" />
+	<g>
+		<path class="etherum--fragment-0" d="M100,80.5l-46,20.9l46,27.2l46.1-27.2L100,80.5z" />
+		<path class="etherum--fragment-1" d="M54,101.4l46,27.2V25L54,101.4z" />
+		<path class="etherum--fragment-2" d="M100,25v103.6l46-27.2L100,25z" />
+		<path class="etherum--fragment-1" d="M53.9,110.1l46,64.9v-37.7L53.9,110.1z" />
+		<path class="etherum--fragment-2" d="M100,137.3V175l46.1-64.9L100,137.3z" />
+	</g>
+</svg>
