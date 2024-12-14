@@ -1,0 +1,65 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.powerpoint--fragment-0 {
+			fill: #ED6C47;
+		}
+
+		.powerpoint--fragment-1 {
+			fill: #FF8F6B;
+		}
+
+		.powerpoint--fragment-2 {
+			fill: #D35230;
+		}
+
+		.powerpoint--fragment-3 {
+			fill: #000;
+			opacity: 0.1;
+		}
+
+		.powerpoint--fragment-4 {
+			fill: #000;
+			opacity: 0.2;
+		}
+
+		.powerpoint--fragment-5 {
+			fill: url(#gradientFragment1);
+		}
+
+		.powerpoint--fragment-6 {
+			fill: #FFFFFF;
+		}
+	</style>
+	<defs>
+		<linearGradient id="gradientFragment1" gradientUnits="userSpaceOnUse" x1="1.5344" y1="1953.7328" x2="3.5354"
+			y2="1950.2672" gradientTransform="matrix(25 0 0 -25 0 48900)">
+			<stop stop-color="#CA4C28" offset="0" />
+			<stop stop-color="#C5401E" offset="0.5" />
+			<stop stop-color="#B62F14" offset="1" />
+		</linearGradient>
+	</defs>
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px); filter: var(--filter);" />
+	<g>
+		<path class="powerpoint--fragment-0" d="M115.7,107l-10.5-76.6h-0.8c-38,0.1-68.9,30.8-69,68.9v0.8L115.7,107z" />
+		<path class="powerpoint--fragment-1"
+			d="M106,30.4h-0.8V100l34.9,13.9L175,100v-0.8C174.9,61.2,144,30.4,106,30.4z" />
+		<path class="powerpoint--fragment-2"
+			d="M175,100v0.8c-0.1,38-31,68.8-69,68.9h-1.5c-38-0.1-68.9-30.9-69-68.9V100H175z" />
+		<path class="powerpoint--fragment-3"
+			d="M108.7,64.6v74.3c0,2.6-1.6,4.9-4,5.9c-0.8,0.3-1.6,0.5-2.4,0.5H51.9c-1-1.1-1.9-2.3-2.8-3.5
+		c-8.9-11.8-13.7-26.2-13.7-41v-1.5c0-13.3,3.9-26.4,11.2-37.5c0.8-1.2,1.6-2.4,2.4-3.5h53.2C105.8,58.2,108.7,61.1,108.7,64.6z" />
+		<path class="powerpoint--fragment-4"
+			d="M105.2,68.1v74.3c0,0.8-0.2,1.6-0.5,2.4c-1,2.4-3.3,4-5.9,4H55.1c-1.1-1.1-2.2-2.3-3.2-3.5
+		c-1-1.1-1.9-2.3-2.8-3.5c-8.9-11.8-13.7-26.2-13.7-41v-1.5c0-13.3,3.9-26.4,11.2-37.5h52.2C102.4,61.7,105.2,64.6,105.2,68.1z" />
+		<path class="powerpoint--fragment-4" d="M105.2,68.1v67.3c0,3.5-2.9,6.3-6.4,6.4H49.1c-8.9-11.8-13.7-26.2-13.7-41v-1.5c0-13.3,3.9-26.4,11.2-37.5
+		h52.2C102.4,61.7,105.2,64.6,105.2,68.1z" />
+		<path class="powerpoint--fragment-4" d="M101.7,68.1v67.3c0,3.5-2.9,6.3-6.4,6.4H49.1c-8.9-11.8-13.7-26.2-13.7-41v-1.5c0-13.3,3.9-26.4,11.2-37.5
+		h48.7C98.9,61.7,101.7,64.6,101.7,68.1z" />
+		<path class="powerpoint--fragment-5" d="M31.4,61.7h64c3.5,0,6.4,2.9,6.4,6.4v63.8c0,3.5-2.9,6.4-6.4,6.4h-64c-3.5,0-6.4-2.8-6.4-6.4c0,0,0,0,0,0
+		V68.1C25,64.6,27.9,61.7,31.4,61.7C31.4,61.7,31.4,61.7,31.4,61.7z" />
+		<path class="powerpoint--fragment-6" d="M64.1,78.7c4.2-0.3,8.3,0.9,11.6,3.4c2.8,2.5,4.3,6.1,4,9.9c0,2.6-0.6,5.2-2,7.4c-1.4,2.2-3.3,3.9-5.7,5
+		c-2.7,1.2-5.6,1.8-8.5,1.8h-8.1v15h-8.3V78.7H64.1z M55.5,99.7h7.1c2.3,0.2,4.5-0.5,6.3-1.9c1.5-1.4,2.3-3.4,2.1-5.5
+		c0-4.7-2.7-7-8.2-7h-7.4V99.7z" />
+	</g>
+</svg>

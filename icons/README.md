@@ -13,6 +13,7 @@
 |    `alpine`     |        <img src="./alpine.svg" alt="alpine" width="42" />        |
 |    `analog`     |        <img src="./analog.svg" alt="analog" width="42" />        |
 |    `angular`    |       <img src="./angular.svg" alt="angular" width="42" />       |
+|    `ansible`    |       <img src="./ansible.svg" alt="ansible" width="42" />       |
 |   `appwrite`    |      <img src="./appwrite.svg" alt="appwrite" width="42" />      |
 |  `arch-linux`   |    <img src="./arch-linux.svg" alt="arch-linux" width="42" />    |
 |     `astro`     |         <img src="./astro.svg" alt="astro" width="42" />         |
@@ -29,6 +30,7 @@
 |      `bun`      |           <img src="./bun.svg" alt="bun" width="42" />           |
 |  `c-plus-plus`  |   <img src="./c-plus-plus.svg" alt="c-plus-plus" width="42" />   |
 |    `c-sharp`    |       <img src="./c-sharp.svg" alt="c-sharp" width="42" />       |
+|   `cassandra`   |     <img src="./cassandra.svg" alt="cassandra" width="42" />     |
 |    `claude`     |        <img src="./claude.svg" alt="claude" width="42" />        |
 |     `clerk`     |         <img src="./clerk.svg" alt="clerk" width="42" />         |
 |    `clojure`    |       <img src="./clojure.svg" alt="clojure" width="42" />       |
@@ -50,6 +52,7 @@
 |    `encore`     |        <img src="./encore.svg" alt="encore" width="42" />        |
 |      `eta`      |           <img src="./eta.svg" alt="eta" width="42" />           |
 |    `etherum`    |       <img src="./etherum.svg" alt="etherum" width="42" />       |
+|     `excel`     |         <img src="./excel.svg" alt="excel" width="42" />         |
 |   `fast-api`    |      <img src="./fast-api.svg" alt="fast-api" width="42" />      |
 |    `fastify`    |       <img src="./fastify.svg" alt="fastify" width="42" />       |
 |    `fedora`     |        <img src="./fedora.svg" alt="fedora" width="42" />        |
@@ -120,6 +123,8 @@
 |  `playwright`   |    <img src="./playwright.svg" alt="playwright" width="42" />    |
 |  `postgresql`   |    <img src="./postgresql.svg" alt="postgresql" width="42" />    |
 |    `postman`    |       <img src="./postman.svg" alt="postman" width="42" />       |
+|   `power-bi`    |      <img src="./power-bi.svg" alt="power-bi" width="42" />      |
+|  `powerpoint`   |    <img src="./powerpoint.svg" alt="powerpoint" width="42" />    |
 |    `preact`     |        <img src="./preact.svg" alt="preact" width="42" />        |
 |   `premiere`    |      <img src="./premiere.svg" alt="premiere" width="42" />      |
 |    `prisma`     |        <img src="./prisma.svg" alt="prisma" width="42" />        |
@@ -153,9 +158,11 @@
 |    `svelte`     |        <img src="./svelte.svg" alt="svelte" width="42" />        |
 |     `swift`     |         <img src="./swift.svg" alt="swift" width="42" />         |
 |    `symfony`    |       <img src="./symfony.svg" alt="symfony" width="42" />       |
+|    `tableau`    |       <img src="./tableau.svg" alt="tableau" width="42" />       |
 |   `tailwind`    |      <img src="./tailwind.svg" alt="tailwind" width="42" />      |
 |     `tauri`     |         <img src="./tauri.svg" alt="tauri" width="42" />         |
 |   `terraform`   |     <img src="./terraform.svg" alt="terraform" width="42" />     |
+|   `timescale`   |     <img src="./timescale.svg" alt="timescale" width="42" />     |
 |   `travis-ci`   |     <img src="./travis-ci.svg" alt="travis-ci" width="42" />     |
 |     `turso`     |         <img src="./turso.svg" alt="turso" width="42" />         |
 |  `typescript`   |    <img src="./typescript.svg" alt="typescript" width="42" />    |
@@ -168,6 +175,7 @@
 |    `webflow`    |       <img src="./webflow.svg" alt="webflow" width="42" />       |
 |    `webpack`    |       <img src="./webpack.svg" alt="webpack" width="42" />       |
 |      `woo`      |           <img src="./woo.svg" alt="woo" width="42" />           |
+|     `word`      |          <img src="./word.svg" alt="word" width="42" />          |
 |   `wordpress`   |     <img src="./wordpress.svg" alt="wordpress" width="42" />     |
 |     `yarn`      |          <img src="./yarn.svg" alt="yarn" width="42" />          |
 |      `zig`      |           <img src="./zig.svg" alt="zig" width="42" />           |
@@ -175,5 +183,5 @@
 ---
 
 <br>
-Current icon count: <strong>165</strong>
+Current icon count: <strong>173</strong>
 <!-- SUPPORTED:ICONS:END -->
