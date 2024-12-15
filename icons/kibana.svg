@@ -1,0 +1,22 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.kibana--fragment-0 {
+			fill: #F04E98;
+		}
+
+		.kibana--fragment-1 {
+			fill: #343741;
+		}
+
+		.kibana--fragment-2 {
+			fill: #00BFB3;
+		}
+	</style>
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px); filter: var(--filter);" />
+	<g>
+		<path class="kibana--fragment-0" d="M158.6,25H41.4v56.2c20.3,0,39.3,5.2,55.9,14.3L158.6,25z" />
+		<path class="kibana--fragment-1" d="M41.4,81.2v78.7l55.9-64.4C80.7,86.5,61.7,81.2,41.4,81.2" />
+		<path class="kibana--fragment-2" d="M109.4,103.1L52,169.2L47,175h109.3C150.2,145.5,133.1,120,109.4,103.1" />
+	</g>
+</svg>

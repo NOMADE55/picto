@@ -1,0 +1,37 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.jira--fragment-0 {
+			fill: #2684FF;
+		}
+
+		.jira--fragment-1 {
+			fill: url(#gradientFragment1);
+		}
+
+		.jira--fragment-2 {
+			fill: url(#gradientFragment2);
+		}
+	</style>
+	<defs>
+		<linearGradient id="gradientFragment1" gradientUnits="userSpaceOnUse" x1="-0.1257" y1="200.3139" x2="-0.1993"
+			y2="200.2376" gradientTransform="matrix(417.5556 0 0 -415.1111 190.2222 83213.6641)">
+			<stop stop-color="#0052CC" offset="0.18" />
+			<stop stop-color="#2684FF" offset="1" />
+		</linearGradient>
+		<linearGradient id="gradientFragment2" gradientUnits="userSpaceOnUse" x1="0.2491" y1="200.6877" x2="0.164"
+			y2="200.6045" gradientTransform="matrix(417.5556 0 0 -415.1111 0 83405)">
+			<stop stop-color="#0052CC" offset="0.18" />
+			<stop stop-color="#2684FF" offset="1" />
+		</linearGradient>
+	</defs>
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px); filter: var(--filter);" />
+	<g>
+		<path class="jira--fragment-0" d="M168.7,25H96.5c0,8.6,3.4,16.9,9.6,23.1c6.1,6.1,14.4,9.6,23.1,9.6h13.3v12.8c0,18,14.6,32.6,32.6,32.6V31.3
+		C175,27.8,172.2,25,168.7,25z" />
+		<path class="jira--fragment-1"
+			d="M133,61H60.8c0,18,14.6,32.6,32.6,32.6h13.3v12.9c0,18,14.6,32.6,32.6,32.6V67.3C139.3,63.8,136.5,61,133,61z" />
+		<path class="jira--fragment-2"
+			d="M97.2,97H25c0,18,14.6,32.6,32.6,32.6H71v12.8c0,18,14.6,32.6,32.5,32.6v-71.8C103.5,99.8,100.7,97,97.2,97z" />
+	</g>
+</svg>

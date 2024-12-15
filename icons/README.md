@@ -23,6 +23,7 @@
 |     `azure`     |         <img src="./azure.svg" alt="azure" width="42" />         |
 |   `backbone`    |      <img src="./backbone.svg" alt="backbone" width="42" />      |
 |     `bash`      |          <img src="./bash.svg" alt="bash" width="42" />          |
+|   `big-query`   |     <img src="./big-query.svg" alt="big-query" width="42" />     |
 |   `bitbucket`   |     <img src="./bitbucket.svg" alt="bitbucket" width="42" />     |
 |    `bitcoin`    |       <img src="./bitcoin.svg" alt="bitcoin" width="42" />       |
 |    `blender`    |       <img src="./blender.svg" alt="blender" width="42" />       |
@@ -47,6 +48,7 @@
 |    `docker`     |        <img src="./docker.svg" alt="docker" width="42" />        |
 |    `dotnet`     |        <img src="./dotnet.svg" alt="dotnet" width="42" />        |
 |    `drupal`     |        <img src="./drupal.svg" alt="drupal" width="42" />        |
+|    `elastic`    |       <img src="./elastic.svg" alt="elastic" width="42" />       |
 |    `elysia`     |        <img src="./elysia.svg" alt="elysia" width="42" />        |
 |     `ember`     |         <img src="./ember.svg" alt="ember" width="42" />         |
 |    `encore`     |        <img src="./encore.svg" alt="encore" width="42" />        |
@@ -84,10 +86,12 @@
 |    `jekyll`     |        <img src="./jekyll.svg" alt="jekyll" width="42" />        |
 |    `jenkins`    |       <img src="./jenkins.svg" alt="jenkins" width="42" />       |
 |     `jest`      |          <img src="./jest.svg" alt="jest" width="42" />          |
+|     `jira`      |          <img src="./jira.svg" alt="jira" width="42" />          |
 |    `joomla`     |        <img src="./joomla.svg" alt="joomla" width="42" />        |
 |    `jquery`     |        <img src="./jquery.svg" alt="jquery" width="42" />        |
 |     `julia`     |         <img src="./julia.svg" alt="julia" width="42" />         |
 |     `kafka`     |         <img src="./kafka.svg" alt="kafka" width="42" />         |
+|    `kibana`     |        <img src="./kibana.svg" alt="kibana" width="42" />        |
 |    `kotlin`     |        <img src="./kotlin.svg" alt="kotlin" width="42" />        |
 |    `laravel`    |       <img src="./laravel.svg" alt="laravel" width="42" />       |
 |     `lerna`     |         <img src="./lerna.svg" alt="lerna" width="42" />         |
@@ -148,6 +152,7 @@
 |     `scala`     |         <img src="./scala.svg" alt="scala" width="42" />         |
 |    `sentry`     |        <img src="./sentry.svg" alt="sentry" width="42" />        |
 |    `shopify`    |       <img src="./shopify.svg" alt="shopify" width="42" />       |
+|   `snowpack`    |      <img src="./snowpack.svg" alt="snowpack" width="42" />      |
 |    `solana`     |        <img src="./solana.svg" alt="solana" width="42" />        |
 |     `solid`     |         <img src="./solid.svg" alt="solid" width="42" />         |
 |   `solidity`    |      <img src="./solidity.svg" alt="solidity" width="42" />      |
@@ -164,6 +169,7 @@
 |   `terraform`   |     <img src="./terraform.svg" alt="terraform" width="42" />     |
 |   `timescale`   |     <img src="./timescale.svg" alt="timescale" width="42" />     |
 |   `travis-ci`   |     <img src="./travis-ci.svg" alt="travis-ci" width="42" />     |
+|    `trello`     |        <img src="./trello.svg" alt="trello" width="42" />        |
 |     `turso`     |         <img src="./turso.svg" alt="turso" width="42" />         |
 |  `typescript`   |    <img src="./typescript.svg" alt="typescript" width="42" />    |
 |    `ubuntu`     |        <img src="./ubuntu.svg" alt="ubuntu" width="42" />        |
@@ -183,5 +189,5 @@
 ---
 
 <br>
-Current icon count: <strong>173</strong>
+Current icon count: <strong>179</strong>
 <!-- SUPPORTED:ICONS:END -->
