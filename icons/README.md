@@ -47,6 +47,7 @@
 |    `django`     |        <img src="./django.svg" alt="django" width="42" />        |
 |    `docker`     |        <img src="./docker.svg" alt="docker" width="42" />        |
 |    `dotnet`     |        <img src="./dotnet.svg" alt="dotnet" width="42" />        |
+|    `drizzle`    |       <img src="./drizzle.svg" alt="drizzle" width="42" />       |
 |    `drupal`     |        <img src="./drupal.svg" alt="drupal" width="42" />        |
 |    `elastic`    |       <img src="./elastic.svg" alt="elastic" width="42" />       |
 |    `elysia`     |        <img src="./elysia.svg" alt="elysia" width="42" />        |
@@ -72,6 +73,7 @@
 |    `golang`     |        <img src="./golang.svg" alt="golang" width="42" />        |
 | `google-cloud`  |  <img src="./google-cloud.svg" alt="google-cloud" width="42" />  |
 |    `gradio`     |        <img src="./gradio.svg" alt="gradio" width="42" />        |
+|    `gradle`     |        <img src="./gradle.svg" alt="gradle" width="42" />        |
 |    `grafana`    |       <img src="./grafana.svg" alt="grafana" width="42" />       |
 |    `graphql`    |       <img src="./graphql.svg" alt="graphql" width="42" />       |
 |     `grunt`     |         <img src="./grunt.svg" alt="grunt" width="42" />         |
@@ -120,6 +122,7 @@
 |    `open-ai`    |       <img src="./open-ai.svg" alt="open-ai" width="42" />       |
 |    `open-cv`    |       <img src="./open-cv.svg" alt="open-cv" width="42" />       |
 |    `pandas`     |        <img src="./pandas.svg" alt="pandas" width="42" />        |
+|  `perplexity`   |    <img src="./perplexity.svg" alt="perplexity" width="42" />    |
 |   `photoshop`   |     <img src="./photoshop.svg" alt="photoshop" width="42" />     |
 |      `php`      |           <img src="./php.svg" alt="php" width="42" />           |
 |   `pinecone`    |      <img src="./pinecone.svg" alt="pinecone" width="42" />      |
@@ -156,7 +159,9 @@
 |    `solana`     |        <img src="./solana.svg" alt="solana" width="42" />        |
 |     `solid`     |         <img src="./solid.svg" alt="solid" width="42" />         |
 |   `solidity`    |      <img src="./solidity.svg" alt="solidity" width="42" />      |
+|  `solidworks`   |    <img src="./solidworks.svg" alt="solidworks" width="42" />    |
 |  `springboot`   |    <img src="./springboot.svg" alt="springboot" width="42" />    |
+|    `sqlite`     |        <img src="./sqlite.svg" alt="sqlite" width="42" />        |
 |    `stencil`    |       <img src="./stencil.svg" alt="stencil" width="42" />       |
 |   `storybook`   |     <img src="./storybook.svg" alt="storybook" width="42" />     |
 |    `strapi`     |        <img src="./strapi.svg" alt="strapi" width="42" />        |
@@ -189,5 +194,5 @@
 ---
 
 <br>
-Current icon count: <strong>179</strong>
+Current icon count: <strong>184</strong>
 <!-- SUPPORTED:ICONS:END -->

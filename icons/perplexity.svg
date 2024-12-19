@@ -1,0 +1,15 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.perplexity {
+			fill: #1f7c89;
+			fill-rule: evenodd;
+			clip-rule: evenodd;
+		}
+	</style>
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px); filter: var(--filter);" />
+	<path class="perplexity" d="M53,25l42.7,39.4v0V25.1h8.3v39.4L146.9,25v44.9h17.6v64.7H147v40l-43-37.7V175h-8.3v-37.6L53.1,175v-40.4H35.4
+	V69.9H53V25z M89.5,78.1H43.8v48.3H53v-15.2L89.5,78.1z M61.4,114.8v41.9l34.4-30.3V83.6L61.4,114.8z M104.3,126V83.5l34.4,31.2
+	v19.8h0v21.7L104.3,126z M147,126.4h9.2V78.1h-45.4l36.1,32.7V126.4z M138.6,69.9v-26l-28.2,26H138.6z M89.5,69.9H61.3v-26
+	L89.5,69.9z" />
+</svg>
