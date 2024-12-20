@@ -66,6 +66,7 @@
 |    `freebsd`    |       <img src="./freebsd.svg" alt="freebsd" width="42" />       |
 |   `gamemaker`   |     <img src="./gamemaker.svg" alt="gamemaker" width="42" />     |
 |    `gatsby`     |        <img src="./gatsby.svg" alt="gatsby" width="42" />        |
+|     `gimp`      |          <img src="./gimp.svg" alt="gimp" width="42" />          |
 |      `git`      |           <img src="./git.svg" alt="git" width="42" />           |
 |    `github`     |        <img src="./github.svg" alt="github" width="42" />        |
 |    `gitlab`     |        <img src="./gitlab.svg" alt="gitlab" width="42" />        |
@@ -82,6 +83,7 @@
 |     `hono`      |          <img src="./hono.svg" alt="hono" width="42" />          |
 |     `html`      |          <img src="./html.svg" alt="html" width="42" />          |
 |  `illustrator`  |   <img src="./illustrator.svg" alt="illustrator" width="42" />   |
+|   `inkscape`    |      <img src="./inkscape.svg" alt="inkscape" width="42" />      |
 |     `ionic`     |         <img src="./ionic.svg" alt="ionic" width="42" />         |
 |     `java`      |          <img src="./java.svg" alt="java" width="42" />          |
 |  `javascript`   |    <img src="./javascript.svg" alt="javascript" width="42" />    |
@@ -194,5 +196,5 @@
 ---
 
 <br>
-Current icon count: <strong>184</strong>
+Current icon count: <strong>186</strong>
 <!-- SUPPORTED:ICONS:END -->
