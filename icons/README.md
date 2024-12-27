@@ -31,6 +31,7 @@
 |      `bun`      |           <img src="./bun.svg" alt="bun" width="42" />           |
 |  `c-plus-plus`  |   <img src="./c-plus-plus.svg" alt="c-plus-plus" width="42" />   |
 |    `c-sharp`    |       <img src="./c-sharp.svg" alt="c-sharp" width="42" />       |
+|   `cake-php`    |      <img src="./cake-php.svg" alt="cake-php" width="42" />      |
 |   `cassandra`   |     <img src="./cassandra.svg" alt="cassandra" width="42" />     |
 |    `claude`     |        <img src="./claude.svg" alt="claude" width="42" />        |
 |     `clerk`     |         <img src="./clerk.svg" alt="clerk" width="42" />         |
@@ -97,6 +98,7 @@
 |     `kafka`     |         <img src="./kafka.svg" alt="kafka" width="42" />         |
 |    `kibana`     |        <img src="./kibana.svg" alt="kibana" width="42" />        |
 |    `kotlin`     |        <img src="./kotlin.svg" alt="kotlin" width="42" />        |
+|     `krita`     |         <img src="./krita.svg" alt="krita" width="42" />         |
 |    `laravel`    |       <img src="./laravel.svg" alt="laravel" width="42" />       |
 |     `lerna`     |         <img src="./lerna.svg" alt="lerna" width="42" />         |
 |   `lightroom`   |     <img src="./lightroom.svg" alt="lightroom" width="42" />     |
@@ -196,5 +198,5 @@
 ---
 
 <br>
-Current icon count: <strong>186</strong>
+Current icon count: <strong>188</strong>
 <!-- SUPPORTED:ICONS:END -->
