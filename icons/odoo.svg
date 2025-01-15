@@ -1,0 +1,11 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.odoo {
+			fill: #9C5789;
+		}
+	</style>
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px); filter: var(--filter);" />
+	<path class="odoo" d="M100,25c-41.4,0-75,33.6-75,75s33.6,75,75,75s75-33.6,75-75S141.4,25,100,25z M100,144.2
+	c-24.4,0-44.2-19.8-44.2-44.2S75.6,55.8,100,55.8s44.2,19.8,44.2,44.2S124.4,144.2,100,144.2z" />
+</svg>

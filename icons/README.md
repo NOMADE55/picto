@@ -83,6 +83,7 @@
 |    `haskell`    |       <img src="./haskell.svg" alt="haskell" width="42" />       |
 |     `hono`      |          <img src="./hono.svg" alt="hono" width="42" />          |
 |     `html`      |          <img src="./html.svg" alt="html" width="42" />          |
+| `hugging-face`  |  <img src="./hugging-face.svg" alt="hugging-face" width="42" />  |
 |  `illustrator`  |   <img src="./illustrator.svg" alt="illustrator" width="42" />   |
 |   `inkscape`    |      <img src="./inkscape.svg" alt="inkscape" width="42" />      |
 |     `ionic`     |         <img src="./ionic.svg" alt="ionic" width="42" />         |
@@ -112,7 +113,10 @@
 |    `meteor`     |        <img src="./meteor.svg" alt="meteor" width="42" />        |
 |    `mithril`    |       <img src="./mithril.svg" alt="mithril" width="42" />       |
 |     `mongo`     |         <img src="./mongo.svg" alt="mongo" width="42" />         |
+|     `mqtt`      |          <img src="./mqtt.svg" alt="mqtt" width="42" />          |
+|     `msql`      |          <img src="./msql.svg" alt="msql" width="42" />          |
 |     `mysql`     |         <img src="./mysql.svg" alt="mysql" width="42" />         |
+|      `n8n`      |           <img src="./n8n.svg" alt="n8n" width="42" />           |
 |    `nestjs`     |        <img src="./nestjs.svg" alt="nestjs" width="42" />        |
 |    `netlify`    |       <img src="./netlify.svg" alt="netlify" width="42" />       |
 |      `nim`      |           <img src="./nim.svg" alt="nim" width="42" />           |
@@ -123,6 +127,7 @@
 |      `oak`      |           <img src="./oak.svg" alt="oak" width="42" />           |
 |     `ocaml`     |         <img src="./ocaml.svg" alt="ocaml" width="42" />         |
 |    `october`    |       <img src="./october.svg" alt="october" width="42" />       |
+|     `odoo`      |          <img src="./odoo.svg" alt="odoo" width="42" />          |
 |    `open-ai`    |       <img src="./open-ai.svg" alt="open-ai" width="42" />       |
 |    `open-cv`    |       <img src="./open-cv.svg" alt="open-cv" width="42" />       |
 |    `pandas`     |        <img src="./pandas.svg" alt="pandas" width="42" />        |
@@ -198,5 +203,5 @@
 ---
 
 <br>
-Current icon count: <strong>188</strong>
+Current icon count: <strong>193</strong>
 <!-- SUPPORTED:ICONS:END -->
