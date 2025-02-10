@@ -6,6 +6,9 @@
   "editor.inlayHints.enabled": "off",
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "denoland.vscode-deno",
+  "workbench.editorAssociations": {
+    "*.svg": "default",
+  },
   "[svg]": {
     "editor.defaultFormatter": "jock.svg"
   }
