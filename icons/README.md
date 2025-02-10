@@ -169,6 +169,8 @@
 |     `solid`     |         <img src="./solid.svg" alt="solid" width="42" />         |
 |   `solidity`    |      <img src="./solidity.svg" alt="solidity" width="42" />      |
 |  `solidworks`   |    <img src="./solidworks.svg" alt="solidworks" width="42" />    |
+|     `solr`      |          <img src="./solr.svg" alt="solr" width="42" />          |
+|     `spark`     |         <img src="./spark.svg" alt="spark" width="42" />         |
 |  `springboot`   |    <img src="./springboot.svg" alt="springboot" width="42" />    |
 |    `sqlite`     |        <img src="./sqlite.svg" alt="sqlite" width="42" />        |
 |    `stencil`    |       <img src="./stencil.svg" alt="stencil" width="42" />       |
@@ -203,5 +205,5 @@
 ---
 
 <br>
-Current icon count: <strong>193</strong>
+Current icon count: <strong>195</strong>
 <!-- SUPPORTED:ICONS:END -->

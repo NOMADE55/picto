@@ -163,6 +163,8 @@ export const iconNames = [
   'solid',
   'solidity',
   'solidworks',
+  'solr',
+  'spark',
   'springboot',
   'sqlite',
   'stencil',
