@@ -7,6 +7,7 @@
 |    Icon name    |                               Icon                               |
 | :-------------: | :--------------------------------------------------------------: |
 |     `11ty`      |          <img src="./11ty.svg" alt="11ty" width="42" />          |
+|    `ableton`    |       <img src="./ableton.svg" alt="ableton" width="42" />       |
 |    `adonis`     |        <img src="./adonis.svg" alt="adonis" width="42" />        |
 | `after-effects` | <img src="./after-effects.svg" alt="after-effects" width="42" /> |
 |   `airtable`    |      <img src="./airtable.svg" alt="airtable" width="42" />      |
@@ -117,6 +118,7 @@
 |     `msql`      |          <img src="./msql.svg" alt="msql" width="42" />          |
 |     `mysql`     |         <img src="./mysql.svg" alt="mysql" width="42" />         |
 |      `n8n`      |           <img src="./n8n.svg" alt="n8n" width="42" />           |
+|    `neovim`     |        <img src="./neovim.svg" alt="neovim" width="42" />        |
 |    `nestjs`     |        <img src="./nestjs.svg" alt="nestjs" width="42" />        |
 |    `netlify`    |       <img src="./netlify.svg" alt="netlify" width="42" />       |
 |      `nim`      |           <img src="./nim.svg" alt="nim" width="42" />           |
@@ -183,6 +185,7 @@
 |   `tailwind`    |      <img src="./tailwind.svg" alt="tailwind" width="42" />      |
 |     `tauri`     |         <img src="./tauri.svg" alt="tauri" width="42" />         |
 |   `terraform`   |     <img src="./terraform.svg" alt="terraform" width="42" />     |
+|    `threejs`    |       <img src="./threejs.svg" alt="threejs" width="42" />       |
 |   `timescale`   |     <img src="./timescale.svg" alt="timescale" width="42" />     |
 |   `travis-ci`   |     <img src="./travis-ci.svg" alt="travis-ci" width="42" />     |
 |    `trello`     |        <img src="./trello.svg" alt="trello" width="42" />        |
@@ -191,6 +194,7 @@
 |    `ubuntu`     |        <img src="./ubuntu.svg" alt="ubuntu" width="42" />        |
 |     `unity`     |         <img src="./unity.svg" alt="unity" width="42" />         |
 | `unreal-engine` | <img src="./unreal-engine.svg" alt="unreal-engine" width="42" /> |
+|      `vim`      |           <img src="./vim.svg" alt="vim" width="42" />           |
 |     `vite`      |          <img src="./vite.svg" alt="vite" width="42" />          |
 |    `vitest`     |        <img src="./vitest.svg" alt="vitest" width="42" />        |
 |      `vue`      |           <img src="./vue.svg" alt="vue" width="42" />           |
@@ -205,5 +209,5 @@
 ---
 
 <br>
-Current icon count: <strong>195</strong>
+Current icon count: <strong>199</strong>
 <!-- SUPPORTED:ICONS:END -->

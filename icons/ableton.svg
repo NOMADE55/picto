@@ -1,0 +1,11 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.ableton {
+			fill: #000;
+		}
+	</style>
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px); filter: var(--filter);" />
+	<path class="ableton"
+		d="M25,65h10v70H25V65z M45,65h10v70H45V65z M65,65h10v70H65V65z M85,65h10v70H85V65z M105,125h70v10h-70V125z M105,105h70v10 h-70V105z M105, 85h70v10h-70V85z M105, 65h70v10h-70V65z" />
+</svg>

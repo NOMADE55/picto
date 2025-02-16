@@ -55,7 +55,7 @@ https://mypicto.xyz/icons?i=html,css,javascript,python&round=none&cols=2
 https://mypicto.xyz/icons?i=svelte,react,php,auth0,vue,python&bg=none&cols=4
 ```
 
-### Plaful 8 column showcase
+### Playful 8 column showcase
 
 <img src="https://mypicto.xyz/icons?i=javascript,react,11ty,svelte,unity,pytorch,postman,premiere&playful=true&cols=8&size=22">
 

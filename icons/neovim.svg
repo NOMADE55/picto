@@ -1,0 +1,44 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.neovim--fragment-0 {
+			fill: url(#svgFragment1);
+		}
+
+		.neovim--fragment-1 {
+			fill: url(#svgFragment2);
+		}
+
+		.neovim--fragment-2 {
+			fill: url(#svgFragment3);
+		}
+
+		.neovim--fragment-3 {
+			fill-opacity: 0.13;
+		}
+	</style>
+	<defs>
+		<linearGradient id="svgFragment1" gradientUnits="userSpaceOnUse" x1="-145.8281" y1="349.6877" x2="-145.8281"
+			y2="349.0348" gradientTransform="matrix(48.9272 0 0 -229.6848 7189.1104 80342.9453)">
+			<stop stop-color="#16B0ED" stop-opacity="0.8002" offset="0" />
+			<stop stop-color="#0F59B2" stop-opacity="0.837" offset="1" />
+		</linearGradient>
+		<linearGradient id="svgFragment2" gradientUnits="userSpaceOnUse" x1="-152.125" y1="349.6877" x2="-152.125"
+			y2="349.0348" gradientTransform="matrix(-49.9326 0 0 -229.6581 -7450.4668 80333.6328)">
+			<stop stop-color="#7DB643" offset="0" />
+			<stop stop-color="#367533" offset="1" />
+		</linearGradient>
+		<linearGradient id="svgFragment3" gradientUnits="userSpaceOnUse" x1="-148.5466" y1="349.6878" x2="-148.5466"
+			y2="349.0349" gradientTransform="matrix(162.8681 0 0 -229.7061 24293.4824 80350.4453)">
+			<stop stop-color="#88C649" stop-opacity="0.8" offset="0" />
+			<stop stop-color="#439240" stop-opacity="0.84" offset="1" />
+		</linearGradient>
+	</defs>
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px); filter: var(--filter);" />
+	<g>
+		<path class="neovim--fragment-0" d="M38.2,57.3L70.1,25v150l-31.9-31.9V57.3L38.2,57.3z" />
+		<path class="neovim--fragment-1" d="M161.6,57.6L129.2,25l0.7,149.9l31.9-31.9L161.6,57.6L161.6,57.6z" />
+		<path class="neovim--fragment-2" d="M70.1,25l83.1,126.7L129.9,175L46.8,48.5L70.1,25L70.1,25z" />
+		<path class="neovim--fragment-3" d="M70.1,83.8l0,5L44.4,50.9l2.4-2.4L70.1,83.8L70.1,83.8z" />
+	</g>
+</svg>

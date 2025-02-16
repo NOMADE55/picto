@@ -1,6 +1,7 @@
 // This file is generated automatically.
 export const iconNames = [
   '11ty',
+  'ableton',
   'adonis',
   'after-effects',
   'airtable',
@@ -111,6 +112,7 @@ export const iconNames = [
   'msql',
   'mysql',
   'n8n',
+  'neovim',
   'nestjs',
   'netlify',
   'nim',
@@ -177,6 +179,7 @@ export const iconNames = [
   'tailwind',
   'tauri',
   'terraform',
+  'threejs',
   'timescale',
   'travis-ci',
   'trello',
@@ -185,6 +188,7 @@ export const iconNames = [
   'ubuntu',
   'unity',
   'unreal-engine',
+  'vim',
   'vite',
   'vitest',
   'vue',
