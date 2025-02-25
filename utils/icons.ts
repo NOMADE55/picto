@@ -18,15 +18,17 @@ export const parseIconParameters = async (
     match: [new RegExp(getIconsRegexPattern(icons))],
   }));
 
-  return files.reduce((acc, { name, path }) => {
+  const iconMap = files.reduce((acc, { name, path }) => {
     const nameArray = name.split('.').reverse() || [];
     const filename = nameArray?.[1] || '';
     if (icons.includes(filename)) {
-      acc.push(path);
+      acc[filename] = path;
     }
 
     return acc;
-  }, [] as string[]);
+  }, {} as Record<string, string>);
+
+  return icons.map(i => iconMap?.[i]).filter(Boolean);
 };
 
 export const kebabToName = (kebab: string) =>
