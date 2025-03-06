@@ -107,6 +107,7 @@
 |  `linux-mint`   |    <img src="./linux-mint.svg" alt="linux-mint" width="42" />    |
 |      `lit`      |           <img src="./lit.svg" alt="lit" width="42" />           |
 |      `lua`      |           <img src="./lua.svg" alt="lua" width="42" />           |
+|     `lynx`      |          <img src="./lynx.svg" alt="lynx" width="42" />          |
 |    `magento`    |       <img src="./magento.svg" alt="magento" width="42" />       |
 |    `mariadb`    |       <img src="./mariadb.svg" alt="mariadb" width="42" />       |
 |   `markdown`    |      <img src="./markdown.svg" alt="markdown" width="42" />      |
@@ -153,6 +154,7 @@
 |     `rails`     |         <img src="./rails.svg" alt="rails" width="42" />         |
 | `raspberry-pi`  |  <img src="./raspberry-pi.svg" alt="raspberry-pi" width="42" />  |
 |     `react`     |         <img src="./react.svg" alt="react" width="42" />         |
+|   `reactlynx`   |     <img src="./reactlynx.svg" alt="reactlynx" width="42" />     |
 |    `redhat`     |        <img src="./redhat.svg" alt="redhat" width="42" />        |
 |     `redis`     |         <img src="./redis.svg" alt="redis" width="42" />         |
 |     `redux`     |         <img src="./redux.svg" alt="redux" width="42" />         |
@@ -209,5 +211,5 @@
 ---
 
 <br>
-Current icon count: <strong>199</strong>
+Current icon count: <strong>201</strong>
 <!-- SUPPORTED:ICONS:END -->
