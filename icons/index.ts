@@ -9,6 +9,7 @@ export const iconNames = [
   'analog',
   'angular',
   'ansible',
+  'apollo',
   'appwrite',
   'arch-linux',
   'astro',
@@ -200,5 +201,6 @@ export const iconNames = [
   'word',
   'wordpress',
   'yarn',
+  'zed',
   'zig',
 ] as const;

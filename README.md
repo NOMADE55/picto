@@ -12,7 +12,7 @@
 **Picto** is a tool that generates dynamic images to showcase the programming
 languages, technologies, and tools you’ve learned.
 
-#### ✨ +100 icons in our library currently!
+#### ✨ +200 icons in our library currently!
 
 Check the [**full list**](icons/README.md).
 
@@ -66,7 +66,6 @@ https://mypicto.xyz/icons?i=javascript,react,11ty,svelte,unity,pytorch,postman,p
 ## 📍 Roadmap
 
 - WIP: Add theming, light, dark & auto
-- Add more icons, of course (Open an Issue to add _your_ missing icon).
 - Add kits/groups (MERN, MEAN, LAMP, etc)
 - Improve... erm, add documentation
 - Confidence / Skill Level

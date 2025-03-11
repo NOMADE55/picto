@@ -15,6 +15,7 @@
 |    `analog`     |        <img src="./analog.svg" alt="analog" width="42" />        |
 |    `angular`    |       <img src="./angular.svg" alt="angular" width="42" />       |
 |    `ansible`    |       <img src="./ansible.svg" alt="ansible" width="42" />       |
+|    `apollo`     |        <img src="./apollo.svg" alt="apollo" width="42" />        |
 |   `appwrite`    |      <img src="./appwrite.svg" alt="appwrite" width="42" />      |
 |  `arch-linux`   |    <img src="./arch-linux.svg" alt="arch-linux" width="42" />    |
 |     `astro`     |         <img src="./astro.svg" alt="astro" width="42" />         |
@@ -206,10 +207,11 @@
 |     `word`      |          <img src="./word.svg" alt="word" width="42" />          |
 |   `wordpress`   |     <img src="./wordpress.svg" alt="wordpress" width="42" />     |
 |     `yarn`      |          <img src="./yarn.svg" alt="yarn" width="42" />          |
+|      `zed`      |           <img src="./zed.svg" alt="zed" width="42" />           |
 |      `zig`      |           <img src="./zig.svg" alt="zig" width="42" />           |
 
 ---
 
 <br>
-Current icon count: <strong>201</strong>
+Current icon count: <strong>203</strong>
 <!-- SUPPORTED:ICONS:END -->
