@@ -37,6 +37,7 @@
 |   `cassandra`   |     <img src="./cassandra.svg" alt="cassandra" width="42" />     |
 |    `claude`     |        <img src="./claude.svg" alt="claude" width="42" />        |
 |     `clerk`     |         <img src="./clerk.svg" alt="clerk" width="42" />         |
+|  `clickhouse`   |    <img src="./clickhouse.svg" alt="clickhouse" width="42" />    |
 |    `clojure`    |       <img src="./clojure.svg" alt="clojure" width="42" />       |
 |  `contentful`   |    <img src="./contentful.svg" alt="contentful" width="42" />    |
 |    `cordova`    |       <img src="./cordova.svg" alt="cordova" width="42" />       |
@@ -83,6 +84,7 @@
 |     `grunt`     |         <img src="./grunt.svg" alt="grunt" width="42" />         |
 |     `gulp`      |          <img src="./gulp.svg" alt="gulp" width="42" />          |
 |    `haskell`    |       <img src="./haskell.svg" alt="haskell" width="42" />       |
+|    `hasura`     |        <img src="./hasura.svg" alt="hasura" width="42" />        |
 |     `hono`      |          <img src="./hono.svg" alt="hono" width="42" />          |
 |     `html`      |          <img src="./html.svg" alt="html" width="42" />          |
 | `hugging-face`  |  <img src="./hugging-face.svg" alt="hugging-face" width="42" />  |
@@ -113,6 +115,7 @@
 |    `mariadb`    |       <img src="./mariadb.svg" alt="mariadb" width="42" />       |
 |   `markdown`    |      <img src="./markdown.svg" alt="markdown" width="42" />      |
 |  `material-ui`  |   <img src="./material-ui.svg" alt="material-ui" width="42" />   |
+|   `mercurial`   |     <img src="./mercurial.svg" alt="mercurial" width="42" />     |
 |    `meteor`     |        <img src="./meteor.svg" alt="meteor" width="42" />        |
 |    `mithril`    |       <img src="./mithril.svg" alt="mithril" width="42" />       |
 |     `mongo`     |         <img src="./mongo.svg" alt="mongo" width="42" />         |
@@ -213,5 +216,5 @@
 ---
 
 <br>
-Current icon count: <strong>203</strong>
+Current icon count: <strong>206</strong>
 <!-- SUPPORTED:ICONS:END -->
