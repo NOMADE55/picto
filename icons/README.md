@@ -115,6 +115,7 @@
 |    `mariadb`    |       <img src="./mariadb.svg" alt="mariadb" width="42" />       |
 |   `markdown`    |      <img src="./markdown.svg" alt="markdown" width="42" />      |
 |  `material-ui`  |   <img src="./material-ui.svg" alt="material-ui" width="42" />   |
+|      `mcp`      |           <img src="./mcp.svg" alt="mcp" width="42" />           |
 |   `mercurial`   |     <img src="./mercurial.svg" alt="mercurial" width="42" />     |
 |    `meteor`     |        <img src="./meteor.svg" alt="meteor" width="42" />        |
 |    `mithril`    |       <img src="./mithril.svg" alt="mithril" width="42" />       |
@@ -206,6 +207,7 @@
 |      `vue`      |           <img src="./vue.svg" alt="vue" width="42" />           |
 |    `webflow`    |       <img src="./webflow.svg" alt="webflow" width="42" />       |
 |    `webpack`    |       <img src="./webpack.svg" alt="webpack" width="42" />       |
+|   `windsurf`    |      <img src="./windsurf.svg" alt="windsurf" width="42" />      |
 |      `woo`      |           <img src="./woo.svg" alt="woo" width="42" />           |
 |     `word`      |          <img src="./word.svg" alt="word" width="42" />          |
 |   `wordpress`   |     <img src="./wordpress.svg" alt="wordpress" width="42" />     |
@@ -216,5 +218,5 @@
 ---
 
 <br>
-Current icon count: <strong>206</strong>
+Current icon count: <strong>208</strong>
 <!-- SUPPORTED:ICONS:END -->
