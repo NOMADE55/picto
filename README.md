@@ -7,7 +7,7 @@
 <br>
 <br>
 
-## Easily showcase your skills with flare 🔥
+## Showcase your skills with flare 🔥
 
 **Picto** is a tool that generates dynamic images to showcase the programming
 languages, technologies, and tools you’ve learned.
@@ -70,7 +70,7 @@ https://mypicto.xyz/icons?i=javascript,react,11ty,svelte,unity,pytorch,postman,p
 - Improve... erm, add documentation
 - Confidence / Skill Level
 
-## Contributing
+## 🚀 Contributing
 
 This project was made to test the wonderful
 [Deno 2.0](https://github.com/denoland/deno), but I decided to open this up to
@@ -81,7 +81,7 @@ If you find it helpful, please do not forget to ⭐ this repo!
 After reading CONTRIBUTING.md, feel free to contribute adding icons. Otherwise,
 open an issue and I'll try to solve it.
 
-## Acknowledgements
+## 🙏 Acknowledgements
 
 - This project is heavily inspired by the amazing tool created by
   **[tandpfun](https://github.com/tandpfun)**:
