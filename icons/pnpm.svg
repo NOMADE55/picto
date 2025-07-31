@@ -1,0 +1,19 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.pnpm--fragment-1 {
+			fill: #F9AD00;
+		}
+
+		.pnpm--fragment-2 {
+			fill: #4E4E4E;
+		}
+	</style>
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px); filter: var(--filter);" />
+	<g>
+		<path class="pnpm--fragment-1" d="M175,71.9h-46.9V25H175V71.9z M123.4,71.9H76.6V25h46.9V71.9z M71.9,71.9H25V25h46.9V71.9z M175,123.4h-46.9
+		V76.6H175V123.4z" />
+		<path class="pnpm--fragment-2" d="M123.4,123.4H76.6V76.6h46.9V123.4z M123.4,175H76.6v-46.9h46.9V175z M175,175h-46.9v-46.9H175V175z M71.9,175
+		H25v-46.9h46.9V175z" />
+	</g>
+</svg>

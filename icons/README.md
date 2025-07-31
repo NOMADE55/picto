@@ -42,6 +42,7 @@
 |  `contentful`   |    <img src="./contentful.svg" alt="contentful" width="42" />    |
 |    `cordova`    |       <img src="./cordova.svg" alt="cordova" width="42" />       |
 |      `css`      |           <img src="./css.svg" alt="css" width="42" />           |
+|   `cucumber`    |      <img src="./cucumber.svg" alt="cucumber" width="42" />      |
 |    `cypress`    |       <img src="./cypress.svg" alt="cypress" width="42" />       |
 |     `dart`      |          <img src="./dart.svg" alt="dart" width="42" />          |
 |    `datadog`    |       <img src="./datadog.svg" alt="datadog" width="42" />       |
@@ -102,6 +103,7 @@
 |     `julia`     |         <img src="./julia.svg" alt="julia" width="42" />         |
 |     `kafka`     |         <img src="./kafka.svg" alt="kafka" width="42" />         |
 |    `kibana`     |        <img src="./kibana.svg" alt="kibana" width="42" />        |
+|     `kiro`      |          <img src="./kiro.svg" alt="kiro" width="42" />          |
 |    `kotlin`     |        <img src="./kotlin.svg" alt="kotlin" width="42" />        |
 |     `krita`     |         <img src="./krita.svg" alt="krita" width="42" />         |
 |    `laravel`    |       <img src="./laravel.svg" alt="laravel" width="42" />       |
@@ -145,6 +147,7 @@
 |   `pinecone`    |      <img src="./pinecone.svg" alt="pinecone" width="42" />      |
 |  `planetscale`  |   <img src="./planetscale.svg" alt="planetscale" width="42" />   |
 |  `playwright`   |    <img src="./playwright.svg" alt="playwright" width="42" />    |
+|     `pnpm`      |          <img src="./pnpm.svg" alt="pnpm" width="42" />          |
 |  `postgresql`   |    <img src="./postgresql.svg" alt="postgresql" width="42" />    |
 |    `postman`    |       <img src="./postman.svg" alt="postman" width="42" />       |
 |   `power-bi`    |      <img src="./power-bi.svg" alt="power-bi" width="42" />      |
@@ -165,6 +168,7 @@
 |     `redux`     |         <img src="./redux.svg" alt="redux" width="42" />         |
 |    `redwood`    |       <img src="./redwood.svg" alt="redwood" width="42" />       |
 |     `remix`     |         <img src="./remix.svg" alt="remix" width="42" />         |
+|    `replit`     |        <img src="./replit.svg" alt="replit" width="42" />        |
 |    `rollup`     |        <img src="./rollup.svg" alt="rollup" width="42" />        |
 |     `ruby`      |          <img src="./ruby.svg" alt="ruby" width="42" />          |
 |     `rxjs`      |          <img src="./rxjs.svg" alt="rxjs" width="42" />          |
@@ -205,6 +209,7 @@
 |     `vite`      |          <img src="./vite.svg" alt="vite" width="42" />          |
 |    `vitest`     |        <img src="./vitest.svg" alt="vitest" width="42" />        |
 |      `vue`      |           <img src="./vue.svg" alt="vue" width="42" />           |
+|  `webdriverio`  |   <img src="./webdriverio.svg" alt="webdriverio" width="42" />   |
 |    `webflow`    |       <img src="./webflow.svg" alt="webflow" width="42" />       |
 |    `webpack`    |       <img src="./webpack.svg" alt="webpack" width="42" />       |
 |   `windsurf`    |      <img src="./windsurf.svg" alt="windsurf" width="42" />      |
@@ -218,5 +223,5 @@
 ---
 
 <br>
-Current icon count: <strong>208</strong>
+Current icon count: <strong>213</strong>
 <!-- SUPPORTED:ICONS:END -->

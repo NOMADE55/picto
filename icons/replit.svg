@@ -1,0 +1,12 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.replit {
+			fill: #FD5402;
+		}
+	</style>
+	<rect width="200" height="200" style="fill: var(--bg, #fff); rx: var(--rx, 24px); filter: var(--filter);" />
+	<path class="replit" d="M97.8,73.5H45.3c-5.2,0-9.3-4.1-9.3-9.1V34.1c0-5.1,4.2-9.1,9.3-9.1h43.2c5.2,0,9.3,4.1,9.3,9.1V73.5z
+	M154,126.3H97.8V73.4H154c5.4,0,9.9,4.5,9.9,9.9v33.1C164,122,159.5,126.3,154,126.3z M88.5,175H45.3c-5.1,0-9.3-4.1-9.3-9.1v-30.3
+	c0-5,4.2-9.1,9.3-9.1h52.5v39.4C97.8,170.9,93.6,175,88.5,175z" />
+</svg>
