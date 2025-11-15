@@ -167,6 +167,7 @@
 |     `redis`     |         <img src="./redis.svg" alt="redis" width="42" />         |
 |     `redux`     |         <img src="./redux.svg" alt="redux" width="42" />         |
 |    `redwood`    |       <img src="./redwood.svg" alt="redwood" width="42" />       |
+|    `refine`     |        <img src="./refine.svg" alt="refine" width="42" />        |
 |     `remix`     |         <img src="./remix.svg" alt="remix" width="42" />         |
 |    `replit`     |        <img src="./replit.svg" alt="replit" width="42" />        |
 |    `rollup`     |        <img src="./rollup.svg" alt="rollup" width="42" />        |
@@ -223,5 +224,5 @@
 ---
 
 <br>
-Current icon count: <strong>213</strong>
+Current icon count: <strong>214</strong>
 <!-- SUPPORTED:ICONS:END -->

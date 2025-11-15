@@ -161,6 +161,7 @@ export const iconNames = [
   'redis',
   'redux',
   'redwood',
+  'refine',
   'remix',
   'replit',
   'rollup',
