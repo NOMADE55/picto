@@ -1,0 +1,39 @@
+<svg width="200" height="200" version="1.1" viewBox="0 0 200 200" xml:space="preserve"
+	xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+	<style>
+		.supabase--fragment-0 {
+			fill: url(#svgFragment1);
+		}
+
+		.supabase--fragment-1 {
+			fill: url(#svgFragment2);
+			fill-opacity: 0.2;
+		}
+
+		.supabase--fragment-2 {
+			fill: #3ECF8E;
+		}
+	</style>
+	<defs>
+		<linearGradient id="svgFragment1" gradientUnits="userSpaceOnUse" x1="144.4095" y1="-47.9967" x2="198.2675"
+			y2="-70.5847" gradientTransform="matrix(1 0 0 -1 -50 62)">
+			<stop offset="0" stop-color="#249361" />
+			<stop offset="1" stop-color="#3ECF8E" />
+		</linearGradient>
+
+		<linearGradient id="svgFragment2" gradientUnits="userSpaceOnUse" x1="146.9902" y1="7.7745" x2="171.5522"
+			y2="-38.4622" gradientTransform="matrix(1 0 0 -1 -50 62)">
+			<stop offset="0" stop-color="#000000" />
+			<stop offset="1" stop-color="#000000" stop-opacity="0" />
+		</linearGradient>
+	</defs>
+	<rect width="200" height="200" style="fill: var(--bg, #121212); rx: var(--rx, 24px); filter: var(--filter);" />
+	<g>
+		<path class="supabase--fragment-0"
+			d="M112.3,172.5c-3.8,4.8-11.6,2.2-11.7-4l-1.4-90.1h60.6c11,0,17.1,12.7,10.3,21.3L112.3,172.5z" />
+		<path class="supabase--fragment-1"
+			d="M112.3,172.5c-3.8,4.8-11.6,2.2-11.7-4l-1.4-90.1h60.6c11,0,17.1,12.7,10.3,21.3L112.3,172.5z" />
+		<path class="supabase--fragment-2"
+			d="M87.7,27.5c3.8-4.8,11.6-2.2,11.7,4l0.6,90.1H40.1c-11,0-17.1-12.7-10.3-21.3L87.7,27.5z" />
+	</g>
+</svg>

@@ -39,6 +39,7 @@
 |     `clerk`     |         <img src="./clerk.svg" alt="clerk" width="42" />         |
 |  `clickhouse`   |    <img src="./clickhouse.svg" alt="clickhouse" width="42" />    |
 |    `clojure`    |       <img src="./clojure.svg" alt="clojure" width="42" />       |
+|   `comfy-ui`    |      <img src="./comfy-ui.svg" alt="comfy-ui" width="42" />      |
 |  `contentful`   |    <img src="./contentful.svg" alt="contentful" width="42" />    |
 |    `cordova`    |       <img src="./cordova.svg" alt="cordova" width="42" />       |
 |      `css`      |           <img src="./css.svg" alt="css" width="42" />           |
@@ -190,6 +191,7 @@
 |    `stencil`    |       <img src="./stencil.svg" alt="stencil" width="42" />       |
 |   `storybook`   |     <img src="./storybook.svg" alt="storybook" width="42" />     |
 |    `strapi`     |        <img src="./strapi.svg" alt="strapi" width="42" />        |
+|   `supabase`    |      <img src="./supabase.svg" alt="supabase" width="42" />      |
 |    `svelte`     |        <img src="./svelte.svg" alt="svelte" width="42" />        |
 |     `swift`     |         <img src="./swift.svg" alt="swift" width="42" />         |
 |    `symfony`    |       <img src="./symfony.svg" alt="symfony" width="42" />       |
@@ -224,5 +226,5 @@
 ---
 
 <br>
-Current icon count: <strong>214</strong>
+Current icon count: <strong>216</strong>
 <!-- SUPPORTED:ICONS:END -->
