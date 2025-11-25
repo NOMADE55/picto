@@ -21,6 +21,7 @@ const showcaseInputGroupClass = css`
   font-size: 1rem;
   margin-bottom: 2rem;
   color: #fff;
+  position: relative;
   .host {
     opacity: .6
   }
@@ -42,29 +43,32 @@ const showcaseDemoInputClass = css`
   overflow: auto;
 `;
 
-// const buttonClass = css`
-//   border-radius: var(--rounded);
-//   background: none;
-//   border: none;
-//   color: #fff;
-//   padding: .75rem;
-//   text-align: center;
-//   line-height: 1;
-//   font-size: 1.1rem;
-//   cursor: pointer;
-//   width: 37.8px;
-//   height: 37.8px;
-//   &:focus {
-//     outline: 1px solid rgba(255,255,255,.2)
-//   }
-//   &:hover {
-//     color: var(--yellow);
-//   }
-//   svg {
-//     width: 100%;
-//     height: 100%;
-//   }
-// `;
+const buttonClass = css`
+  position: absolute;
+  border-radius: var(--rounded);
+  background: none;
+  border: none;
+  color: #fff;
+  padding: .75rem;
+  text-align: center;
+  line-height: 1;
+  font-size: 1.1rem;
+  cursor: pointer;
+  width: 37.8px;
+  height: 37.8px;
+  right: .25rem;
+  top: .25rem;
+  &:focus {
+    outline: 0;
+  }
+  &:hover {
+    color: var(--yellow);
+  }
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+`;
 
 const leadClass = css`
   font-size: 1.25rem;
@@ -96,13 +100,16 @@ const DEMO_ICONS = [
 ];
 
 const Demo: FC = () => {
+
   return (
     <section class={cx(containerClass, demoSectionClass)}>
       <div class={showcaseClass}>
         <div class={showcaseInputGroupClass}>
           <div>
-            <p class={commentClass}>// Full stack skills</p>
-            <div class={showcaseDemoInputClass}>
+            <p class={commentClass}>
+              // Full stack skills
+            </p>
+            <p class={showcaseDemoInputClass} id="showcaseDemoInput">
               <span>
                 {HOST}/icons
               </span>
@@ -117,10 +124,9 @@ const Demo: FC = () => {
               =24
               <span class='text-color__yellow'>&height</span>
               =50
-            </div>
+            </p>
           </div>
-          {
-            /* <button class={buttonClass}>
+          <button type="button" class={buttonClass} id="copyButton">
             <svg
               fill='currentColor'
               width='1em'
@@ -130,9 +136,22 @@ const Demo: FC = () => {
             >
               <path d='M14 12V2H4V0h12v12h-2zM0 4h12v12H0V4zm2 2v8h8V6H2z' />
             </svg>
-          </button> */
-          }
+          </button>
         </div>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              document.getElementById('copyButton').addEventListener('click', async () => {
+                const textToCopy = document.getElementById('showcaseDemoInput').innerText;
+                try {
+                  await navigator.clipboard.writeText(textToCopy);
+                } catch (err) {
+                  console.error('Failed to copy text: ', err);
+                }
+              });
+            `,
+          }}
+        />
         <div className={showcaseImageClass}>
           <img
             src='/icons?i=postgresql,php,python,sass,typescript,react&rounded=24&size=50'
