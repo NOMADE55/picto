@@ -7,6 +7,7 @@
     "@std/encoding": "jsr:@std/encoding@^1.0.5",
     "hono": "npm:hono@^4.6.13"
   },
+  "nodeModulesDir": "auto",
   "tasks": {
     "start": {
       "command": "deno serve --watch --env-file --allow-all main.tsx",
@@ -15,6 +16,15 @@
     "icons:doc": {
       "command": "deno --env-file --allow-read --allow-write --allow-run bin/icons.ts",
       "description": "This command parses the icons folder to document them in their files"
+    },
+    "icons:bundle": {
+      "command": "deno --env-file --allow-read --allow-write --allow-run bin/bundle-assets.ts",
+      "description": "This command bundles icon and public asset content into generated modules for the Worker to import (no runtime filesystem access)"
+    },
+    "deploy": {
+      "command": "rm -rf dist && deno run -A npm:wrangler@4.128.0 deploy main.tsx --config=wrangler.worker.jsonc --dry-run --outdir=dist && mv dist/main.js dist/_worker.js && rm -f dist/main.js.map dist/README.md && deno run -A npm:wrangler@4.128.0 pages deploy dist --project-name=picto --no-bundle",
+      "dependencies": ["icons:bundle"],
+      "description": "Bundles main.tsx into dist/_worker.js and deploys it to Cloudflare Pages"
     }
   },
   "compilerOptions": {
@@ -22,17 +32,10 @@
     "jsxImportSource": "hono/jsx"
   },
   "fmt": {
-    "singleQuote": true
-  },
-  "deploy": {
-    "project": "picto",
-    "entrypoint": "main.tsx",
+    "singleQuote": true,
     "exclude": [
-      ".vscode",
-      ".editorconfig",
-      "CONTRIBUTING.md",
-      "README.md",
-      "bin"
+      "icons/content.generated.ts",
+      "public/content.generated.ts"
     ]
   }
 }
