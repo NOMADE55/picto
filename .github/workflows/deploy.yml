@@ -3,8 +3,6 @@ name: Deploy
 on:
   push:
     branches: master
-  pull_request:
-    branches: master
 
 jobs:
   deploy:
@@ -12,21 +10,22 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      id-token: write # Needed for auth with Deno Deploy
       contents: read # Needed to clone the repository
 
     steps:
       - name: Clone repository
         uses: actions/checkout@v4
 
-      - name: Upload to Deno Deploy
-        uses: denoland/deployctl@v1
+      - name: Setup Deno
+        uses: denoland/setup-deno@v2
         with:
-          project: picto
-          entrypoint: main.tsx
-          root: "."
-          exclude: |
-            .vscode
-            .editorconfig
-            bin
-            README.md
+          deno-version: v2.x
+
+      - name: Install dependencies
+        run: deno install
+
+      - name: Deploy to Cloudflare Pages
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: deno task deploy

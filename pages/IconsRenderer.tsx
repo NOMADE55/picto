@@ -6,6 +6,7 @@ import {
   getCSSVariables,
   getTransformValue,
 } from '../utils/svg.ts';
+import { iconSvgContents } from '../icons/content.generated.ts';
 
 interface Props {
   icons: string[];
@@ -41,10 +42,10 @@ const IconsRenderer = memo(({ icons, config }: Props) => {
           ${shadow ? 'shadow-' + shadow : ''}
         `}
       >
-        {icons.map(async (icon, index) => (
+        {icons.map((icon, index) => (
           <g
             transform={getTransformValue({ index, cols, playful })}
-            dangerouslySetInnerHTML={{ __html: await Deno.readTextFile(icon) }}
+            dangerouslySetInnerHTML={{ __html: iconSvgContents[icon] }}
           />
         ))}
       </g>

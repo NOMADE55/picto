@@ -84,7 +84,7 @@ app.openapi(index, async (c) => {
   const icons = i?.split(',') || [];
   return c.render(
     <Renderer
-      icons={await parseIconParameters(icons)}
+      icons={parseIconParameters(icons)}
       config={{ bg, cols, playful, rounded, shadow, size, theme }}
     />,
   );
